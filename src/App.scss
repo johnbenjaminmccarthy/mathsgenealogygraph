@@ -1,11 +1,19 @@
 #root {
-  max-width: 1280px;
+  width:100%;
+  height:100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  align-content: center;
 }
 
 .svg {
+  width: 50%;
+  height: 50%;
   svg {
     rect {
       fill: orange;
