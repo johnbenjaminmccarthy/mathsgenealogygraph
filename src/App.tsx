@@ -3,6 +3,7 @@ import './App.scss'
 import * as d3 from 'd3';
 import {useEffect, useRef} from "react";
 import johnbenjaminmccarthy from './assets/graph_data/johnbenjaminmccarthy.json';
+import {D3ZoomEvent} from "d3";
 
 type GenealogyAdvisor = {
     advisorId: number,
@@ -53,8 +54,11 @@ function App() {
     const ref = useRef<SVGSVGElement>(null);
 
     function buildGraph(data: Graph) {
-        const width = 800;
-        const height = 800;
+        const width = ref.current!.width.baseVal.value;
+        const height = ref.current!.height.baseVal.value;
+
+        const radius = width/100;
+        const bigRadius = radius * 1.2;
 
         // Specify the color scale.
         const color = d3.scaleOrdinal(d3.schemeCategory10);
@@ -81,7 +85,7 @@ function App() {
         const nodes = data.nodes.map(d => ({...d})).map(it => ({
             genealogyNode: it,
             index: nodeIndex.get(it.id),
-            radius: it.id == data.base ? 20 : 15,
+            radius: it.id == data.base ? bigRadius : radius,
             color: it.id == data.base ? color("yellow") : color("white"),
             x: NaN,
             y: NaN,
@@ -93,16 +97,22 @@ function App() {
         const simulation = d3.forceSimulation(nodes)
             .force("link", d3.forceLink(links).id(d => (d as D3Node).genealogyNode.id))
             .force("charge", d3.forceManyBody())
+            .force("center", d3.forceCenter())
             .force("x", d3.forceX())
             .force("y", d3.forceY())
-            .force("collide", d3.forceCollide(d => d.radius + 30));
+            .force("collide", d3.forceCollide(d => d.radius * 2.5));
 
         // Create the SVG container.
-        const svg = d3.select(ref.current)
-            .attr("width", "100%")
+        const svg = d3.select<SVGSVGElement, unknown>(ref.current!)
+            //.attr("width", width)
             //.attr("height", height)
-            .attr("viewBox", [-width / 2, -height / 2, width, height])
+            .attr("viewBox", [-width/2, -height/2, width, height])
             .attr("style", "max-width: 100%; height: auto;");
+
+        svg.call(d3.zoom<SVGSVGElement, unknown>()
+            .extent([[0,0], [width,height]])
+            .scaleExtent([0.5,4])
+            .on("zoom", zoomed));
 
         svg.append("svg:defs")
             .append("svg:marker")
@@ -144,7 +154,8 @@ function App() {
             .append("text")
             .style("text-anchor", "middle")
             .attr("dx", 0)
-            .attr("dy", 25)
+            .attr("dy", radius * 1.5)
+            .style("font-size", (radius/1.5).toString() + "px")
             .text(d => d.genealogyNode.name);
 
 
@@ -157,7 +168,7 @@ function App() {
             .on("drag", dragged)
             .on("end", dragended));*/
 
-        // Set the position attributes of links and nodes each time the simulation ticks.
+        // Set the position attributes of links and nodes and labels each time the simulation ticks.
         simulation.on("tick", () => {
             link
                 .attr("x1", d => ((d.source as unknown) as D3Node).x)
@@ -173,6 +184,12 @@ function App() {
                 .attr("x", d => d.x)
                 .attr("y", d => d.y);
         });
+
+        function zoomed(event: D3ZoomEvent<SVGSVGElement, unknown>) {
+            link.attr("transform", event.transform.toString());
+            node.attr("transform", event.transform.toString());
+            labels.attr("transform", event.transform.toString());
+        }
 
         // Reheat the simulation when drag starts, and fix the subject position.
         /*
@@ -208,6 +225,7 @@ function App() {
     //Gets executed after SVG has been mounted
     useEffect(() => {
         buildGraph(johnbenjaminmccarthy);
+        //ref.current.append(ref
     }, []);
 
 
@@ -215,7 +233,7 @@ function App() {
   return (
       <>
           <div className={"svg"}>
-              <svg className={"container"} ref={ref}></svg>
+              <svg className={"container"} ref={ref} width={"100%"} height={"100%"}></svg>
           </div>
       </>
   )
