@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #f5f5f5;
+  background-color: #252a34;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,6 +21,11 @@ body {
   min-height: 100vh;
   height: 100vh;
   flex: 1;
+  background-image:
+    linear-gradient(to right, #414a5c 2px, transparent 1px),
+    linear-gradient(to bottom, #414a5c 2px, transparent 1px);
+  background-size: 80px 80px;
+  background-position: -2px -2px;
 }
 
 

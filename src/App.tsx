@@ -107,12 +107,14 @@ function App() {
             //.attr("width", width)
             //.attr("height", height)
             .attr("viewBox", [-width/2, -height/2, width, height])
-            .attr("style", "max-width: 100%; height: auto;");
+            .attr("style", "max-width: 100%; height: auto;")
+            .attr("cursor", "grab");
 
         svg.call(d3.zoom<SVGSVGElement, unknown>()
             .extent([[0,0], [width,height]])
             .scaleExtent([0.5,4])
-            .on("zoom", zoomed));
+            .on("zoom", zoomed)
+            .on("end", zoomEnd));
 
         svg.append("svg:defs")
             .append("svg:marker")
@@ -185,10 +187,25 @@ function App() {
                 .attr("y", d => d.y);
         });
 
+
+
         function zoomed(event: D3ZoomEvent<SVGSVGElement, unknown>) {
-            link.attr("transform", event.transform.toString());
-            node.attr("transform", event.transform.toString());
-            labels.attr("transform", event.transform.toString());
+            const x = event.transform.x;
+            const y = event.transform.y;
+            const k = event.transform.k;
+            const transformString = "translate(" + -x + ", " + -y + ") scale(" + k + ")";
+
+            if ((event.sourceEvent as Event).type === "mousemove") {
+                svg.attr("cursor", "grabbing");
+            }
+
+            link.attr("transform", transformString);
+            node.attr("transform", transformString);
+            labels.attr("transform", transformString);
+        }
+
+        function zoomEnd() {
+            svg.attr("cursor", "grab");
         }
 
         // Reheat the simulation when drag starts, and fix the subject position.
