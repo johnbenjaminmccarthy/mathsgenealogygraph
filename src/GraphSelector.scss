@@ -3,12 +3,12 @@
 #root {
   div#selector {
     position:absolute;
-    top:20px;
-    left:20px;
+    top:30px;
+    left:30px;
     width:60%;
     padding-left:10px;
     padding-right:10px;
-    height:20px;
+    height:30px;
     //border:1px solid $color-textwhite;
 
     box-shadow: $color-darkbluehighlight 0 0px 2px 5px;
@@ -16,7 +16,7 @@
     border-radius:10px;
 
     color:$color-textwhite;
-    font-size:12px;
+    font-size:15px;
     z-index:1;
 
     button {
@@ -29,8 +29,8 @@
       background-color:$color-darkbluehighlight;
       border-color:$color-textwhite;
       color:$color-textwhite;
-      font-size:10px;
-      height:20px;
+      font-size:12px;
+      height:30px;
       border:1px solid $color-textwhite;
       padding-left:3px;
       padding-right:3px;
@@ -41,6 +41,7 @@
       padding-left:10px;
       padding-right:10px;
       background-color:$color-lighterblue;
+      font-size:15px;
     }
 
     span {

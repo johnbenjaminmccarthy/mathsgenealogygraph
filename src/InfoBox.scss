@@ -1,0 +1,11 @@
+@use "constants" as *;
+
+#info-box {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 40%;
+  width: 20%;
+  border:1px solid $color-textwhite;
+  background-color: $color-darkbluehighlight;
+}

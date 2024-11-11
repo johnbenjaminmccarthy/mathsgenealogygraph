@@ -10,11 +10,18 @@ import kellifrancisstaite from './assets/graph_data/kellifrancisstaite.json';
 
 import notablePeople from './assets/notable_people/notable_people.json';
 
+import {InfoBox} from "./InfoBox.tsx";
 import {GraphSelector} from "./GraphSelector.tsx";
 import {GenealogyNode, Graph, Preset} from './GraphTypes.tsx';
 
 
 function App() {
+
+    const [graphData, setGraphData] = useState<Graph>(johnbenjaminmccarthy);
+
+
+    const [infoBoxNode, setInfoBoxNode] = useState<GenealogyNode | null>(null);
+
     const ref = useRef<SVGSVGElement>(null);
 
     const notablePeopleMap = new Map(notablePeople.people.map(it => [it.id, it.note]));
@@ -54,9 +61,9 @@ function App() {
 
         // Specify the color scale.
         const color = d3.scaleOrdinal(d3.schemeCategory10);
-
-
         const nodeIndex = new Map(data.nodes.map((it, index) => [it.id, index]));
+
+
 
         // The force simulation mutates links and nodes, so create a copy
         // so that re-evaluating this cell produces the same result.
@@ -110,6 +117,7 @@ function App() {
             .attr("data:base", data.base)
             .attr("style", "max-width: 100%; height: auto;")
             .attr("cursor", "grab");
+            //.on("click", () => { svg.select("#node").selectAll("circle").attr("class", "") });
 
 
 
@@ -153,7 +161,8 @@ function App() {
             .join("circle")
             .attr("id", d => "id"+d.genealogyNode.id)
             .attr("r", d => d.radius)
-            .attr("fill", d => d.color);
+            .attr("fill", d => d.color)
+            .on("click", (e: MouseEvent, d: D3Node) => { svg.select("#node").selectAll("circle").attr("class", ""); (e.target as HTMLElement).classList.add("clicked"); setInfoBoxNode(d.genealogyNode) });
 
         const labels = svg.append("g")
             .attr("id", "labels")
@@ -239,7 +248,7 @@ function App() {
 
     }
 
-    const [graphData, setGraphData] = useState<Graph>(johnbenjaminmccarthy);
+
 
 
     //Gets executed after SVG has been mounted
@@ -274,6 +283,10 @@ function App() {
           <GraphSelector
             presetFunction={presetValue}
           ></GraphSelector>
+          <InfoBox
+              nodeInfo={infoBoxNode}
+              notablePersonNote={null}
+          ></InfoBox>
           <div id={"repositionButtons"}>
               <button className={"returnToCentre"} onClick={() => returnToCentre(0.5)}>Click here to zoom out and recentre</button>
               <button className={"centreOnBase"} onClick={centreOnBase}>Click here to centre on base node</button>
