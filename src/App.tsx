@@ -1,9 +1,9 @@
 
-import './App.scss'
+import './style.scss'
 import * as d3 from 'd3';
 import {useEffect, useRef} from "react";
 import johnbenjaminmccarthy from './assets/graph_data/johnbenjaminmccarthy.json';
-import {D3ZoomEvent} from "d3";
+import {D3ZoomEvent, max} from "d3";
 
 type GenealogyAdvisor = {
     advisorId: number,
@@ -103,16 +103,38 @@ function App() {
             .force("collide", d3.forceCollide(d => d.radius * 2.5));
 
         // Create the SVG container.
-        const svg = d3.select<SVGSVGElement, unknown>(ref.current!)
-            //.attr("width", width)
-            //.attr("height", height)
+        const svg = d3.select<SVGSVGElement, unknown>(ref.current!);
+        svg.selectAll("*").remove();
+        svg
             .attr("viewBox", [-width/2, -height/2, width, height])
             .attr("style", "max-width: 100%; height: auto;")
             .attr("cursor", "grab");
 
+        const boxG = svg.append("g")
+            .attr("id", "grid");
+
+        const numBoxes = 25;
+        const arr = d3.range(-numBoxes, numBoxes + 1);
+        const maxDimension = max([width, height])!;
+        const boxSize = (maxDimension)/numBoxes;
+
+        const boxEnter = boxG.selectAll("line").data(arr).enter();
+        boxEnter.append("line")
+            .attr("x1", d => d*boxSize)
+            .attr("x2", d => d*boxSize)
+            .attr("y1", -maxDimension - boxSize)
+            .attr("y2", maxDimension + boxSize);
+        boxEnter.append("line")
+            .attr("x1", -maxDimension - boxSize)
+            .attr("x2", maxDimension + boxSize)
+            .attr("y1", d=> d*boxSize)
+            .attr("y2", d => d*boxSize);
+
+
+
         svg.call(d3.zoom<SVGSVGElement, unknown>()
             .extent([[0,0], [width,height]])
-            .scaleExtent([0.5,4])
+            .scaleExtent([0.5,2])
             .on("zoom", zoomed)
             .on("end", zoomEnd));
 
@@ -131,6 +153,7 @@ function App() {
 
         // Add a line for each link, and a circle for each node.
         const link = svg.append("g")
+            .attr("id", "link")
             .attr("stroke", "#999")
             .attr("stroke-opacity", 0.6)
             .selectAll("line")
@@ -140,6 +163,7 @@ function App() {
             .attr("marker-mid", "url(#arrow)");
 
         const node = svg.append("g")
+            .attr("id", "node")
             .attr("stroke", "#fff")
             .attr("stroke-width", 1.5)
             .selectAll("circle")
@@ -149,6 +173,7 @@ function App() {
             .attr("fill", d => d.color);
 
         const labels = svg.append("g")
+            .attr("id", "labels")
             .attr("class", "labels")
             .selectAll("text")
             .data(nodes)
@@ -164,11 +189,6 @@ function App() {
         node.append("title")
             .text(d => d.genealogyNode.id);
 
-        // Add a drag behavior.
-        /*node.call(d3.drag()
-            .on("start", dragstarted)
-            .on("drag", dragged)
-            .on("end", dragended));*/
 
         // Set the position attributes of links and nodes and labels each time the simulation ticks.
         simulation.on("tick", () => {
@@ -188,54 +208,64 @@ function App() {
         });
 
 
-
         function zoomed(event: D3ZoomEvent<SVGSVGElement, unknown>) {
             const x = event.transform.x;
             const y = event.transform.y;
             const k = event.transform.k;
-            const transformString = "translate(" + -x + ", " + -y + ") scale(" + k + ")";
+            const transformString = "translate(" + x + ", " + y + ") scale(" + k + ")";
 
             if ((event.sourceEvent as Event).type === "mousemove") {
                 svg.attr("cursor", "grabbing");
             }
 
-            link.attr("transform", transformString);
-            node.attr("transform", transformString);
-            labels.attr("transform", transformString);
+            boxG.attr("transform", "translate(" + (x % boxSize*k) + ", " + (y % boxSize*k) + ") scale(" + k + ")");
+
+            svg.select("#link").attr("transform", transformString);
+            svg.select("#node").attr("transform", transformString);
+            svg.select("#labels").attr("transform", transformString);
+            //link.attr("transform", transformString);
+            //node.attr("transform", transformString);
+            //labels.attr("transform", transformString);
+
+
         }
 
         function zoomEnd() {
             svg.attr("cursor", "grab");
         }
 
-        // Reheat the simulation when drag starts, and fix the subject position.
-        /*
-        function dragstarted(event) {
-            if (!event.active) simulation.alphaTarget(0.3).restart();
-            event.subject.fx = event.subject.x;
-            event.subject.fy = event.subject.y;
-        }
-
-        // Update the subject (dragged node) position during drag.
-        function dragged(event) {
-            event.subject.fx = event.x;
-            event.subject.fy = event.y;
-        }
-
-        // Restore the target alpha so the simulation cools after dragging ends.
-        // Unfix the subject position now that it’s no longer being dragged.
-        function dragended(event) {
-            if (!event.active) simulation.alphaTarget(0);
-            event.subject.fx = null;
-            event.subject.fy = null;
-        }*/
-
-        // When this cell is re-run, stop the previous simulation. (This doesn’t
-        // really matter since the target alpha is zero and the simulation will
-        // stop naturally, but it’s a good practice.)
-        //invalidation.then(() => simulation.stop());
-
         return svg.node();
+    }
+
+    function returnToCentre() {
+        const svg = d3.select<SVGSVGElement, unknown>(ref.current!);
+
+        const boxG = svg.select("#grid");
+        const link = svg.select("#link");
+        const node = svg.select("#node");
+        const labels = svg.select("#labels");
+
+        const width = ref.current!.width.baseVal.value;
+        const height = ref.current!.height.baseVal.value;
+        const boxSize = max([width, height])!/25;
+
+        const x = 0;
+        const y = 0;
+        const k = 1;
+        const transformString = "translate(" + x + ", " + y + ") scale(1)";
+        const modTransformString = "translate(" + (x % boxSize*k) + ", " + (y % boxSize*k) + ") scale(1)";
+        boxG.transition()
+            .duration(500)
+            .attr("transform", modTransformString);
+        link.transition()
+            .duration(500)
+            .attr("transform", transformString);
+        node.transition()
+            .duration(500)
+            .attr("transform", transformString);
+        labels.transition()
+            .duration(500)
+            .attr("transform", transformString);
     }
 
 
@@ -252,6 +282,7 @@ function App() {
           <div className={"svg"}>
               <svg className={"container"} ref={ref} width={"100%"} height={"100%"}></svg>
           </div>
+          <button className={"returnToCentre"} onClick={() => returnToCentre()}>Return to graph</button>
       </>
   )
 }

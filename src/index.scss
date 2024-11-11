@@ -1,11 +1,12 @@
+@use "constants" as *;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: #f5f5f5;
-  background-color: #252a34;
+  color: $color-textwhite;
+  background-color: $color-darkblue;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,17 +22,4 @@ body {
   min-height: 100vh;
   height: 100vh;
   flex: 1;
-  background-image:
-    linear-gradient(to right, #414a5c 2px, transparent 1px),
-    linear-gradient(to bottom, #414a5c 2px, transparent 1px);
-  background-size: 80px 80px;
-  background-position: -2px -2px;
-}
-
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
 }

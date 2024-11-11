@@ -1,3 +1,5 @@
+@use "constants" as *;
+
 #root {
   min-height:100%;
   width:100%;
@@ -25,4 +27,19 @@
       text-anchor: end;
     }
   }
+
+  #grid line {
+    stroke: $color-darkbluehighlight;
+    stroke-width: 2px;
+  }
+
+}
+
+button.returnToCentre {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 200px;
+  height: 30px;
+  z-index: 1;
 }
