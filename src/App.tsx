@@ -20,7 +20,7 @@ function App() {
     const notablePeopleMap = new Map(notablePeople.people.map(it => [it.id, it.note]));
 
     const zoom = d3.zoom<SVGSVGElement, unknown>()
-        .scaleExtent([0.5,2])
+        .scaleExtent([0.25,2])
         .on("zoom", zoomed)
         .on("end", zoomEnd);
 
@@ -88,9 +88,13 @@ function App() {
 
         // Create a simulation with several forces.
         const simulation = d3.forceSimulation(nodes)
-            .force("link", d3.forceLink(links).id(d => (d as D3Node).genealogyNode.id).distance(l => (((l.target as unknown) as D3Node).genealogyNode.id == data.base) || (((l.source as unknown) as D3Node).genealogyNode.id == data.base) ? 200 : 50))
-            .force("charge", d3.forceManyBody().strength(-300))
-            //.force("center", d3.forceCenter())
+            .force("link", d3.forceLink(links)
+                    .id(d => (d as D3Node).genealogyNode.id)
+                    .distance(l =>
+                        (((l.target as unknown) as D3Node).genealogyNode.id == data.base) || (((l.source as unknown) as D3Node).genealogyNode.id == data.base) ? 60 : 30)
+                    .strength(1))
+            .force("charge", d3.forceManyBody().strength(-1000))
+            .force("center", d3.forceCenter())
             .force("x", d3.forceX().strength(0.01))
             .force("y", d3.forceY().strength(0.01))
             //.force("radial", d3.forceRadial(width/2, 0, 0).strength(0.05))
