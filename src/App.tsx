@@ -3,7 +3,7 @@ import './style.scss'
 import * as d3 from 'd3';
 import {useEffect, useRef} from "react";
 import johnbenjaminmccarthy from './assets/graph_data/johnbenjaminmccarthy.json';
-import {D3ZoomEvent, max} from "d3";
+import {D3ZoomEvent} from "d3";
 
 type GenealogyAdvisor = {
     advisorId: number,
@@ -52,6 +52,29 @@ type Graph = {
 
 function App() {
     const ref = useRef<SVGSVGElement>(null);
+
+    const zoom = d3.zoom<SVGSVGElement, unknown>()
+        .scaleExtent([0.5,2])
+        .on("zoom", zoomed)
+        .on("end", zoomEnd);
+
+    function zoomed(event: D3ZoomEvent<SVGSVGElement, unknown>) {
+
+        const svg = d3.select<SVGSVGElement, unknown>(ref.current!)
+        if (event.sourceEvent != null && (event.sourceEvent as Event).type === "mousemove") {
+            svg.attr("cursor", "grabbing");
+        }
+
+        console.log(event.transform);
+
+
+        svg.selectAll("g").attr("transform", event.transform.toString());
+    }
+
+    function zoomEnd() {
+        const svg = d3.select<SVGSVGElement, unknown>(ref.current!)
+        svg.attr("cursor", "grab");
+    }
 
     function buildGraph(data: Graph) {
         const width = ref.current!.width.baseVal.value;
@@ -106,37 +129,20 @@ function App() {
         const svg = d3.select<SVGSVGElement, unknown>(ref.current!);
         svg.selectAll("*").remove();
         svg
+            .attr("width", width)
+            .attr("height", height)
             .attr("viewBox", [-width/2, -height/2, width, height])
             .attr("style", "max-width: 100%; height: auto;")
             .attr("cursor", "grab");
 
-        const boxG = svg.append("g")
-            .attr("id", "grid");
-
-        const numBoxes = 25;
-        const arr = d3.range(-numBoxes, numBoxes + 1);
-        const maxDimension = max([width, height])!;
-        const boxSize = (maxDimension)/numBoxes;
-
-        const boxEnter = boxG.selectAll("line").data(arr).enter();
-        boxEnter.append("line")
-            .attr("x1", d => d*boxSize)
-            .attr("x2", d => d*boxSize)
-            .attr("y1", -maxDimension - boxSize)
-            .attr("y2", maxDimension + boxSize);
-        boxEnter.append("line")
-            .attr("x1", -maxDimension - boxSize)
-            .attr("x2", maxDimension + boxSize)
-            .attr("y1", d=> d*boxSize)
-            .attr("y2", d => d*boxSize);
 
 
-
-        svg.call(d3.zoom<SVGSVGElement, unknown>()
+        /*svg.call(d3.zoom<SVGSVGElement, unknown>()
             .extent([[0,0], [width,height]])
             .scaleExtent([0.5,2])
             .on("zoom", zoomed)
-            .on("end", zoomEnd));
+            .on("end", zoomEnd));*/
+        svg.call(zoom.extent([[0,0], [width,height]]));
 
         svg.append("svg:defs")
             .append("svg:marker")
@@ -205,10 +211,10 @@ function App() {
             labels
                 .attr("x", d => d.x)
                 .attr("y", d => d.y);
+
         });
 
-
-        function zoomed(event: D3ZoomEvent<SVGSVGElement, unknown>) {
+        /*function zoomed(event: D3ZoomEvent<SVGSVGElement, unknown>) {
             const x = event.transform.x;
             const y = event.transform.y;
             const k = event.transform.k;
@@ -218,21 +224,17 @@ function App() {
                 svg.attr("cursor", "grabbing");
             }
 
-            boxG.attr("transform", "translate(" + (x % boxSize*k) + ", " + (y % boxSize*k) + ") scale(" + k + ")");
+            svg.selectAll("g").attr("transform", event.transform.toString());
 
-            svg.select("#link").attr("transform", transformString);
-            svg.select("#node").attr("transform", transformString);
-            svg.select("#labels").attr("transform", transformString);
-            //link.attr("transform", transformString);
-            //node.attr("transform", transformString);
-            //labels.attr("transform", transformString);
-
+            //svg.select("#link").attr("transform", transformString);
+            //svg.select("#node").attr("transform", transformString);
+            //svg.select("#labels").attr("transform", transformString);
 
         }
 
         function zoomEnd() {
             svg.attr("cursor", "grab");
-        }
+        }*/
 
         return svg.node();
     }
@@ -240,39 +242,20 @@ function App() {
     function returnToCentre() {
         const svg = d3.select<SVGSVGElement, unknown>(ref.current!);
 
-        const boxG = svg.select("#grid");
-        const link = svg.select("#link");
-        const node = svg.select("#node");
-        const labels = svg.select("#labels");
+        svg.transition().duration(500).call(
+            // eslint-disable-next-line @typescript-eslint/unbound-method
+            zoom.transform, d3.zoomIdentity);
 
-        const width = ref.current!.width.baseVal.value;
-        const height = ref.current!.height.baseVal.value;
-        const boxSize = max([width, height])!/25;
 
-        const x = 0;
-        const y = 0;
-        const k = 1;
-        const transformString = "translate(" + x + ", " + y + ") scale(1)";
-        const modTransformString = "translate(" + (x % boxSize*k) + ", " + (y % boxSize*k) + ") scale(1)";
-        boxG.transition()
-            .duration(500)
-            .attr("transform", modTransformString);
-        link.transition()
-            .duration(500)
-            .attr("transform", transformString);
-        node.transition()
-            .duration(500)
-            .attr("transform", transformString);
-        labels.transition()
-            .duration(500)
-            .attr("transform", transformString);
+        svg.selectAll("g").transition().duration(500).attr("transform", "translate(0,0) scale(1)");
+
     }
 
 
     //Gets executed after SVG has been mounted
     useEffect(() => {
         buildGraph(johnbenjaminmccarthy);
-        //ref.current.append(ref
+
     }, []);
 
 
@@ -282,7 +265,7 @@ function App() {
           <div className={"svg"}>
               <svg className={"container"} ref={ref} width={"100%"} height={"100%"}></svg>
           </div>
-          <button className={"returnToCentre"} onClick={() => returnToCentre()}>Return to graph</button>
+          <button className={"returnToCentre"} onClick={returnToCentre}>Return to graph</button>
       </>
   )
 }
