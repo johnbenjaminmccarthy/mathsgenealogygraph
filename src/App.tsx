@@ -1,57 +1,23 @@
-
 import './style.scss'
 import * as d3 from 'd3';
-import {useEffect, useRef} from "react";
+import {D3ZoomEvent} from 'd3';
+import {useEffect, useRef, useState} from "react";
+
 import johnbenjaminmccarthy from './assets/graph_data/johnbenjaminmccarthy.json';
-import {D3ZoomEvent} from "d3";
+import johnbenjaminmccarthybig from './assets/graph_data/johnbenjaminmccarthybig.json';
+import ruadhaidervan from './assets/graph_data/ruadhaidervan.json';
+import kellifrancisstaite from './assets/graph_data/kellifrancisstaite.json';
 
-type GenealogyAdvisor = {
-    advisorId: number,
-    advisorName: string,
-    advisorNumber: number
-}
+import notablePeople from './assets/notable_people/notable_people.json';
 
-type GenealogyNodeDissertation = {
-    nodeId: number,
-    nodeName: string,
-    phdprefix: string | null,
-    university: string | null,
-    yearofcompletion: string | null,
-    dissertationtitle: string | null,
-    mscnumber: string | null,
-    advisors: Array<GenealogyAdvisor> | null,
-}
+import {GraphSelector} from "./GraphSelector.tsx";
+import {GenealogyNode, Graph, Preset} from './GraphTypes.tsx';
 
-type GenealogyNodeStudent = {
-    id: number,
-    name: string
-}
-
-type GenealogyNode = {
-    id: number,
-    name: string,
-    dissertations: Array<GenealogyNodeDissertation> | null,
-    students: Array<GenealogyNodeStudent> | null,
-    numberofdescendents: number
-}
-
-type GenealogyEdge = {
-    fromNodeId: number,
-    toNodeId: number
-}
-
-type Graph = {
-    base: number,
-    generationsUp: number,
-    generationsDown: number,
-    numberOfNodes: number,
-    numberOfEdges: number,
-    nodes: Array<GenealogyNode>,
-    edges: Array<GenealogyEdge>
-}
 
 function App() {
     const ref = useRef<SVGSVGElement>(null);
+
+    const notablePeopleMap = new Map(notablePeople.people.map(it => [it.id, it.note]));
 
     const zoom = d3.zoom<SVGSVGElement, unknown>()
         .scaleExtent([0.5,2])
@@ -59,13 +25,16 @@ function App() {
         .on("end", zoomEnd);
 
     function zoomed(event: D3ZoomEvent<SVGSVGElement, unknown>) {
-
         const svg = d3.select<SVGSVGElement, unknown>(ref.current!)
-        if (event.sourceEvent != null && (event.sourceEvent as Event).type === "mousemove") {
-            svg.attr("cursor", "grabbing");
+        if (event.sourceEvent != null) {
+            if ((event.sourceEvent as Event).type === "mousemove") {
+                svg.attr("cursor", "grabbing");
+            }
+            else if ((event.sourceEvent as Event).type === "wheel")
+            {
+                svg.attr("cursor", "zoom-in");
+            }
         }
-
-        console.log(event.transform);
 
 
         svg.selectAll("g").attr("transform", event.transform.toString());
@@ -85,6 +54,7 @@ function App() {
 
         // Specify the color scale.
         const color = d3.scaleOrdinal(d3.schemeCategory10);
+
 
         const nodeIndex = new Map(data.nodes.map((it, index) => [it.id, index]));
 
@@ -109,7 +79,7 @@ function App() {
             genealogyNode: it,
             index: nodeIndex.get(it.id),
             radius: it.id == data.base ? bigRadius : radius,
-            color: it.id == data.base ? color("yellow") : color("white"),
+            color: it.id == data.base ? color("yellow") : (notablePeopleMap.has(it.id) ? color("red") : color("white")),
             x: NaN,
             y: NaN,
             vx: NaN,
@@ -118,20 +88,22 @@ function App() {
 
         // Create a simulation with several forces.
         const simulation = d3.forceSimulation(nodes)
-            .force("link", d3.forceLink(links).id(d => (d as D3Node).genealogyNode.id))
-            .force("charge", d3.forceManyBody())
-            .force("center", d3.forceCenter())
-            .force("x", d3.forceX())
-            .force("y", d3.forceY())
-            .force("collide", d3.forceCollide(d => d.radius * 2.5));
+            .force("link", d3.forceLink(links).id(d => (d as D3Node).genealogyNode.id).distance(l => (((l.target as unknown) as D3Node).genealogyNode.id == data.base) || (((l.source as unknown) as D3Node).genealogyNode.id == data.base) ? 200 : 50))
+            .force("charge", d3.forceManyBody().strength(-300))
+            //.force("center", d3.forceCenter())
+            .force("x", d3.forceX().strength(0.01))
+            .force("y", d3.forceY().strength(0.01))
+            //.force("radial", d3.forceRadial(width/2, 0, 0).strength(0.05))
+            .force("collide", d3.forceCollide(d => d.radius * 3));
 
         // Create the SVG container.
         const svg = d3.select<SVGSVGElement, unknown>(ref.current!);
-        svg.selectAll("*").remove();
+
         svg
             .attr("width", width)
             .attr("height", height)
             .attr("viewBox", [-width/2, -height/2, width, height])
+            .attr("data:base", data.base)
             .attr("style", "max-width: 100%; height: auto;")
             .attr("cursor", "grab");
 
@@ -175,6 +147,7 @@ function App() {
             .selectAll("circle")
             .data(nodes)
             .join("circle")
+            .attr("id", d => "id"+d.genealogyNode.id)
             .attr("r", d => d.radius)
             .attr("fill", d => d.color);
 
@@ -239,24 +212,53 @@ function App() {
         return svg.node();
     }
 
-    function returnToCentre() {
+    function returnToCentre(scale: number) {
         const svg = d3.select<SVGSVGElement, unknown>(ref.current!);
 
         svg.transition().duration(500).call(
             // eslint-disable-next-line @typescript-eslint/unbound-method
-            zoom.transform, d3.zoomIdentity);
+            zoom.transform, new d3.ZoomTransform(scale, 0, 0));
 
-
-        svg.selectAll("g").transition().duration(500).attr("transform", "translate(0,0) scale(1)");
+        //svg.selectAll("g").transition().duration(500).attr("transform", "translate(0,0) scale(1)");
 
     }
+
+    function centreOnBase() {
+        const svg = d3.select<SVGSVGElement, unknown>(ref.current!);
+        const base = svg.attr("data:base");
+        const baseX = +svg.select("#id"+base).attr("cx");
+        const baseY = +svg.select("#id"+base).attr("cy");
+        svg.transition().duration(500).call(
+            // eslint-disable-next-line @typescript-eslint/unbound-method
+            zoom.transform, new d3.ZoomTransform(1, -baseX, -baseY)
+        );
+
+    }
+
+    const [graphData, setGraphData] = useState<Graph>(johnbenjaminmccarthy);
 
 
     //Gets executed after SVG has been mounted
     useEffect(() => {
-        buildGraph(johnbenjaminmccarthy);
+        buildGraph(graphData);
+        const svgRef = ref.current;
+        return() => {
+            returnToCentre(1);
+            d3.select<SVGSVGElement, unknown>(svgRef!).selectAll("*").remove();
+        }
 
-    }, []);
+    }, [graphData]);
+
+
+
+    function presetValue(preset: Preset) {
+        switch (preset) {
+            case Preset.johnbenjaminmccarthy: setGraphData(johnbenjaminmccarthy); break;
+            case Preset.johnbenjaminmccarthybig: setGraphData(johnbenjaminmccarthybig); break;
+            case Preset.ruadhaidervan: setGraphData(ruadhaidervan); break;
+            case Preset.kellifrancisstaite: setGraphData(kellifrancisstaite); break;
+        }
+    }
 
 
 
@@ -265,7 +267,14 @@ function App() {
           <div className={"svg"}>
               <svg className={"container"} ref={ref} width={"100%"} height={"100%"}></svg>
           </div>
-          <button className={"returnToCentre"} onClick={returnToCentre}>Return to graph</button>
+          <GraphSelector
+            presetFunction={presetValue}
+          ></GraphSelector>
+          <div id={"repositionButtons"}>
+              <button className={"returnToCentre"} onClick={() => returnToCentre(0.5)}>Click here to zoom out and recentre</button>
+              <button className={"centreOnBase"} onClick={centreOnBase}>Click here to centre on base node</button>
+          </div>
+
       </>
   )
 }

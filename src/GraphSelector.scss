@@ -1,0 +1,75 @@
+@use "constants" as *;
+
+#root {
+  div#selector {
+    position:absolute;
+    top:20px;
+    left:20px;
+    width:60%;
+    padding-left:10px;
+    padding-right:10px;
+    height:20px;
+    //border:1px solid $color-textwhite;
+
+    box-shadow: $color-darkbluehighlight 0 0px 2px 5px;
+    background-color: $color-darkbluehighlight;
+    border-radius:10px;
+
+    color:$color-textwhite;
+    font-size:12px;
+    z-index:1;
+
+    button {
+      margin-left:5px;
+
+    }
+    input, select, button {
+      margin-left:5px;
+      padding:0;
+      background-color:$color-darkbluehighlight;
+      border-color:$color-textwhite;
+      color:$color-textwhite;
+      font-size:10px;
+      height:20px;
+      border:1px solid $color-textwhite;
+      padding-left:3px;
+      padding-right:3px;
+      border-radius:3px;
+    }
+
+    button {
+      padding-left:10px;
+      padding-right:10px;
+      background-color:$color-lighterblue;
+    }
+
+    span {
+      display:inline-block;
+      margin:0;
+      padding:0;
+      line-height:20px;
+    }
+
+    span#genealogyIdText {
+      width:20%;
+    }
+
+    span#spacer {
+      width:3%;
+    }
+
+    span#presetText {
+      width:10%;
+    }
+
+
+
+    input#genealogyId {
+      width:30%;
+    }
+    input#maxGenerationsUp, input#maxGenerationsDown{
+      width:5%;
+    }
+
+  }
+}

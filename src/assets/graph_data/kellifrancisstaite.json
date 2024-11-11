@@ -1,0 +1,1994 @@
+{
+  "base": 282363,
+  "generationsUp": 10,
+  "generationsDown": 0,
+  "numberOfNodes": 29,
+  "numberOfEdges": 32,
+  "nodes": [
+    {
+      "id": 102043,
+      "name": "Adam Sedgwick",
+      "dissertations": [
+        {
+          "nodeId": 102043,
+          "nodeName": "Adam Sedgwick",
+          "phdprefix": "M.A.",
+          "university": "University of Cambridge",
+          "yearofcompletion": "1811",
+          "dissertationtitle": "(none)",
+          "mscnumber": "86",
+          "advisors": [
+            {
+              "advisorId": 102036,
+              "advisorName": "Thomas Jones",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 102037,
+              "advisorName": "John Dawson",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 42016,
+          "name": "William Hopkins"
+        }
+      ],
+      "numberofdescendents": 29084
+    },
+    {
+      "id": 282363,
+      "name": "Kelli Leigh Francis-Staite",
+      "dissertations": [
+        {
+          "nodeId": 282363,
+          "nodeName": "Kelli Leigh Francis-Staite",
+          "phdprefix": "D.Phil.",
+          "university": "University of Oxford",
+          "yearofcompletion": "2019",
+          "dissertationtitle": "$C^\\infty$-algebraic geometry with corners",
+          "mscnumber": "14",
+          "advisors": [
+            {
+              "advisorId": 93795,
+              "advisorName": "Dominic Joyce",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 128703,
+      "name": "John Hudson",
+      "dissertations": [
+        {
+          "nodeId": 128703,
+          "nodeName": "John Hudson",
+          "phdprefix": null,
+          "university": null,
+          "yearofcompletion": null,
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 112602,
+          "name": "George Peacock"
+        }
+      ],
+      "numberofdescendents": 22095
+    },
+    {
+      "id": 22477,
+      "name": "Brian F. Steer",
+      "dissertations": [
+        {
+          "nodeId": 22477,
+          "nodeName": "Brian F. Steer",
+          "phdprefix": "D.Phil.",
+          "university": "University of Oxford",
+          "yearofcompletion": "1961",
+          "dissertationtitle": "Topics in Algebraic Topology",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 1423,
+              "advisorName": "John Henry Constantine Whitehead",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 22474,
+              "advisorName": "Ioan Mackenzie James",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 43911,
+          "name": "Nigel James Hitchin"
+        },
+        {
+          "id": 187648,
+          "name": "A. J. Berrick"
+        },
+        {
+          "id": 79369,
+          "name": "Olivier Collin"
+        },
+        {
+          "id": 95254,
+          "name": "Emile Ben Nasatyr"
+        },
+        {
+          "id": 49505,
+          "name": "José Antonio Seade Kuri"
+        }
+      ],
+      "numberofdescendents": 464
+    },
+    {
+      "id": 17467,
+      "name": "George Howard Darwin",
+      "dissertations": [
+        {
+          "nodeId": 17467,
+          "nodeName": "George Howard Darwin",
+          "phdprefix": "M.A.",
+          "university": "University of Cambridge",
+          "yearofcompletion": "1871",
+          "dissertationtitle": null,
+          "mscnumber": "85",
+          "advisors": [
+            {
+              "advisorId": 101929,
+              "advisorName": "Edward John Routh",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 18571,
+          "name": "Edmund Taylor Whittaker"
+        },
+        {
+          "id": 9306,
+          "name": "Ernest Brown"
+        }
+      ],
+      "numberofdescendents": 11952
+    },
+    {
+      "id": 30949,
+      "name": "Michael Francis Atiyah",
+      "dissertations": [
+        {
+          "nodeId": 30949,
+          "nodeName": "Michael Francis Atiyah",
+          "phdprefix": "Ph.D.",
+          "university": "University of Cambridge",
+          "yearofcompletion": "1955",
+          "dissertationtitle": "Some Applications of Topological Methods in Algebraic Geometry",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 18583,
+              "advisorName": "William Vallance Douglas Hodge",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 36909,
+          "name": "Simon Kirwan Donaldson"
+        },
+        {
+          "id": 19949,
+          "name": "Peter J. Braam"
+        },
+        {
+          "id": 186505,
+          "name": "Shaun Anthony Requa Disney"
+        },
+        {
+          "id": 142914,
+          "name": "Peter Windeyer Donovan"
+        },
+        {
+          "id": 43856,
+          "name": "Johan L. Dupont"
+        },
+        {
+          "id": 75179,
+          "name": "K. David Elworthy"
+        },
+        {
+          "id": 212511,
+          "name": "Joseph von Rosthorn Farrell"
+        },
+        {
+          "id": 14980,
+          "name": "Howard D. Fegan"
+        },
+        {
+          "id": 87275,
+          "name": "Eric Julius Grunwald"
+        },
+        {
+          "id": 43911,
+          "name": "Nigel James Hitchin"
+        },
+        {
+          "id": 25522,
+          "name": "Lisa Claire Jeffrey"
+        },
+        {
+          "id": 59549,
+          "name": "Frances Clare Kirwan"
+        },
+        {
+          "id": 47154,
+          "name": "Peter Benedict Kronheimer"
+        },
+        {
+          "id": 38613,
+          "name": "Ruth Elke Lawrence"
+        },
+        {
+          "id": 1281,
+          "name": "George (Gheorghe) Lusztig"
+        },
+        {
+          "id": 388,
+          "name": "Jack Johnson Morava"
+        },
+        {
+          "id": 58298,
+          "name": "Michael Kevin Murray"
+        },
+        {
+          "id": 81106,
+          "name": "Peter E. Newstead"
+        },
+        {
+          "id": 42567,
+          "name": "Ian R. Porteous"
+        },
+        {
+          "id": 43912,
+          "name": "John Roe"
+        },
+        {
+          "id": 42445,
+          "name": "Brian Joseph Sanderson"
+        },
+        {
+          "id": 30948,
+          "name": "Rolph Ludwig Edward Schwarzenberger"
+        },
+        {
+          "id": 27142,
+          "name": "Graeme Bryce Segal"
+        },
+        {
+          "id": 44620,
+          "name": "David Orme Tall"
+        },
+        {
+          "id": 84421,
+          "name": "Graham White"
+        },
+        {
+          "id": 111198,
+          "name": "Reginald M. W. Wood"
+        }
+      ],
+      "numberofdescendents": 1066
+    },
+    {
+      "id": 7865,
+      "name": "H. A. (Hubert Anson) Newton",
+      "dissertations": [
+        {
+          "nodeId": 7865,
+          "nodeName": "H. A. (Hubert Anson) Newton",
+          "phdprefix": "B.A.",
+          "university": "Yale University",
+          "yearofcompletion": "1850",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 26995,
+              "advisorName": "Michel Chasles",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 806,
+          "name": "E. H. (Eliakim Hastings) Moore"
+        },
+        {
+          "id": 132578,
+          "name": "Josiah Gibbs"
+        },
+        {
+          "id": 22376,
+          "name": "Charles Little"
+        },
+        {
+          "id": 118720,
+          "name": "Arthur Wright"
+        }
+      ],
+      "numberofdescendents": 30959
+    },
+    {
+      "id": 36909,
+      "name": "Simon Kirwan Donaldson",
+      "dissertations": [
+        {
+          "nodeId": 36909,
+          "nodeName": "Simon Kirwan Donaldson",
+          "phdprefix": "D.Phil.",
+          "university": "University of Oxford",
+          "yearofcompletion": "1983",
+          "dissertationtitle": "The Yang-Mills Equations on Kähler Manifolds",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 30949,
+              "advisorName": "Michael Francis Atiyah",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 43911,
+              "advisorName": "Nigel James Hitchin",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 93925,
+          "name": "Julius Ross"
+        },
+        {
+          "id": 93784,
+          "name": "Darren Banfield"
+        },
+        {
+          "id": 93785,
+          "name": "Michael Buttler"
+        },
+        {
+          "id": 93786,
+          "name": "S.-H. Choy"
+        },
+        {
+          "id": 237655,
+          "name": "Martin de Borbon"
+        },
+        {
+          "id": 93787,
+          "name": "Vin de Silva"
+        },
+        {
+          "id": 249141,
+          "name": "Aleksander Doan"
+        },
+        {
+          "id": 254669,
+          "name": "Hamed Farhadpour"
+        },
+        {
+          "id": 93788,
+          "name": "Joel Fine"
+        },
+        {
+          "id": 93789,
+          "name": "Kim Frøyshov"
+        },
+        {
+          "id": 93790,
+          "name": "Christian Gantz"
+        },
+        {
+          "id": 49509,
+          "name": "Oscar Garcia-Prada"
+        },
+        {
+          "id": 93791,
+          "name": "Partha Guha"
+        },
+        {
+          "id": 93792,
+          "name": "G.-Y. Guo"
+        },
+        {
+          "id": 286274,
+          "name": "Saman Habibi Esfahani"
+        },
+        {
+          "id": 171993,
+          "name": "Stuart James Hall"
+        },
+        {
+          "id": 94375,
+          "name": "Thomas Hodge"
+        },
+        {
+          "id": 93793,
+          "name": "Ying-Ji Hong"
+        },
+        {
+          "id": 49516,
+          "name": "Marcos Jardim"
+        },
+        {
+          "id": 93794,
+          "name": "Stuart Jarvis"
+        },
+        {
+          "id": 93795,
+          "name": "Dominic Joyce"
+        },
+        {
+          "id": 93796,
+          "name": "Alastair King"
+        },
+        {
+          "id": 93797,
+          "name": "Dieter Kotschick"
+        },
+        {
+          "id": 93798,
+          "name": "Alexei Kovalev"
+        },
+        {
+          "id": 93799,
+          "name": "Raymond Leung"
+        },
+        {
+          "id": 272547,
+          "name": "Yang Li"
+        },
+        {
+          "id": 93800,
+          "name": "Antony Maciocia"
+        },
+        {
+          "id": 93801,
+          "name": "Shaun Martin"
+        },
+        {
+          "id": 293462,
+          "name": "John Benjamin McCarthy"
+        },
+        {
+          "id": 93802,
+          "name": "Kai-Cheung Mong"
+        },
+        {
+          "id": 36908,
+          "name": "Vicente Muñoz"
+        },
+        {
+          "id": 95254,
+          "name": "Emile Ben Nasatyr"
+        },
+        {
+          "id": 93803,
+          "name": "Graham Nelson"
+        },
+        {
+          "id": 186346,
+          "name": "Goncalo Oliveira"
+        },
+        {
+          "id": 93804,
+          "name": "Timothy Perutz"
+        },
+        {
+          "id": 285804,
+          "name": "Daniel Platt"
+        },
+        {
+          "id": 93805,
+          "name": "Daniel Pons"
+        },
+        {
+          "id": 93806,
+          "name": "Aleksis Raza"
+        },
+        {
+          "id": 152961,
+          "name": "Henrique N. Sá Earp"
+        },
+        {
+          "id": 93807,
+          "name": "Pavle Saksida"
+        },
+        {
+          "id": 93808,
+          "name": "Paul Seidel"
+        },
+        {
+          "id": 259089,
+          "name": "Lars Martin Sektnan"
+        },
+        {
+          "id": 93809,
+          "name": "Matthew Selby"
+        },
+        {
+          "id": 93810,
+          "name": "Alan Sheppard"
+        },
+        {
+          "id": 93811,
+          "name": "Ivan Smith"
+        },
+        {
+          "id": 170572,
+          "name": "Cristiano Spotti"
+        },
+        {
+          "id": 107702,
+          "name": "Gabor Szekelyhidi"
+        },
+        {
+          "id": 91244,
+          "name": "Michael Thaddeus"
+        },
+        {
+          "id": 93812,
+          "name": "Richard Paul Thomas"
+        },
+        {
+          "id": 179764,
+          "name": "Thomas Walpuski"
+        },
+        {
+          "id": 93813,
+          "name": "Shuguang Wang"
+        },
+        {
+          "id": 138533,
+          "name": "Dominic Wright"
+        }
+      ],
+      "numberofdescendents": 250
+    },
+    {
+      "id": 42016,
+      "name": "William Hopkins",
+      "dissertations": [
+        {
+          "nodeId": 42016,
+          "nodeName": "William Hopkins",
+          "phdprefix": "M.A.",
+          "university": "University of Cambridge",
+          "yearofcompletion": "1830",
+          "dissertationtitle": "(None)",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 102043,
+              "advisorName": "Adam Sedgwick",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 7824,
+          "name": "Arthur Cayley"
+        },
+        {
+          "id": 30175,
+          "name": "Sir Francis Galton"
+        },
+        {
+          "id": 105806,
+          "name": "James Maxwell"
+        },
+        {
+          "id": 101929,
+          "name": "Edward John Routh"
+        },
+        {
+          "id": 102483,
+          "name": "George Stokes"
+        },
+        {
+          "id": 289405,
+          "name": "Peter Tait"
+        },
+        {
+          "id": 234972,
+          "name": "William Thomson"
+        },
+        {
+          "id": 129420,
+          "name": "Isaac Todhunter"
+        }
+      ],
+      "numberofdescendents": 29083
+    },
+    {
+      "id": 7824,
+      "name": "Arthur Cayley",
+      "dissertations": [
+        {
+          "nodeId": 7824,
+          "nodeName": "Arthur Cayley",
+          "phdprefix": "Ph.D. / Ph.D. / Dr Sc.",
+          "university": "Universiteit Leiden and University College Dublin and University of Oxford",
+          "yearofcompletion": "1864/1865/1875",
+          "dissertationtitle": "(First two degrees were Law degrees)",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 42016,
+              "advisorName": "William Hopkins",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 17829,
+          "name": "Andrew Russell Forsyth"
+        },
+        {
+          "id": 13135,
+          "name": "Henry Baker"
+        },
+        {
+          "id": 6965,
+          "name": "Charlotte Scott"
+        }
+      ],
+      "numberofdescendents": 13227
+    },
+    {
+      "id": 112602,
+      "name": "George Peacock",
+      "dissertations": [
+        {
+          "nodeId": 112602,
+          "nodeName": "George Peacock",
+          "phdprefix": "MA",
+          "university": "University of Cambridge",
+          "yearofcompletion": "1816",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 128703,
+              "advisorName": "John Hudson",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 112646,
+          "name": "Augustus De Morgan"
+        }
+      ],
+      "numberofdescendents": 22094
+    },
+    {
+      "id": 22474,
+      "name": "Ioan Mackenzie James",
+      "dissertations": [
+        {
+          "nodeId": 22474,
+          "nodeName": "Ioan Mackenzie James",
+          "phdprefix": "D.Phil.",
+          "university": "University of Oxford",
+          "yearofcompletion": "1953",
+          "dissertationtitle": "Some Problems in Algebraic Topology",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 1423,
+              "advisorName": "John Henry Constantine Whitehead",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 22477,
+          "name": "Brian F. Steer"
+        },
+        {
+          "id": 15868,
+          "name": "Peter Fantham"
+        },
+        {
+          "id": 67951,
+          "name": "William Gilbert"
+        },
+        {
+          "id": 59797,
+          "name": "Luke Hodgkin"
+        },
+        {
+          "id": 23950,
+          "name": "John Hubbuck"
+        },
+        {
+          "id": 64999,
+          "name": "Elias Micha"
+        },
+        {
+          "id": 24405,
+          "name": "Amiya Mukherjee"
+        },
+        {
+          "id": 70788,
+          "name": "J. Lyle Noakes"
+        },
+        {
+          "id": 23937,
+          "name": "Geoffrey Powell"
+        },
+        {
+          "id": 271237,
+          "name": "Elisabeth Clare Richardson"
+        },
+        {
+          "id": 8588,
+          "name": "James Stasheff"
+        },
+        {
+          "id": 81184,
+          "name": "Michael Sunderland"
+        },
+        {
+          "id": 22476,
+          "name": "Wilson Sutherland"
+        }
+      ],
+      "numberofdescendents": 590
+    },
+    {
+      "id": 101929,
+      "name": "Edward John Routh",
+      "dissertations": [
+        {
+          "nodeId": 101929,
+          "nodeName": "Edward John Routh",
+          "phdprefix": "M.A.",
+          "university": "University of Cambridge",
+          "yearofcompletion": "1857",
+          "dissertationtitle": "(None)",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 42016,
+              "advisorName": "William Hopkins",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 129420,
+              "advisorName": "Isaac Todhunter",
+              "advisorNumber": 2
+            },
+            {
+              "advisorId": 112646,
+              "advisorName": "Augustus De Morgan",
+              "advisorNumber": 3
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 17467,
+          "name": "George Howard Darwin"
+        },
+        {
+          "id": 160848,
+          "name": "William Bragg"
+        },
+        {
+          "id": 289712,
+          "name": "John Hopkinson"
+        },
+        {
+          "id": 18581,
+          "name": "Joseph Larmor"
+        },
+        {
+          "id": 101979,
+          "name": "John Strutt (Lord Rayleigh)"
+        },
+        {
+          "id": 297195,
+          "name": "Robert Rumsey Webb"
+        },
+        {
+          "id": 78732,
+          "name": "Alfred Whitehead"
+        }
+      ],
+      "numberofdescendents": 22092
+    },
+    {
+      "id": 18571,
+      "name": "Edmund Taylor Whittaker",
+      "dissertations": [
+        {
+          "nodeId": 18571,
+          "nodeName": "Edmund Taylor Whittaker",
+          "phdprefix": "M.A.",
+          "university": "University of Cambridge",
+          "yearofcompletion": "1895",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 17829,
+              "advisorName": "Andrew Russell Forsyth",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 17467,
+              "advisorName": "George Howard Darwin",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 18583,
+          "name": "William Vallance Douglas Hodge"
+        },
+        {
+          "id": 18577,
+          "name": "Alexander Aitken"
+        },
+        {
+          "id": 252512,
+          "name": "Edward Copson"
+        },
+        {
+          "id": 18250,
+          "name": "Arthur Eddington"
+        },
+        {
+          "id": 190512,
+          "name": "Philip Gormley"
+        },
+        {
+          "id": 17806,
+          "name": "G. H. Hardy"
+        },
+        {
+          "id": 19562,
+          "name": "Sir James Jeans"
+        },
+        {
+          "id": 4798,
+          "name": "George McVittie"
+        },
+        {
+          "id": 132246,
+          "name": "Ramaswamy Vaidyanathaswamy"
+        },
+        {
+          "id": 143411,
+          "name": "Arthur Walker"
+        },
+        {
+          "id": 23724,
+          "name": "George Watson"
+        }
+      ],
+      "numberofdescendents": 11941
+    },
+    {
+      "id": 112646,
+      "name": "Augustus De Morgan",
+      "dissertations": [
+        {
+          "nodeId": 112646,
+          "nodeName": "Augustus De Morgan",
+          "phdprefix": "B.A.",
+          "university": "University of Cambridge",
+          "yearofcompletion": "1826",
+          "dissertationtitle": "Note: He refused his theology test so was consequently not given a Cambridge MA",
+          "mscnumber": "03",
+          "advisors": [
+            {
+              "advisorId": 112602,
+              "advisorName": "George Peacock",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 112601,
+              "advisorName": "William Whewell",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 101929,
+          "name": "Edward John Routh"
+        }
+      ],
+      "numberofdescendents": 22093
+    },
+    {
+      "id": 102036,
+      "name": "Thomas Jones",
+      "dissertations": [
+        {
+          "nodeId": 102036,
+          "nodeName": "Thomas Jones",
+          "phdprefix": "M.A.",
+          "university": "University of Cambridge",
+          "yearofcompletion": "1782",
+          "dissertationtitle": "(none)",
+          "mscnumber": "00",
+          "advisors": [
+            {
+              "advisorId": 133301,
+              "advisorName": "Thomas Postlethwaite",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 103066,
+              "advisorName": "John Cranke",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 102043,
+          "name": "Adam Sedgwick"
+        }
+      ],
+      "numberofdescendents": 29085
+    },
+    {
+      "id": 26995,
+      "name": "Michel Chasles",
+      "dissertations": [
+        {
+          "nodeId": 26995,
+          "nodeName": "Michel Chasles",
+          "phdprefix": "Ph.D.",
+          "university": "École Polytechnique",
+          "yearofcompletion": "1814",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 17865,
+              "advisorName": "Siméon Denis Poisson",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 7865,
+          "name": "H. A. (Hubert Anson) Newton"
+        },
+        {
+          "id": 34254,
+          "name": "Gaston Darboux"
+        },
+        {
+          "id": 199754,
+          "name": "Valerian Ligin"
+        }
+      ],
+      "numberofdescendents": 61428
+    },
+    {
+      "id": 43911,
+      "name": "Nigel James Hitchin",
+      "dissertations": [
+        {
+          "nodeId": 43911,
+          "nodeName": "Nigel James Hitchin",
+          "phdprefix": "D.Phil.",
+          "university": "University of Oxford",
+          "yearofcompletion": "1972",
+          "dissertationtitle": "Differentiable Manifolds: The Space of Harmonic Spinors",
+          "mscnumber": "53",
+          "advisors": [
+            {
+              "advisorId": 22477,
+              "advisorName": "Brian F. Steer",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 30949,
+              "advisorName": "Michael Francis Atiyah",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 36909,
+          "name": "Simon Kirwan Donaldson"
+        },
+        {
+          "id": 43852,
+          "name": "Jørgen Ellegaard Andersen"
+        },
+        {
+          "id": 100435,
+          "name": "Stuart Armstrong"
+        },
+        {
+          "id": 49520,
+          "name": "Patrick Baier"
+        },
+        {
+          "id": 49515,
+          "name": "Peter John Baldwin"
+        },
+        {
+          "id": 147960,
+          "name": "David Baraglia"
+        },
+        {
+          "id": 82922,
+          "name": "Claudio Bartocci"
+        },
+        {
+          "id": 199031,
+          "name": "Jakob Lindblad Blaavand"
+        },
+        {
+          "id": 49517,
+          "name": "Philip Boalch"
+        },
+        {
+          "id": 76911,
+          "name": "Juhani Bonsdorff"
+        },
+        {
+          "id": 22411,
+          "name": "Yuri Dimitrov Bozhkov"
+        },
+        {
+          "id": 265482,
+          "name": "Lucas Castello Branco"
+        },
+        {
+          "id": 49512,
+          "name": "David Calderbank"
+        },
+        {
+          "id": 89061,
+          "name": "Gil Cavalcanti"
+        },
+        {
+          "id": 49514,
+          "name": "David Saumitra Chatterjee"
+        },
+        {
+          "id": 49508,
+          "name": "Andrew Dancer"
+        },
+        {
+          "id": 49518,
+          "name": "Birte Feix"
+        },
+        {
+          "id": 147961,
+          "name": "Ana Cristina Ferreira"
+        },
+        {
+          "id": 49509,
+          "name": "Oscar Garcia-Prada"
+        },
+        {
+          "id": 49511,
+          "name": "Peter Beier Gothen"
+        },
+        {
+          "id": 88663,
+          "name": "Marco Gualtieri"
+        },
+        {
+          "id": 49356,
+          "name": "Tamas Hausel"
+        },
+        {
+          "id": 50919,
+          "name": "Jacques Hurtubise"
+        },
+        {
+          "id": 49516,
+          "name": "Marcos Jardim"
+        },
+        {
+          "id": 106483,
+          "name": "Oliver Nash"
+        },
+        {
+          "id": 49507,
+          "name": "William Oxbury"
+        },
+        {
+          "id": 43910,
+          "name": "Henrik Pedersen"
+        },
+        {
+          "id": 49506,
+          "name": "Yat-Sun Poon"
+        },
+        {
+          "id": 156465,
+          "name": "Steven Rayan"
+        },
+        {
+          "id": 187459,
+          "name": "Roberto Rubio"
+        },
+        {
+          "id": 49504,
+          "name": "Simon Montague Salamon"
+        },
+        {
+          "id": 49513,
+          "name": "Sergio d'Amorim Santa Cruz"
+        },
+        {
+          "id": 49519,
+          "name": "Justin Sawon"
+        },
+        {
+          "id": 171532,
+          "name": "Laura Patricia Schaposnik"
+        },
+        {
+          "id": 49510,
+          "name": "Peter Scheinost"
+        },
+        {
+          "id": 49505,
+          "name": "José Antonio Seade Kuri"
+        },
+        {
+          "id": 89115,
+          "name": "Frederik Witt"
+        }
+      ],
+      "numberofdescendents": 455
+    },
+    {
+      "id": 805,
+      "name": "Oswald Veblen",
+      "dissertations": [
+        {
+          "nodeId": 805,
+          "nodeName": "Oswald Veblen",
+          "phdprefix": "Ph.D.",
+          "university": "The University of Chicago",
+          "yearofcompletion": "1903",
+          "dissertationtitle": "A System of Axioms for Geometry",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 806,
+              "advisorName": "E. H. (Eliakim Hastings) Moore",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 1423,
+          "name": "John Henry Constantine Whitehead"
+        },
+        {
+          "id": 23944,
+          "name": "James Alexander"
+        },
+        {
+          "id": 4344,
+          "name": "Albert Bennett"
+        },
+        {
+          "id": 5656,
+          "name": "Henry Brahana"
+        },
+        {
+          "id": 8011,
+          "name": "Alonzo Church"
+        },
+        {
+          "id": 1486,
+          "name": "George Conwell"
+        },
+        {
+          "id": 1488,
+          "name": "Philip Franklin"
+        },
+        {
+          "id": 1377,
+          "name": "James Jr. Givens"
+        },
+        {
+          "id": 18568,
+          "name": "Thomas Graham"
+        },
+        {
+          "id": 35422,
+          "name": "Harold Hotelling"
+        },
+        {
+          "id": 1491,
+          "name": "Morris Knebelman"
+        },
+        {
+          "id": 1468,
+          "name": "Howard Mitchell"
+        },
+        {
+          "id": 1485,
+          "name": "Ulysses Mitchell"
+        },
+        {
+          "id": 286,
+          "name": "R. L. Moore"
+        },
+        {
+          "id": 1354,
+          "name": "Tracy Thomas"
+        },
+        {
+          "id": 1271,
+          "name": "John Vanderslice"
+        }
+      ],
+      "numberofdescendents": 16826
+    },
+    {
+      "id": 121280,
+      "name": "John Gough",
+      "dissertations": [
+        {
+          "nodeId": 121280,
+          "nodeName": "John Gough",
+          "phdprefix": null,
+          "university": null,
+          "yearofcompletion": null,
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 112601,
+          "name": "William Whewell"
+        }
+      ],
+      "numberofdescendents": 22095
+    },
+    {
+      "id": 1423,
+      "name": "John Henry Constantine Whitehead",
+      "dissertations": [
+        {
+          "nodeId": 1423,
+          "nodeName": "John Henry Constantine Whitehead",
+          "phdprefix": "Ph.D.",
+          "university": "Princeton University",
+          "yearofcompletion": "1930",
+          "dissertationtitle": "The Representation of Projective Spaces",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 805,
+              "advisorName": "Oswald Veblen",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 22477,
+          "name": "Brian F. Steer"
+        },
+        {
+          "id": 22533,
+          "name": "William Barcus"
+        },
+        {
+          "id": 12765,
+          "name": "Michael Barratt"
+        },
+        {
+          "id": 45042,
+          "name": "Ronald Brown"
+        },
+        {
+          "id": 22470,
+          "name": "S. Chang"
+        },
+        {
+          "id": 7767,
+          "name": "Anne Cobbe"
+        },
+        {
+          "id": 42522,
+          "name": "Wilfred Cockroft"
+        },
+        {
+          "id": 15868,
+          "name": "Peter Fantham"
+        },
+        {
+          "id": 179015,
+          "name": "Frank Garfield"
+        },
+        {
+          "id": 15659,
+          "name": "Hubert Griffiths"
+        },
+        {
+          "id": 22472,
+          "name": "Victor Gugenheim"
+        },
+        {
+          "id": 42702,
+          "name": "Albert Haron"
+        },
+        {
+          "id": 22466,
+          "name": "Graham Higman"
+        },
+        {
+          "id": 6773,
+          "name": "Peter Hilton"
+        },
+        {
+          "id": 22474,
+          "name": "Ioan Mackenzie James"
+        },
+        {
+          "id": 22467,
+          "name": "James Mauldon"
+        },
+        {
+          "id": 22473,
+          "name": "George Paechter"
+        },
+        {
+          "id": 42530,
+          "name": "Gordon Preston"
+        },
+        {
+          "id": 22476,
+          "name": "Wilson Sutherland"
+        },
+        {
+          "id": 22471,
+          "name": "Robert Taylor"
+        }
+      ],
+      "numberofdescendents": 2102
+    },
+    {
+      "id": 17865,
+      "name": "Siméon Denis Poisson",
+      "dissertations": [
+        {
+          "nodeId": 17865,
+          "nodeName": "Siméon Denis Poisson",
+          "phdprefix": "Ph.D.",
+          "university": "École Polytechnique",
+          "yearofcompletion": "1800",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 17864,
+              "advisorName": "Joseph Louis Lagrange",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 108295,
+              "advisorName": "Pierre-Simon Laplace",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 26995,
+          "name": "Michel Chasles"
+        },
+        {
+          "id": 17946,
+          "name": "Gustav Dirichlet"
+        },
+        {
+          "id": 55185,
+          "name": "Joseph Liouville"
+        },
+        {
+          "id": 259973,
+          "name": "Mikhail Vasilyevich Ostrogradsky"
+        }
+      ],
+      "numberofdescendents": 148438
+    },
+    {
+      "id": 17829,
+      "name": "Andrew Russell Forsyth",
+      "dissertations": [
+        {
+          "nodeId": 17829,
+          "nodeName": "Andrew Russell Forsyth",
+          "phdprefix": "Ph.D.",
+          "university": "University of Cambridge",
+          "yearofcompletion": "1881",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 7824,
+              "advisorName": "Arthur Cayley",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 18571,
+          "name": "Edmund Taylor Whittaker"
+        }
+      ],
+      "numberofdescendents": 11942
+    },
+    {
+      "id": 18583,
+      "name": "William Vallance Douglas Hodge",
+      "dissertations": [
+        {
+          "nodeId": 18583,
+          "nodeName": "William Vallance Douglas Hodge",
+          "phdprefix": "B.A.",
+          "university": "The University of Edinburgh",
+          "yearofcompletion": "1923",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 18571,
+              "advisorName": "Edmund Taylor Whittaker",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 30949,
+          "name": "Michael Francis Atiyah"
+        },
+        {
+          "id": 18553,
+          "name": "Samuel Lilley"
+        },
+        {
+          "id": 42567,
+          "name": "Ian R. Porteous"
+        },
+        {
+          "id": 80092,
+          "name": "Bernard Scott"
+        },
+        {
+          "id": 85350,
+          "name": "David Simms"
+        }
+      ],
+      "numberofdescendents": 1130
+    },
+    {
+      "id": 102037,
+      "name": "John Dawson",
+      "dissertations": [
+        {
+          "nodeId": 102037,
+          "nodeName": "John Dawson",
+          "phdprefix": null,
+          "university": null,
+          "yearofcompletion": null,
+          "dissertationtitle": null,
+          "mscnumber": "51",
+          "advisors": [
+            {
+              "advisorId": 129421,
+              "advisorName": "Edward Waring",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 129422,
+              "advisorName": "Henry Bracken",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 102043,
+          "name": "Adam Sedgwick"
+        }
+      ],
+      "numberofdescendents": 29085
+    },
+    {
+      "id": 129420,
+      "name": "Isaac Todhunter",
+      "dissertations": [
+        {
+          "nodeId": 129420,
+          "nodeName": "Isaac Todhunter",
+          "phdprefix": "M.A.",
+          "university": "University of Cambridge",
+          "yearofcompletion": "1848",
+          "dissertationtitle": null,
+          "mscnumber": "00",
+          "advisors": [
+            {
+              "advisorId": 42016,
+              "advisorName": "William Hopkins",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 101929,
+          "name": "Edward John Routh"
+        }
+      ],
+      "numberofdescendents": 22093
+    },
+    {
+      "id": 93795,
+      "name": "Dominic Joyce",
+      "dissertations": [
+        {
+          "nodeId": 93795,
+          "nodeName": "Dominic Joyce",
+          "phdprefix": "Ph.D.",
+          "university": "University of Oxford",
+          "yearofcompletion": "1992",
+          "dissertationtitle": "Hyper Complex and Quaternionic Manifolds and Scalar Curvature on Connected Sums",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 36909,
+              "advisorName": "Simon Kirwan Donaldson",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 161781,
+          "name": "Tapio Behrndt"
+        },
+        {
+          "id": 280977,
+          "name": "Arkadij Bojko"
+        },
+        {
+          "id": 277338,
+          "name": "Vittoria Bussi"
+        },
+        {
+          "id": 131083,
+          "name": "Yat-Ming Chan"
+        },
+        {
+          "id": 282363,
+          "name": "Kelli Leigh Francis-Staite"
+        },
+        {
+          "id": 233013,
+          "name": "Roland Grinis"
+        },
+        {
+          "id": 278207,
+          "name": "Jacob Gross"
+        },
+        {
+          "id": 159764,
+          "name": "Martijn Kool"
+        },
+        {
+          "id": 318829,
+          "name": "Alexei Latyntsev"
+        },
+        {
+          "id": 131080,
+          "name": "Christopher Lewis"
+        },
+        {
+          "id": 131084,
+          "name": "Jason Lotay"
+        },
+        {
+          "id": 131082,
+          "name": "Stephen Marshall"
+        },
+        {
+          "id": 296186,
+          "name": "Geoffrey Mboya"
+        },
+        {
+          "id": 242876,
+          "name": "Benjamin Volk"
+        },
+        {
+          "id": 131081,
+          "name": "Dominic Widdows"
+        }
+      ],
+      "numberofdescendents": 29
+    },
+    {
+      "id": 112601,
+      "name": "William Whewell",
+      "dissertations": [
+        {
+          "nodeId": 112601,
+          "nodeName": "William Whewell",
+          "phdprefix": "M.A.",
+          "university": "University of Cambridge",
+          "yearofcompletion": null,
+          "dissertationtitle": null,
+          "mscnumber": "00",
+          "advisors": [
+            {
+              "advisorId": 121280,
+              "advisorName": "John Gough",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 112646,
+          "name": "Augustus De Morgan"
+        }
+      ],
+      "numberofdescendents": 22094
+    },
+    {
+      "id": 806,
+      "name": "E. H. (Eliakim Hastings) Moore",
+      "dissertations": [
+        {
+          "nodeId": 806,
+          "nodeName": "E. H. (Eliakim Hastings) Moore",
+          "phdprefix": "Ph.D.",
+          "university": "Yale University",
+          "yearofcompletion": "1885",
+          "dissertationtitle": "Extensions of Certain Theorems of Clifford and Cayley in the Geometry of n Dimensions",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 7865,
+              "advisorName": "H. A. (Hubert Anson) Newton",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 805,
+          "name": "Oswald Veblen"
+        },
+        {
+          "id": 5893,
+          "name": "Richard Baker"
+        },
+        {
+          "id": 6116,
+          "name": "Raymond Barnard"
+        },
+        {
+          "id": 5879,
+          "name": "George Birkhoff"
+        },
+        {
+          "id": 5901,
+          "name": "Edward Chittenden"
+        },
+        {
+          "id": 5695,
+          "name": "Leonard Dickson"
+        },
+        {
+          "id": 5913,
+          "name": "Charles Dines"
+        },
+        {
+          "id": 5868,
+          "name": "William Findlay"
+        },
+        {
+          "id": 5909,
+          "name": "Meyer Gaba"
+        },
+        {
+          "id": 6073,
+          "name": "Vishnu Gokhale"
+        },
+        {
+          "id": 5925,
+          "name": "William Hart"
+        },
+        {
+          "id": 5891,
+          "name": "Theophil Hildebrandt"
+        },
+        {
+          "id": 6090,
+          "name": "Mark Ingraham"
+        },
+        {
+          "id": 5865,
+          "name": "Derrick Lehmer"
+        },
+        {
+          "id": 5882,
+          "name": "Nels Lennes"
+        },
+        {
+          "id": 5889,
+          "name": "Harris MacNeish"
+        },
+        {
+          "id": 5874,
+          "name": "Thomas McKinney"
+        },
+        {
+          "id": 286,
+          "name": "R. L. Moore"
+        },
+        {
+          "id": 5883,
+          "name": "Frederick Owens"
+        },
+        {
+          "id": 6145,
+          "name": "Fancisco Perez"
+        },
+        {
+          "id": 5895,
+          "name": "Arthur Pitcher"
+        },
+        {
+          "id": 5899,
+          "name": "Ralph Root"
+        },
+        {
+          "id": 5923,
+          "name": "Arthur Schweitzer"
+        },
+        {
+          "id": 5697,
+          "name": "Herbert Slaught"
+        },
+        {
+          "id": 6114,
+          "name": "Herman Smith"
+        },
+        {
+          "id": 6082,
+          "name": "Clarence Van Horn"
+        },
+        {
+          "id": 5921,
+          "name": "Mary Wells"
+        },
+        {
+          "id": 5890,
+          "name": "Anna Wheeler"
+        },
+        {
+          "id": 6083,
+          "name": "Robert Wilson"
+        },
+        {
+          "id": 6171,
+          "name": "Yue Wong"
+        },
+        {
+          "id": 6077,
+          "name": "Ernest Zeisler"
+        }
+      ],
+      "numberofdescendents": 30887
+    }
+  ],
+  "edges": [
+    {
+      "fromNodeId": 42016,
+      "toNodeId": 101929
+    },
+    {
+      "fromNodeId": 43911,
+      "toNodeId": 36909
+    },
+    {
+      "fromNodeId": 102043,
+      "toNodeId": 42016
+    },
+    {
+      "fromNodeId": 101929,
+      "toNodeId": 17467
+    },
+    {
+      "fromNodeId": 7865,
+      "toNodeId": 806
+    },
+    {
+      "fromNodeId": 22474,
+      "toNodeId": 22477
+    },
+    {
+      "fromNodeId": 1423,
+      "toNodeId": 22474
+    },
+    {
+      "fromNodeId": 42016,
+      "toNodeId": 129420
+    },
+    {
+      "fromNodeId": 102037,
+      "toNodeId": 102043
+    },
+    {
+      "fromNodeId": 17467,
+      "toNodeId": 18571
+    },
+    {
+      "fromNodeId": 129420,
+      "toNodeId": 101929
+    },
+    {
+      "fromNodeId": 806,
+      "toNodeId": 805
+    },
+    {
+      "fromNodeId": 112646,
+      "toNodeId": 101929
+    },
+    {
+      "fromNodeId": 7824,
+      "toNodeId": 17829
+    },
+    {
+      "fromNodeId": 128703,
+      "toNodeId": 112602
+    },
+    {
+      "fromNodeId": 17829,
+      "toNodeId": 18571
+    },
+    {
+      "fromNodeId": 18583,
+      "toNodeId": 30949
+    },
+    {
+      "fromNodeId": 805,
+      "toNodeId": 1423
+    },
+    {
+      "fromNodeId": 42016,
+      "toNodeId": 7824
+    },
+    {
+      "fromNodeId": 30949,
+      "toNodeId": 43911
+    },
+    {
+      "fromNodeId": 17865,
+      "toNodeId": 26995
+    },
+    {
+      "fromNodeId": 1423,
+      "toNodeId": 22477
+    },
+    {
+      "fromNodeId": 121280,
+      "toNodeId": 112601
+    },
+    {
+      "fromNodeId": 112601,
+      "toNodeId": 112646
+    },
+    {
+      "fromNodeId": 26995,
+      "toNodeId": 7865
+    },
+    {
+      "fromNodeId": 102036,
+      "toNodeId": 102043
+    },
+    {
+      "fromNodeId": 112602,
+      "toNodeId": 112646
+    },
+    {
+      "fromNodeId": 18571,
+      "toNodeId": 18583
+    },
+    {
+      "fromNodeId": 93795,
+      "toNodeId": 282363
+    },
+    {
+      "fromNodeId": 22477,
+      "toNodeId": 43911
+    },
+    {
+      "fromNodeId": 30949,
+      "toNodeId": 36909
+    },
+    {
+      "fromNodeId": 36909,
+      "toNodeId": 93795
+    }
+  ]
+}
