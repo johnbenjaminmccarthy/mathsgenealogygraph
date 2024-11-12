@@ -7,12 +7,13 @@ import johnbenjaminmccarthy from './assets/graph_data/johnbenjaminmccarthy.json'
 import johnbenjaminmccarthybig from './assets/graph_data/johnbenjaminmccarthybig.json';
 import ruadhaidervan from './assets/graph_data/ruadhaidervan.json';
 import kellifrancisstaite from './assets/graph_data/kellifrancisstaite.json';
+import simondonaldson from './assets/graph_data/simondonaldson.json';
 
 import notablePeople from './assets/notable_people/notable_people.json';
 
 import {InfoBox} from "./InfoBox.tsx";
 import {GraphSelector} from "./GraphSelector.tsx";
-import {GenealogyNode, Graph, Preset} from './GraphTypes.tsx';
+import {GenealogyNode, Graph, NotablePerson, Preset} from './GraphTypes.tsx';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
 
     const ref = useRef<SVGSVGElement>(null);
 
-    const notablePeopleMap = new Map(notablePeople.people.map(it => [it.id, it.note]));
+    const notablePeopleMap = new Map(notablePeople.people.map(it => [it.id, it as NotablePerson]));
 
     const zoom = d3.zoom<SVGSVGElement, unknown>()
         .scaleExtent([0.25,2])
@@ -63,6 +64,11 @@ function App() {
         const color = d3.scaleOrdinal(d3.schemeCategory10);
         const nodeIndex = new Map(data.nodes.map((it, index) => [it.id, index]));
 
+        const edgeCount = new Map(data.nodes.map(it => [it.id, 1]));
+        data.edges.forEach(edge => {
+            edgeCount.set(edge.fromNodeId, edgeCount.get(edge.fromNodeId)! + 1);
+            edgeCount.set(edge.toNodeId, edgeCount.get(edge.toNodeId)! + 1);
+        })
 
 
         // The force simulation mutates links and nodes, so create a copy
@@ -97,14 +103,23 @@ function App() {
         const simulation = d3.forceSimulation(nodes)
             .force("link", d3.forceLink(links)
                     .id(d => (d as D3Node).genealogyNode.id)
-                    .distance(l =>
-                        (((l.target as unknown) as D3Node).genealogyNode.id == data.base) || (((l.source as unknown) as D3Node).genealogyNode.id == data.base) ? 60 : 30)
+                    .distance(l =>{
+                            const source = ((l.source as unknown) as D3Node).genealogyNode;
+                            const target = ((l.target as unknown) as D3Node).genealogyNode;
+                            let modifier = 1
+                            if (source.id == data.base || target.id == data.base) {
+                                modifier = 1.3
+                            }
+                            return 20*(edgeCount.get(target.id)! + edgeCount.get(source.id)!)*modifier;
+                        }
+                        //(((l.target as unknown) as D3Node).genealogyNode.id == data.base) || (((l.source as unknown) as D3Node).genealogyNode.id == data.base) ? 300 : 30
+
+                    )
                     .strength(1))
             .force("charge", d3.forceManyBody().strength(-1000))
             .force("center", d3.forceCenter())
             .force("x", d3.forceX().strength(0.01))
             .force("y", d3.forceY().strength(0.01))
-            //.force("radial", d3.forceRadial(width/2, 0, 0).strength(0.05))
             .force("collide", d3.forceCollide(d => d.radius * 3));
 
         // Create the SVG container.
@@ -131,15 +146,17 @@ function App() {
         svg.append("svg:defs")
             .append("svg:marker")
             .attr("id", "arrow")
-            .attr("viewBox", [0,0,10,10])
-            .attr("refX", 15)
-            .attr("refY", -1.5)
-            .attr("markerWidth", 6)
-            .attr("markerHeight", 6)
+            //.attr("viewBox", [0,0,10,10])
+            .attr("refX", 30)
+            .attr("refY", 3)
+            .attr("markerWidth", 10)
+            .attr("markerHeight", 10)
             .attr("orient", "auto")
+            .attr("markerUnits", "strokeWidth")
             .append("path")
-            .attr("d", "M 0 -5 10 10")
-            .style("stroke", "white");
+            .attr("d", "M0,0 L0,6 L9,3 z")
+            .attr("fill", "black")
+            //.style("stroke", "white");
 
         // Add a line for each link, and a circle for each node.
         const link = svg.append("g")
@@ -149,8 +166,8 @@ function App() {
             .selectAll("line")
             .data(links)
             .join("line")
-            .attr("stroke-width", /*d => */Math.sqrt(2))
-            .attr("marker-mid", "url(#arrow)");
+            .attr("stroke-width", /*d => Math.sqrt(2)*/ 3)
+            .attr("marker-end", "url(#arrow)");
 
         const node = svg.append("g")
             .attr("id", "node")
@@ -200,28 +217,6 @@ function App() {
 
         });
 
-        /*function zoomed(event: D3ZoomEvent<SVGSVGElement, unknown>) {
-            const x = event.transform.x;
-            const y = event.transform.y;
-            const k = event.transform.k;
-            const transformString = "translate(" + x + ", " + y + ") scale(" + k + ")";
-
-            if ((event.sourceEvent as Event).type === "mousemove") {
-                svg.attr("cursor", "grabbing");
-            }
-
-            svg.selectAll("g").attr("transform", event.transform.toString());
-
-            //svg.select("#link").attr("transform", transformString);
-            //svg.select("#node").attr("transform", transformString);
-            //svg.select("#labels").attr("transform", transformString);
-
-        }
-
-        function zoomEnd() {
-            svg.attr("cursor", "grab");
-        }*/
-
         return svg.node();
     }
 
@@ -270,6 +265,7 @@ function App() {
             case Preset.johnbenjaminmccarthybig: setInfoBoxNode(null); setGraphData(johnbenjaminmccarthybig); break;
             case Preset.ruadhaidervan: setInfoBoxNode(null); setGraphData(ruadhaidervan); break;
             case Preset.kellifrancisstaite: setInfoBoxNode(null); setGraphData(kellifrancisstaite); break;
+            case Preset.simondonaldson: setInfoBoxNode(null); setGraphData(simondonaldson); break;
         }
     }
 
@@ -290,7 +286,7 @@ function App() {
           <InfoBox
               onCloseButton={infoBoxOnCloseButton}
               nodeInfo={infoBoxNode}
-              notablePersonNote={infoBoxNode ? notablePeopleMap.get(infoBoxNode.id) : undefined}
+              notablePerson={infoBoxNode ? notablePeopleMap.get(infoBoxNode.id) : undefined}
           ></InfoBox>
           <div id={"repositionButtons"}>
               <button className={"returnToCentre"} onClick={() => returnToCentre(0.5)}>Click here to zoom out and recentre</button>

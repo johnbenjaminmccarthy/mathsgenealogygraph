@@ -43,11 +43,19 @@ type Graph = {
     edges: Array<GenealogyEdge>
 }
 
+type NotablePerson = {
+    id: number,
+    fields: boolean,
+    abel: boolean,
+    note: string
+}
+
 export enum Preset {
     johnbenjaminmccarthy = "johnbenjaminmccarthy",
     johnbenjaminmccarthybig = "johnbenjaminmccarthybig",
     ruadhaidervan = "ruadhaidervan",
     kellifrancisstaite = "kellifrancisstaite",
+    simondonaldson = "simondonaldson"
 }
 
-export type { Graph, GenealogyEdge, GenealogyNode, GenealogyNodeDissertation, GenealogyNodeStudent, GenealogyAdvisor };
+export type { Graph, GenealogyEdge, GenealogyNode, GenealogyNodeDissertation, GenealogyNodeStudent, GenealogyAdvisor, NotablePerson };

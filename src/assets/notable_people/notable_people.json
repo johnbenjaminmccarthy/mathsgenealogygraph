@@ -1,20 +1,515 @@
 {
   "people": [
     {
-      "id": 74313,
-      "note": "Inventor of Calculus"
+      "id": 1430,
+      "fields": true,
+      "abel": false,
+      "note": ""
     },
     {
-      "id": 43967,
-      "note": "Fields Medalist"
+      "id": 37358,
+      "fields": true,
+      "abel": false,
+      "note": ""
     },
     {
-      "id": 36909,
-      "note": "Fields Medalist"
+      "id": 34233,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 121277,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 20660,
+      "fields": true,
+      "abel": false,
+      "note": ""
     },
     {
       "id": 34222,
-      "note": "Fields Medalist. Abel Prize winner"
+      "fields": true,
+      "abel": true,
+      "note": "Youngest ever Fields medal winner. Inaugural winner of the Abel prize."
+    },
+    {
+      "id": 27026,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 93398,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 17485,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 15157,
+      "fields": true,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 30949,
+      "fields": true,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 6479,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 31245,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 5086,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 22765,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 18752,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 55147,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 6488,
+      "fields": true,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 72210,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 18755,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 61289,
+      "fields": true,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 6678,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 15062,
+      "fields": true,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 13325,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 34220,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 11749,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 18758,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 36909,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 18851,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 1365,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 20646,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 25056,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 100894,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 31293,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 63054,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 13140,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 34221,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 52166,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 32941,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 67729,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 26861,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 12029,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 22738,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 28125,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 42039,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 84354,
+      "fields": true,
+      "abel": false,
+      "note": "Declined the Fields medal."
+    },
+    {
+      "id": 43967,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 80784,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 106564,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 86472,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 11779,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 56307,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 53746,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 49593,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 56119,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 91093,
+      "fields": true,
+      "abel": false,
+      "note": "First female Fields medalist."
+    },
+    {
+      "id": 98185,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 126306,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 160930,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 69073,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 168435,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 185855,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 178890,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 201884,
+      "fields": true,
+      "abel": false,
+      "note": ""
+    },
+    {
+      "id": 6405,
+      "fields": false,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 13415,
+      "fields": false,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 19781,
+      "fields": false,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 33923,
+      "fields": false,
+      "abel": true,
+      "note": ""
+    },{
+      "id": 22900,
+      "fields": false,
+      "abel": true,
+      "note": ""
+    },{
+      "id": 14999,
+      "fields": false,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 7652,
+      "fields": false,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 70200,
+      "fields": false,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 10481,
+      "fields": false,
+      "abel": true,
+      "note": ""
+    },{
+      "id": 18590,
+      "fields": false,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 13410,
+      "fields": false,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 9696,
+      "fields": false,
+      "abel": true,
+      "note": "Solved Fermat's Last Theorem."
+    },
+    {
+      "id": 34970,
+      "fields": false,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 31056,
+      "fields": false,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 4834,
+      "fields": false,
+      "abel": true,
+      "note": "First female Abel Prize winner."
+    },
+    {
+      "id": 8122,
+      "fields": false,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 15779,
+      "fields": false,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 82100,
+      "fields": false,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 1472,
+      "fields": false,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 33926,
+      "fields": false,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 37261,
+      "fields": false,
+      "abel": true,
+      "note": ""
+    },
+    {
+      "id": 74313,
+      "note": "Inventor of Calculus"
     },
     {
       "id": 60985,

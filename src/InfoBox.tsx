@@ -1,8 +1,8 @@
 import "./style.scss";
 
-import type {GenealogyNode} from "./GraphTypes.tsx";
+import type {GenealogyNode, NotablePerson} from "./GraphTypes.tsx";
 
-export function InfoBox(props: { onCloseButton: () => void, nodeInfo: GenealogyNode | null, notablePersonNote: string | undefined }) {
+export function InfoBox(props: { onCloseButton: () => void, nodeInfo: GenealogyNode | null, notablePerson: NotablePerson | undefined }) {
     if (props.nodeInfo != null) {
 
         return (
@@ -15,9 +15,9 @@ export function InfoBox(props: { onCloseButton: () => void, nodeInfo: GenealogyN
                     <br/>
                     <hr/>
                     {
-                        props.notablePersonNote ?
+                        props.notablePerson ?
                             (<>
-                                <span className={"note"}>{props.notablePersonNote}</span>
+                                <span className={"note"}>{props.notablePerson.fields ? "Fields medalist. " : null}{props.notablePerson.abel ? "Abel prize winner. " : null}{props.notablePerson.note}</span>
                                 <hr />
                             </>) : null
                     }

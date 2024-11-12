@@ -26,8 +26,12 @@
   }
 
   #grid line {
-    stroke: $color-darkbluehighlight;
+    stroke: $color-lightbluehighlight;
     stroke-width: 2px;
+  }
+
+  marker path {
+    fill: $color-lightbluehighlight;
   }
 
   circle {
