@@ -65,10 +65,11 @@
         width:100%;
         display:flex;
         flex-direction:row;
+        flex-wrap: wrap;
 
         div.advisor {
-          max-width:100%;
-          min-width:50%;
+
+          width:50%;
         }
       }
     }
