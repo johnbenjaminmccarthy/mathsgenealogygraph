@@ -1,6 +1,6 @@
 import './style.scss'
 import * as d3 from 'd3';
-import {D3ZoomEvent} from 'd3';
+import {D3DragEvent, D3ZoomEvent} from 'd3';
 import {useEffect, useRef, useState} from "react";
 
 import johnbenjaminmccarthy from './assets/graph_data/johnbenjaminmccarthy.json';
@@ -85,7 +85,9 @@ function App() {
             x: number,
             y: number,
             vx: number,
-            vy: number
+            vy: number,
+            fx: number | undefined,
+            fy: number | undefined
         }
 
         const nodes = data.nodes.map(d => ({...d})).map(it => ({
@@ -96,7 +98,9 @@ function App() {
             x: NaN,
             y: NaN,
             vx: NaN,
-            vy: NaN
+            vy: NaN,
+            fx: undefined,
+            fy: undefined
         }) as D3Node);
 
         // Create a simulation with several forces.
@@ -134,13 +138,6 @@ function App() {
             .attr("cursor", "grab");
             //.on("click", () => { svg.select("#node").selectAll("circle").attr("class", "") });
 
-
-
-        /*svg.call(d3.zoom<SVGSVGElement, unknown>()
-            .extent([[0,0], [width,height]])
-            .scaleExtent([0.5,2])
-            .on("zoom", zoomed)
-            .on("end", zoomEnd));*/
         svg.call(zoom.extent([[0,0], [width,height]]));
 
         svg.append("svg:defs")
@@ -173,13 +170,39 @@ function App() {
             .attr("id", "node")
             .attr("stroke", "#fff")
             .attr("stroke-width", 1.5)
-            .selectAll("circle")
+            .selectAll<SVGCircleElement, unknown>("circle")
             .data(nodes)
             .join("circle")
             .attr("id", d => "id"+d.genealogyNode.id)
             .attr("r", d => d.radius)
             .attr("fill", d => d.color)
-            .on("click", (e: MouseEvent, d: D3Node) => { svg.select("#node").selectAll("circle").attr("class", ""); (e.target as HTMLElement).classList.add("clicked"); setInfoBoxNode(d.genealogyNode) });
+            .on("click", (e: MouseEvent, d: D3Node) => { svg.select("#node").selectAll("circle").attr("class", ""); (e.target as HTMLElement).classList.add("clicked"); setInfoBoxNode(d.genealogyNode) })
+            .call(d3.drag<SVGCircleElement, D3Node>()
+                .on("start", dragStarted)
+                .on("drag", dragged)
+                .on("end", dragEnded));
+
+        function dragStarted(event: D3DragEvent<SVGCircleElement, D3Node, D3Node>) {
+            svg.attr("cursor", "grabbing");
+            if (!event.active) {
+                simulation.alphaTarget(0.3).restart();
+            }
+            event.subject.fx = event.subject.x
+            event.subject.fy = event.subject.y
+        }
+
+        function dragged(event: D3DragEvent<SVGCircleElement, D3Node, D3Node>) {
+            //d3.select("#id" + d.genealogyNode.id).attr("cx", d.x = event.x).attr("cy", d.y = event.y);
+            event.subject.fx = event.x;
+            event.subject.fy = event.y;
+        }
+
+        function dragEnded(event: D3DragEvent<SVGCircleElement, D3Node, D3Node>) {
+            svg.attr("cursor", "grab");
+            if (!event.active) simulation.alphaTarget(0);
+            event.subject.fx = undefined;
+            event.subject.fy = undefined;
+        }
 
         const labels = svg.append("g")
             .attr("id", "labels")
