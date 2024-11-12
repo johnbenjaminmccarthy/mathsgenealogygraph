@@ -266,11 +266,15 @@ function App() {
 
     function presetValue(preset: Preset) {
         switch (preset) {
-            case Preset.johnbenjaminmccarthy: setGraphData(johnbenjaminmccarthy); break;
-            case Preset.johnbenjaminmccarthybig: setGraphData(johnbenjaminmccarthybig); break;
-            case Preset.ruadhaidervan: setGraphData(ruadhaidervan); break;
-            case Preset.kellifrancisstaite: setGraphData(kellifrancisstaite); break;
+            case Preset.johnbenjaminmccarthy: setInfoBoxNode(null); setGraphData(johnbenjaminmccarthy); break;
+            case Preset.johnbenjaminmccarthybig: setInfoBoxNode(null); setGraphData(johnbenjaminmccarthybig); break;
+            case Preset.ruadhaidervan: setInfoBoxNode(null); setGraphData(ruadhaidervan); break;
+            case Preset.kellifrancisstaite: setInfoBoxNode(null); setGraphData(kellifrancisstaite); break;
         }
+    }
+
+    function infoBoxOnCloseButton() {
+        setInfoBoxNode(null);
     }
 
 
@@ -284,8 +288,9 @@ function App() {
             presetFunction={presetValue}
           ></GraphSelector>
           <InfoBox
+              onCloseButton={infoBoxOnCloseButton}
               nodeInfo={infoBoxNode}
-              notablePersonNote={null}
+              notablePersonNote={infoBoxNode ? notablePeopleMap.get(infoBoxNode.id) : undefined}
           ></InfoBox>
           <div id={"repositionButtons"}>
               <button className={"returnToCentre"} onClick={() => returnToCentre(0.5)}>Click here to zoom out and recentre</button>
