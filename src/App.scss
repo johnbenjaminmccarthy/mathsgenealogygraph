@@ -65,3 +65,20 @@
   }
 }
 
+#howDoesItWorkButton {
+  position:absolute;
+  bottom:30px;
+  left:30px;
+  display:flex;
+  flex-direction:column;
+  z-index:1;
+
+  a {
+    color:$color-textwhite;
+    cursor:pointer;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+

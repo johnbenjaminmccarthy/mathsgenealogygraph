@@ -14,6 +14,7 @@ import notablePeople from './assets/notable_people/notable_people.json';
 import {InfoBox} from "./InfoBox.tsx";
 import {GraphSelector} from "./GraphSelector.tsx";
 import {GenealogyNode, Graph, NotablePerson, Preset} from './GraphTypes.tsx';
+import {HowDoesItWorkBox} from "./HowDoesItWorkBox.tsx";
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
 
 
     const [infoBoxNode, setInfoBoxNode] = useState<GenealogyNode | null>(null);
+
+    const [howDoesItWorkBox, setHowDoesItWorkBox] = useState<boolean>(false);
 
     const ref = useRef<SVGSVGElement>(null);
 
@@ -293,6 +296,15 @@ function App() {
         setInfoBoxNode(null);
     }
 
+    function openHowDoesItWorkBox() {
+        setInfoBoxNode(null);
+        setHowDoesItWorkBox(true);
+    }
+
+    function closeHowDoesItWorkBox() {
+        setHowDoesItWorkBox(false);
+    }
+
 
 
   return (
@@ -312,6 +324,13 @@ function App() {
               <button className={"returnToCentre"} onClick={() => returnToCentre(0.5)}>Click here to zoom out and recentre</button>
               <button className={"centreOnBase"} onClick={centreOnBase}>Click here to centre on base node</button>
           </div>
+          <div id={"howDoesItWorkButton"}>
+              <a className={"howDoesItWork"} onClick={openHowDoesItWorkBox}>How does it work?</a>
+          </div>
+          <HowDoesItWorkBox
+              showBox={howDoesItWorkBox}
+            closeButton={closeHowDoesItWorkBox}
+          ></HowDoesItWorkBox>
 
       </>
   )
