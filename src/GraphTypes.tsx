@@ -55,7 +55,8 @@ export enum Preset {
     johnbenjaminmccarthybig = "johnbenjaminmccarthybig",
     ruadhaidervan = "ruadhaidervan",
     kellifrancisstaite = "kellifrancisstaite",
-    simondonaldson = "simondonaldson"
+    simondonaldson = "simondonaldson",
+    michaelatiyah = "michaelatiyah",
 }
 
 export type { Graph, GenealogyEdge, GenealogyNode, GenealogyNodeDissertation, GenealogyNodeStudent, GenealogyAdvisor, NotablePerson };

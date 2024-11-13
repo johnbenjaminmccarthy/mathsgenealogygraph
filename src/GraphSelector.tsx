@@ -27,6 +27,7 @@ export function GraphSelector(props: { presetFunction: (preset: Preset) => void 
                     <option key={Preset.ruadhaidervan} value={"ruadhaidervan"}>Ruadhai Dervan</option>
                     <option key={Preset.kellifrancisstaite} value={"kellifrancisstaite"}>Kelli Francis-Staite</option>
                     <option key={Preset.simondonaldson} value={"simondonaldson"}>Simon Donaldson</option>
+                    <option key={Preset.michaelatiyah} value={"michaelatiyah"}>Michael F. Atiyah</option>
                 </select>
                 <button id={"presetsButton"} onClick={() => props.presetFunction(presetValue)}>Go!</button>
             </div>

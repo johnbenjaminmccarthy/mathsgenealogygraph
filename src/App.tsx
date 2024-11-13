@@ -8,6 +8,7 @@ import johnbenjaminmccarthybig from './assets/graph_data/johnbenjaminmccarthybig
 import ruadhaidervan from './assets/graph_data/ruadhaidervan.json';
 import kellifrancisstaite from './assets/graph_data/kellifrancisstaite.json';
 import simondonaldson from './assets/graph_data/simondonaldson.json';
+import michaelatiyah from './assets/graph_data/michaelatiyah.json';
 
 import notablePeople from './assets/notable_people/notable_people.json';
 
@@ -289,6 +290,7 @@ function App() {
             case Preset.ruadhaidervan: setInfoBoxNode(null); setGraphData(ruadhaidervan); break;
             case Preset.kellifrancisstaite: setInfoBoxNode(null); setGraphData(kellifrancisstaite); break;
             case Preset.simondonaldson: setInfoBoxNode(null); setGraphData(simondonaldson); break;
+            case Preset.michaelatiyah: setInfoBoxNode(null); setGraphData(michaelatiyah); break;
         }
     }
 
