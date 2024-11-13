@@ -183,22 +183,19 @@ function App() {
                 .on("end", dragEnded));
 
         function dragStarted(event: D3DragEvent<SVGCircleElement, D3Node, D3Node>) {
-            svg.attr("cursor", "grabbing");
-            if (!event.active) {
-                simulation.alphaTarget(0.3).restart();
-            }
             event.subject.fx = event.subject.x
             event.subject.fy = event.subject.y
         }
 
         function dragged(event: D3DragEvent<SVGCircleElement, D3Node, D3Node>) {
-            //d3.select("#id" + d.genealogyNode.id).attr("cx", d.x = event.x).attr("cy", d.y = event.y);
+            if (event.active && (event.subject.fx != event.x || event.subject.fy != event.y)) {
+                simulation.alphaTarget(0.1).restart();
+            }
             event.subject.fx = event.x;
             event.subject.fy = event.y;
         }
 
         function dragEnded(event: D3DragEvent<SVGCircleElement, D3Node, D3Node>) {
-            svg.attr("cursor", "grab");
             if (!event.active) simulation.alphaTarget(0);
             event.subject.fx = undefined;
             event.subject.fy = undefined;
