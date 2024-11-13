@@ -1,7 +1,7 @@
 import "./style.scss";
 
-import {Preset} from "./GraphTypes.tsx";
 import {ChangeEvent} from "react";
+import {Preset} from "./Preset.tsx";
 
 export function GraphSelector(props: { presetFunction: (preset: Preset) => void }) {
     let presetValue: Preset = Preset.johnbenjaminmccarthy;
@@ -28,6 +28,7 @@ export function GraphSelector(props: { presetFunction: (preset: Preset) => void 
                     <option key={Preset.kellifrancisstaite} value={"kellifrancisstaite"}>Kelli Francis-Staite</option>
                     <option key={Preset.simondonaldson} value={"simondonaldson"}>Simon Donaldson</option>
                     <option key={Preset.michaelatiyah} value={"michaelatiyah"}>Michael F. Atiyah</option>
+                    <option key={Preset.danielquillen} value={"danielquillen"}>Daniel Quillen</option>
                 </select>
                 <button id={"presetsButton"} onClick={() => props.presetFunction(presetValue)}>Go!</button>
             </div>

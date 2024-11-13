@@ -1,0 +1,5897 @@
+{
+  "base": 13325,
+  "generationsUp": 25,
+  "generationsDown": -3,
+  "numberOfNodes": 139,
+  "numberOfEdges": 147,
+  "nodes": [
+    {
+      "id": 30219,
+      "name": "Kenneth Stephen Brown",
+      "dissertations": [
+        {
+          "nodeId": 30219,
+          "nodeName": "Kenneth Stephen Brown",
+          "phdprefix": "Ph.D.",
+          "university": "Massachusetts Institute of Technology",
+          "yearofcompletion": "1971",
+          "dissertationtitle": "Abstract Homotopy Theory and Generalized Sheaf Cohomology",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 13325,
+              "advisorName": "Daniel Gray Quillen",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 39549,
+          "name": "John Edward Meier"
+        },
+        {
+          "id": 39550,
+          "name": "Melanie Ida Stein"
+        },
+        {
+          "id": 39551,
+          "name": "Susan Marie Hermiller"
+        },
+        {
+          "id": 74363,
+          "name": "Swapneel Arvind Mahajan"
+        },
+        {
+          "id": 79186,
+          "name": "Kenneth N. Moss"
+        },
+        {
+          "id": 79187,
+          "name": "Isabel Beichl"
+        },
+        {
+          "id": 79188,
+          "name": "Bruce Ikenaga"
+        },
+        {
+          "id": 79189,
+          "name": "Vee Ming Lew"
+        },
+        {
+          "id": 79190,
+          "name": "David Webb"
+        },
+        {
+          "id": 90255,
+          "name": "James Michael Belk"
+        },
+        {
+          "id": 105570,
+          "name": "Franco Valentino Saliola"
+        },
+        {
+          "id": 108601,
+          "name": "Russ Woodroofe"
+        },
+        {
+          "id": 112285,
+          "name": "Jason Scott Bode"
+        },
+        {
+          "id": 125599,
+          "name": "Francesco Matucci"
+        },
+        {
+          "id": 280582,
+          "name": "Denise Dawson"
+        }
+      ],
+      "numberofdescendents": 32
+    },
+    {
+      "id": 112689,
+      "name": "Pierre Varignon",
+      "dissertations": [
+        {
+          "nodeId": 112689,
+          "nodeName": "Pierre Varignon",
+          "phdprefix": null,
+          "university": "Académie royale des sciences de Paris",
+          "yearofcompletion": "1687",
+          "dissertationtitle": "Projet d'une nouvelle méchanique avec un examen de l'opinion de M. Borelli sur les propriétez des poids suspendus par des cordes",
+          "mscnumber": "70",
+          "advisors": [
+            {
+              "advisorId": 143011,
+              "advisorName": "Nicolas Malebranche",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 112748,
+          "name": "Jacques Cassini"
+        },
+        {
+          "id": 294942,
+          "name": "Léonor Caron"
+        }
+      ],
+      "numberofdescendents": 158253
+    },
+    {
+      "id": 135185,
+      "name": "Manuel Chrysoloras",
+      "dissertations": [
+        {
+          "nodeId": 135185,
+          "nodeName": "Manuel Chrysoloras",
+          "phdprefix": null,
+          "university": null,
+          "yearofcompletion": null,
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 134780,
+              "advisorName": "Demetrios Kydones",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 134931,
+          "name": "Guarino da Verona"
+        }
+      ],
+      "numberofdescendents": 227870
+    },
+    {
+      "id": 134780,
+      "name": "Demetrios Kydones",
+      "dissertations": [
+        {
+          "nodeId": 134780,
+          "nodeName": "Demetrios Kydones",
+          "phdprefix": null,
+          "university": null,
+          "yearofcompletion": null,
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 146365,
+              "advisorName": "Nilos Kabasilas",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 131575,
+          "name": "Georgios Plethon Gemistos"
+        },
+        {
+          "id": 135185,
+          "name": "Manuel Chrysoloras"
+        }
+      ],
+      "numberofdescendents": 227908
+    },
+    {
+      "id": 108601,
+      "name": "Russ Woodroofe",
+      "dissertations": [
+        {
+          "nodeId": 108601,
+          "nodeName": "Russ Woodroofe",
+          "phdprefix": "Ph.D.",
+          "university": "Cornell University",
+          "yearofcompletion": "2005",
+          "dissertationtitle": "Shelling the Coset Poset",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 30219,
+              "advisorName": "Kenneth Stephen Brown",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 291607,
+          "name": "Andrés David Santamaría-Galvis"
+        }
+      ],
+      "numberofdescendents": 1
+    },
+    {
+      "id": 194593,
+      "name": "Christopher Cave",
+      "dissertations": [
+        {
+          "nodeId": 194593,
+          "nodeName": "Christopher Cave",
+          "phdprefix": "Ph.D.",
+          "university": "University of Southampton",
+          "yearofcompletion": "2015",
+          "dissertationtitle": "On coarse geometric properties of discrete and locally compact groups",
+          "mscnumber": "20",
+          "advisors": [
+            {
+              "advisorId": 67441,
+              "advisorName": "Jacek Brodzki",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 108266,
+      "name": "Jean Le Rond d'Alembert",
+      "dissertations": [
+        {
+          "nodeId": 108266,
+          "nodeName": "Jean Le Rond d'Alembert",
+          "phdprefix": "Maitre-es-arts",
+          "university": "Collège Mazarin",
+          "yearofcompletion": "1735",
+          "dissertationtitle": null,
+          "mscnumber": "70",
+          "advisors": [
+            {
+              "advisorId": 294942,
+              "advisorName": "Léonor Caron",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 108295,
+          "name": "Pierre-Simon Laplace"
+        }
+      ],
+      "numberofdescendents": 148744
+    },
+    {
+      "id": 17865,
+      "name": "Siméon Denis Poisson",
+      "dissertations": [
+        {
+          "nodeId": 17865,
+          "nodeName": "Siméon Denis Poisson",
+          "phdprefix": "Ph.D.",
+          "university": "École Polytechnique",
+          "yearofcompletion": "1800",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 17864,
+              "advisorName": "Joseph Louis Lagrange",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 108295,
+              "advisorName": "Pierre-Simon Laplace",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 17946,
+          "name": "Gustav Dirichlet"
+        },
+        {
+          "id": 26995,
+          "name": "Michel Chasles"
+        },
+        {
+          "id": 55185,
+          "name": "Joseph Liouville"
+        },
+        {
+          "id": 259973,
+          "name": "Mikhail Vasilyevich Ostrogradsky"
+        }
+      ],
+      "numberofdescendents": 148438
+    },
+    {
+      "id": 140181,
+      "name": "Thomas von Kempen à Kempis",
+      "dissertations": [
+        {
+          "nodeId": 140181,
+          "nodeName": "Thomas von Kempen à Kempis",
+          "phdprefix": null,
+          "university": null,
+          "yearofcompletion": null,
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 179836,
+              "advisorName": "Geert (Gerardus Magnus) Groote",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 179837,
+              "advisorName": "Florens (Florentius Radwyn) Radewyns",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 125898,
+          "name": "Alexander Hegius"
+        }
+      ],
+      "numberofdescendents": 227787
+    },
+    {
+      "id": 111665,
+      "name": "Mia Poje",
+      "dissertations": [
+        {
+          "nodeId": 111665,
+          "nodeName": "Mia Poje",
+          "phdprefix": "Ph.D.",
+          "university": "Colorado State University",
+          "yearofcompletion": "1992",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 62770,
+              "advisorName": "Jeanne Duflot",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 67441,
+      "name": "Jacek Brodzki",
+      "dissertations": [
+        {
+          "nodeId": 67441,
+          "nodeName": "Jacek Brodzki",
+          "phdprefix": "D.Phil.",
+          "university": "University of Oxford",
+          "yearofcompletion": "1990",
+          "dissertationtitle": "Cyclic Cohomology and Lie Cochains",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 13325,
+              "advisorName": "Daniel Gray Quillen",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 67478,
+          "name": "Charles F. Braven"
+        },
+        {
+          "id": 100355,
+          "name": "Claire Louise Vatcher"
+        },
+        {
+          "id": 147741,
+          "name": "Rosemary Johanna Putwain"
+        },
+        {
+          "id": 194593,
+          "name": "Christopher Cave"
+        }
+      ],
+      "numberofdescendents": 4
+    },
+    {
+      "id": 35094,
+      "name": "Wallace Clement Sabine",
+      "dissertations": [
+        {
+          "nodeId": 35094,
+          "nodeName": "Wallace Clement Sabine",
+          "phdprefix": "Ph.D.",
+          "university": "Harvard University",
+          "yearofcompletion": "1888",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 67041,
+              "advisorName": "John Trowbridge",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 79749,
+          "name": "Percy Williams Bridgman"
+        }
+      ],
+      "numberofdescendents": 3240
+    },
+    {
+      "id": 131575,
+      "name": "Georgios Plethon Gemistos",
+      "dissertations": [
+        {
+          "nodeId": 131575,
+          "nodeName": "Georgios Plethon Gemistos",
+          "phdprefix": null,
+          "university": null,
+          "yearofcompletion": "1380, 1393",
+          "dissertationtitle": "Nómoi (Book of Laws)",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 134780,
+              "advisorName": "Demetrios Kydones",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 134781,
+              "advisorName": "Elissaeus Judaeus",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 131561,
+          "name": "Basilios Bessarion"
+        },
+        {
+          "id": 133754,
+          "name": "Theodoros II Palaiologos"
+        },
+        {
+          "id": 157015,
+          "name": "Laonikos Chalkokondyles"
+        }
+      ],
+      "numberofdescendents": 227763
+    },
+    {
+      "id": 128012,
+      "name": "Rudolf Agricola",
+      "dissertations": [
+        {
+          "nodeId": 128012,
+          "nodeName": "Rudolf Agricola",
+          "phdprefix": "Magister artium",
+          "university": "Università degli Studi di Ferrara",
+          "yearofcompletion": "1478",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 131584,
+              "advisorName": "Theodoros Gazes",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 125898,
+          "name": "Alexander Hegius"
+        },
+        {
+          "id": 128013,
+          "name": "Conrad Celtis"
+        }
+      ],
+      "numberofdescendents": 227788
+    },
+    {
+      "id": 5655,
+      "name": "David Gordon Bourgin",
+      "dissertations": [
+        {
+          "nodeId": 5655,
+          "nodeName": "David Gordon Bourgin",
+          "phdprefix": "Ph.D.",
+          "university": "Harvard University",
+          "yearofcompletion": "1926",
+          "dissertationtitle": "Intensities of the Lines of the Hydrogen Chloride Fundamental Band",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 22385,
+              "advisorName": "Edwin Crawford Kemble",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 5879,
+              "advisorName": "George David Birkhoff",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 855,
+          "name": "Masami Wakae"
+        },
+        {
+          "id": 946,
+          "name": "Ray Langebartel"
+        },
+        {
+          "id": 4031,
+          "name": "Abraham Charnes"
+        },
+        {
+          "id": 4032,
+          "name": "Marianne Smith"
+        },
+        {
+          "id": 4033,
+          "name": "Selmer Johnson"
+        },
+        {
+          "id": 4034,
+          "name": "George Livesay"
+        },
+        {
+          "id": 4035,
+          "name": "Michael Walsh"
+        },
+        {
+          "id": 4036,
+          "name": "Robert Baer"
+        },
+        {
+          "id": 4037,
+          "name": "Lester Jr. Ford"
+        },
+        {
+          "id": 4038,
+          "name": "Richard Priest"
+        },
+        {
+          "id": 4039,
+          "name": "Charles Maxwell"
+        },
+        {
+          "id": 4040,
+          "name": "Lewis Butler"
+        },
+        {
+          "id": 4041,
+          "name": "Ralph DeMarr"
+        },
+        {
+          "id": 4042,
+          "name": "Surendranath Patnaik"
+        },
+        {
+          "id": 4043,
+          "name": "George Rublein"
+        },
+        {
+          "id": 4044,
+          "name": "Jingyal Pak"
+        },
+        {
+          "id": 4045,
+          "name": "Melvin Thornton"
+        },
+        {
+          "id": 4210,
+          "name": "Benjamin Epstein"
+        },
+        {
+          "id": 12084,
+          "name": "Phillip Martens"
+        },
+        {
+          "id": 12092,
+          "name": "Patrick Wheatley"
+        },
+        {
+          "id": 12100,
+          "name": "James Parks"
+        },
+        {
+          "id": 12109,
+          "name": "Robert Lea"
+        },
+        {
+          "id": 12122,
+          "name": "Evelyn Thornton"
+        },
+        {
+          "id": 12123,
+          "name": "William Whitley"
+        },
+        {
+          "id": 12132,
+          "name": "Carlos Carvalho"
+        },
+        {
+          "id": 12138,
+          "name": "Michael Colvin"
+        },
+        {
+          "id": 12142,
+          "name": "Jean Roberts"
+        },
+        {
+          "id": 12147,
+          "name": "William Jr. Rich"
+        },
+        {
+          "id": 12162,
+          "name": "Robert Nehs"
+        },
+        {
+          "id": 13113,
+          "name": "Richard James Duffin"
+        }
+      ],
+      "numberofdescendents": 1991
+    },
+    {
+      "id": 127107,
+      "name": "Johannes Stöffler",
+      "dissertations": [
+        {
+          "nodeId": 127107,
+          "nodeName": "Johannes Stöffler",
+          "phdprefix": "Magister artium",
+          "university": "Universität Ingolstadt",
+          "yearofcompletion": "1476",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 126956,
+          "name": "Philipp Melanchthon"
+        },
+        {
+          "id": 127365,
+          "name": "Sebastian Münster"
+        }
+      ],
+      "numberofdescendents": 227677
+    },
+    {
+      "id": 174873,
+      "name": "Ashley Weatherwax Johnson",
+      "dissertations": [
+        {
+          "nodeId": 174873,
+          "nodeName": "Ashley Weatherwax Johnson",
+          "phdprefix": "Ph.D.",
+          "university": "University of Nebraska-Lincoln",
+          "yearofcompletion": "2013",
+          "dissertationtitle": "Closure and homological properties of (auto)stackable groups",
+          "mscnumber": "20",
+          "advisors": [
+            {
+              "advisorId": 23325,
+              "advisorName": "Mark William Brittenham",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 39551,
+              "advisorName": "Susan Marie Hermiller",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 55973,
+      "name": "Franck Harou",
+      "dissertations": [
+        {
+          "nodeId": 55973,
+          "nodeName": "Franck Harou",
+          "phdprefix": "Ph.D.",
+          "university": "Université de Rennes 1",
+          "yearofcompletion": "2000",
+          "dissertationtitle": "Revêtements ramifiés de la sphère et surfaces plongées dans des variétés topologiques de dimension trois",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 62762,
+              "advisorName": "Mark David Baker",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 62762,
+      "name": "Mark David Baker",
+      "dissertations": [
+        {
+          "nodeId": 62762,
+          "nodeName": "Mark David Baker",
+          "phdprefix": "Ph.D.",
+          "university": "Massachusetts Institute of Technology",
+          "yearofcompletion": "1981",
+          "dissertationtitle": "Link Complements and Imaginary Quadratic Number Fields",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 13325,
+              "advisorName": "Daniel Gray Quillen",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 55973,
+          "name": "Franck Harou"
+        }
+      ],
+      "numberofdescendents": 1
+    },
+    {
+      "id": 143082,
+      "name": "Sebastian Beck",
+      "dissertations": [
+        {
+          "nodeId": 143082,
+          "nodeName": "Sebastian Beck",
+          "phdprefix": "Theol. Dr.",
+          "university": "Universität Basel",
+          "yearofcompletion": "1610",
+          "dissertationtitle": "Illustre Axioma, Ivstvs Avtem Fide Sva Vivet",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 143045,
+              "advisorName": "Johann Jacob Grynaeus",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 143083,
+          "name": "Theodor Zwinger, Jr."
+        }
+      ],
+      "numberofdescendents": 160055
+    },
+    {
+      "id": 294942,
+      "name": "Léonor Caron",
+      "dissertations": [
+        {
+          "nodeId": 294942,
+          "nodeName": "Léonor Caron",
+          "phdprefix": "Maitre-es-arts",
+          "university": "Collège Mazarin",
+          "yearofcompletion": "1710",
+          "dissertationtitle": null,
+          "mscnumber": "70",
+          "advisors": [
+            {
+              "advisorId": 112689,
+              "advisorName": "Pierre Varignon",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 108266,
+          "name": "Jean Le Rond d'Alembert"
+        }
+      ],
+      "numberofdescendents": 148745
+    },
+    {
+      "id": 298304,
+      "name": "Giovanni Conversini",
+      "dissertations": [
+        {
+          "nodeId": 298304,
+          "nodeName": "Giovanni Conversini",
+          "phdprefix": null,
+          "university": "Università di Bologna",
+          "yearofcompletion": "1363",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 134873,
+          "name": "Vittorino da Feltre"
+        },
+        {
+          "id": 134931,
+          "name": "Guarino da Verona"
+        }
+      ],
+      "numberofdescendents": 227870
+    },
+    {
+      "id": 125755,
+      "name": "Jacob ben Jehiel Loans",
+      "dissertations": [
+        {
+          "nodeId": 125755,
+          "nodeName": "Jacob ben Jehiel Loans",
+          "phdprefix": null,
+          "university": null,
+          "yearofcompletion": null,
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 125760,
+          "name": "Johann (Johannes Kapnion) Reuchlin"
+        }
+      ],
+      "numberofdescendents": 227712
+    },
+    {
+      "id": 100355,
+      "name": "Claire Louise Vatcher",
+      "dissertations": [
+        {
+          "nodeId": 100355,
+          "nodeName": "Claire Louise Vatcher",
+          "phdprefix": "Ph.D.",
+          "university": "University of Southampton",
+          "yearofcompletion": "2006",
+          "dissertationtitle": "Metric and Analytic Properties of R-Trees",
+          "mscnumber": "46",
+          "advisors": [
+            {
+              "advisorId": 67441,
+              "advisorName": "Jacek Brodzki",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 22385,
+      "name": "Edwin Crawford Kemble",
+      "dissertations": [
+        {
+          "nodeId": 22385,
+          "nodeName": "Edwin Crawford Kemble",
+          "phdprefix": "Ph.D.",
+          "university": "Harvard University",
+          "yearofcompletion": "1917",
+          "dissertationtitle": "Studies in the Application of the Quantum Hypothesis to the Kinetic Theory of Gases and to the Theory of their Infrared Absorbtion Bands",
+          "mscnumber": "81",
+          "advisors": [
+            {
+              "advisorId": 79749,
+              "advisorName": "Percy Williams Bridgman",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 5655,
+          "name": "David Gordon Bourgin"
+        },
+        {
+          "id": 78333,
+          "name": "John Van Vleck"
+        },
+        {
+          "id": 176941,
+          "name": "Eugene Feenberg"
+        },
+        {
+          "id": 299199,
+          "name": "Clarence Zener"
+        }
+      ],
+      "numberofdescendents": 2537
+    },
+    {
+      "id": 196130,
+      "name": "Anisah Nu’Man",
+      "dissertations": [
+        {
+          "nodeId": 196130,
+          "nodeName": "Anisah Nu’Man",
+          "phdprefix": "Ph.D.",
+          "university": "University of Nebraska-Lincoln",
+          "yearofcompletion": "2015",
+          "dissertationtitle": "Tame Filling Invariants and Closure Properties",
+          "mscnumber": "20",
+          "advisors": [
+            {
+              "advisorId": 23325,
+              "advisorName": "Mark William Brittenham",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 39551,
+              "advisorName": "Susan Marie Hermiller",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 5879,
+      "name": "George David Birkhoff",
+      "dissertations": [
+        {
+          "nodeId": 5879,
+          "nodeName": "George David Birkhoff",
+          "phdprefix": "Ph.D.",
+          "university": "The University of Chicago",
+          "yearofcompletion": "1907",
+          "dissertationtitle": "Asymptotic Properties of Certain Ordinary Differential Equations with Applications to Boundary Value and Expansion Problems",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 806,
+              "advisorName": "E. H. (Eliakim Hastings) Moore",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 4918,
+          "name": "Robert Daniel Carmichael"
+        },
+        {
+          "id": 4919,
+          "name": "Joseph Slepian"
+        },
+        {
+          "id": 4920,
+          "name": "Kenneth Williams"
+        },
+        {
+          "id": 4921,
+          "name": "Rainard Robbins"
+        },
+        {
+          "id": 4922,
+          "name": "Levi Wilson"
+        },
+        {
+          "id": 4923,
+          "name": "Paul Batchelder"
+        },
+        {
+          "id": 4924,
+          "name": "Raymond Brink"
+        },
+        {
+          "id": 4925,
+          "name": "Norman Miller"
+        },
+        {
+          "id": 4926,
+          "name": "H. C. Marston Morse"
+        },
+        {
+          "id": 4928,
+          "name": "Hyman Ettlinger"
+        },
+        {
+          "id": 4929,
+          "name": "Joseph Walsh"
+        },
+        {
+          "id": 4930,
+          "name": "Rudolph Langer"
+        },
+        {
+          "id": 4931,
+          "name": "Clarence Adams"
+        },
+        {
+          "id": 4932,
+          "name": "Eleanor Pairman"
+        },
+        {
+          "id": 4937,
+          "name": "Carl Garabedian"
+        },
+        {
+          "id": 4938,
+          "name": "Ben-Zion Linfield"
+        },
+        {
+          "id": 4939,
+          "name": "Forrest Murray"
+        },
+        {
+          "id": 4940,
+          "name": "Herman Betz"
+        },
+        {
+          "id": 4941,
+          "name": "Julian Holley"
+        },
+        {
+          "id": 4942,
+          "name": "David Widder"
+        },
+        {
+          "id": 4943,
+          "name": "Heinrich Brinkmann"
+        },
+        {
+          "id": 4944,
+          "name": "Lewis Ward"
+        },
+        {
+          "id": 4945,
+          "name": "Bernard Koopman"
+        },
+        {
+          "id": 4946,
+          "name": "Marshall Stone"
+        },
+        {
+          "id": 4947,
+          "name": "Isador Sheffer"
+        },
+        {
+          "id": 4948,
+          "name": "Carl Coe"
+        },
+        {
+          "id": 4949,
+          "name": "John Hinrichsen"
+        },
+        {
+          "id": 4950,
+          "name": "Chin-Nien Liu"
+        },
+        {
+          "id": 4951,
+          "name": "Charles Jr. Morrey"
+        },
+        {
+          "id": 4952,
+          "name": "Turner Smith"
+        },
+        {
+          "id": 4953,
+          "name": "Frances (Thorndike) Cope"
+        },
+        {
+          "id": 4954,
+          "name": "Daniel Jr. Lewis"
+        },
+        {
+          "id": 4955,
+          "name": "Griffith Price"
+        },
+        {
+          "id": 4956,
+          "name": "Hassler Whitney"
+        },
+        {
+          "id": 4957,
+          "name": "Frederick Steen"
+        },
+        {
+          "id": 4958,
+          "name": "Alan Galbraith"
+        },
+        {
+          "id": 4959,
+          "name": "Otis Lancaster"
+        },
+        {
+          "id": 4960,
+          "name": "Robert Street"
+        },
+        {
+          "id": 4961,
+          "name": "Richard Clippinger"
+        },
+        {
+          "id": 4962,
+          "name": "Arnold Hestenes"
+        },
+        {
+          "id": 4964,
+          "name": "Fausto Gravalos"
+        },
+        {
+          "id": 4965,
+          "name": "Robert O'Connor"
+        },
+        {
+          "id": 4966,
+          "name": "Paul Guenther"
+        },
+        {
+          "id": 5655,
+          "name": "David Gordon Bourgin"
+        },
+        {
+          "id": 8157,
+          "name": "Clarence Jr. Reynolds"
+        },
+        {
+          "id": 43589,
+          "name": "Jeanne Agnew (LeCaine)"
+        }
+      ],
+      "numberofdescendents": 12398
+    },
+    {
+      "id": 143011,
+      "name": "Nicolas Malebranche",
+      "dissertations": [
+        {
+          "nodeId": 143011,
+          "nodeName": "Nicolas Malebranche",
+          "phdprefix": null,
+          "university": "Académie royale des sciences de Paris",
+          "yearofcompletion": "1672",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 54440,
+          "name": "Jacob Bernoulli"
+        },
+        {
+          "id": 112689,
+          "name": "Pierre Varignon"
+        }
+      ],
+      "numberofdescendents": 160359
+    },
+    {
+      "id": 249740,
+      "name": "Nicholas Owad",
+      "dissertations": [
+        {
+          "nodeId": 249740,
+          "nodeName": "Nicholas Owad",
+          "phdprefix": "Ph.D.",
+          "university": "University of Nebraska-Lincoln",
+          "yearofcompletion": "2016",
+          "dissertationtitle": "Bridge spectra of cables of 2-bridge knots",
+          "mscnumber": "57",
+          "advisors": [
+            {
+              "advisorId": 23325,
+              "advisorName": "Mark William Brittenham",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 39551,
+              "advisorName": "Susan Marie Hermiller",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 131535,
+      "name": "Angelo Poliziano",
+      "dissertations": [
+        {
+          "nodeId": 131535,
+          "nodeName": "Angelo Poliziano",
+          "phdprefix": "Magister artium",
+          "university": "Università degli Studi di Firenze",
+          "yearofcompletion": "1477",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 131539,
+              "advisorName": "Marsilio Ficino",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 131540,
+              "advisorName": "Cristoforo Landino",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 131447,
+          "name": "Scipione Fortiguerra"
+        },
+        {
+          "id": 131589,
+          "name": "Michelangelo Buonarroti"
+        }
+      ],
+      "numberofdescendents": 227800
+    },
+    {
+      "id": 131447,
+      "name": "Scipione Fortiguerra",
+      "dissertations": [
+        {
+          "nodeId": 131447,
+          "nodeName": "Scipione Fortiguerra",
+          "phdprefix": "Magister artium",
+          "university": "Università degli Studi di Firenze",
+          "yearofcompletion": "1493",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 131535,
+              "advisorName": "Angelo Poliziano",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 127181,
+          "name": "Girolamo (Hieronymus Aleander) Aleandro"
+        }
+      ],
+      "numberofdescendents": 227798
+    },
+    {
+      "id": 131399,
+      "name": "Wolfgang Fabricius Capito",
+      "dissertations": [
+        {
+          "nodeId": 131399,
+          "nodeName": "Wolfgang Fabricius Capito",
+          "phdprefix": "Magister artium",
+          "university": "Universität Ingolstadt",
+          "yearofcompletion": "1506",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 126659,
+              "advisorName": "Ulrich Zasius",
+              "advisorNumber": 1
+            }
+          ]
+        },
+        {
+          "nodeId": 131399,
+          "nodeName": "Wolfgang Fabricius Capito",
+          "phdprefix": "Theol. Dr.",
+          "university": "Albert-Ludwigs-Universität Freiburg im Breisgau",
+          "yearofcompletion": "1515",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 125938,
+              "advisorName": "Desiderius Erasmus",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 131236,
+          "name": "Paul Fagius"
+        },
+        {
+          "id": 182092,
+          "name": "Simon Sulzer"
+        }
+      ],
+      "numberofdescendents": 187509
+    },
+    {
+      "id": 184266,
+      "name": "Melanie DeVries",
+      "dissertations": [
+        {
+          "nodeId": 184266,
+          "nodeName": "Melanie DeVries",
+          "phdprefix": "Ph.D.",
+          "university": "University of Nebraska-Lincoln",
+          "yearofcompletion": "2013",
+          "dissertationtitle": "Unknotting Moves of Virtual Knots",
+          "mscnumber": "57",
+          "advisors": [
+            {
+              "advisorId": 23325,
+              "advisorName": "Mark William Brittenham",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 39551,
+              "advisorName": "Susan Marie Hermiller",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 62770,
+      "name": "Jeanne Duflot",
+      "dissertations": [
+        {
+          "nodeId": 62770,
+          "nodeName": "Jeanne Duflot",
+          "phdprefix": "Ph.D.",
+          "university": "Massachusetts Institute of Technology",
+          "yearofcompletion": "1980",
+          "dissertationtitle": "Equivariant Cohomology and Smooth p-Toral Actions",
+          "mscnumber": "55",
+          "advisors": [
+            {
+              "advisorId": 13325,
+              "advisorName": "Daniel Gray Quillen",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 111665,
+          "name": "Mia Poje"
+        },
+        {
+          "id": 111802,
+          "name": "Clarence Marak"
+        },
+        {
+          "id": 111803,
+          "name": "Pam Peters"
+        },
+        {
+          "id": 111804,
+          "name": "Mashhoor Refai"
+        },
+        {
+          "id": 111805,
+          "name": "Hassan Mohammad"
+        }
+      ],
+      "numberofdescendents": 5
+    },
+    {
+      "id": 126571,
+      "name": "Rutger Rescius",
+      "dissertations": [
+        {
+          "nodeId": 126571,
+          "nodeName": "Rutger Rescius",
+          "phdprefix": "Artium Baccalaureus",
+          "university": "Université de Paris",
+          "yearofcompletion": "1513",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 127181,
+              "advisorName": "Girolamo (Hieronymus Aleander) Aleandro",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 119159,
+          "name": "Johannes Winter von Andernach"
+        }
+      ],
+      "numberofdescendents": 227592
+    },
+    {
+      "id": 182092,
+      "name": "Simon Sulzer",
+      "dissertations": [
+        {
+          "nodeId": 182092,
+          "nodeName": "Simon Sulzer",
+          "phdprefix": "Magister Artium",
+          "university": "Collège Saint-Guillaume à Strasbourg",
+          "yearofcompletion": "1531",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 131399,
+              "advisorName": "Wolfgang Fabricius Capito",
+              "advisorNumber": 1
+            }
+          ]
+        },
+        {
+          "nodeId": 182092,
+          "nodeName": "Simon Sulzer",
+          "phdprefix": "Magister Artium",
+          "university": "Universität Basel",
+          "yearofcompletion": "1532",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 182045,
+              "advisorName": "Simon Grynaeus",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 143045,
+          "name": "Johann Jacob Grynaeus"
+        }
+      ],
+      "numberofdescendents": 160057
+    },
+    {
+      "id": 125422,
+      "name": "Jacobus (Jacques Dubois) Sylvius",
+      "dissertations": [
+        {
+          "nodeId": 125422,
+          "nodeName": "Jacobus (Jacques Dubois) Sylvius",
+          "phdprefix": "M.B.",
+          "university": "Université de Paris",
+          "yearofcompletion": "1529",
+          "dissertationtitle": null,
+          "mscnumber": "92",
+          "advisors": [
+            {
+              "advisorId": 128987,
+              "advisorName": "François Dubois",
+              "advisorNumber": 1
+            }
+          ]
+        },
+        {
+          "nodeId": 125422,
+          "nodeName": "Jacobus (Jacques Dubois) Sylvius",
+          "phdprefix": "Medicinae Dr.",
+          "university": "Université de Montpellier",
+          "yearofcompletion": "1530",
+          "dissertationtitle": null,
+          "mscnumber": "92",
+          "advisors": [
+            {
+              "advisorId": 128921,
+              "advisorName": "Jean Tagault",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 119159,
+          "name": "Johannes Winter von Andernach"
+        },
+        {
+          "id": 125423,
+          "name": "Carolus Stephanus"
+        },
+        {
+          "id": 126064,
+          "name": "Michael Servetus"
+        }
+      ],
+      "numberofdescendents": 227593
+    },
+    {
+      "id": 125898,
+      "name": "Alexander Hegius",
+      "dissertations": [
+        {
+          "nodeId": 125898,
+          "nodeName": "Alexander Hegius",
+          "phdprefix": "M.A.",
+          "university": "Universität Rostock",
+          "yearofcompletion": "1463",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 128012,
+              "advisorName": "Rudolf Agricola",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 140181,
+              "advisorName": "Thomas von Kempen à Kempis",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 125938,
+          "name": "Desiderius Erasmus"
+        }
+      ],
+      "numberofdescendents": 227786
+    },
+    {
+      "id": 191945,
+      "name": "Héctor José Blandin Noguera",
+      "dissertations": [
+        {
+          "nodeId": 191945,
+          "nodeName": "Héctor José Blandin Noguera",
+          "phdprefix": "Doctorate",
+          "university": "Université du Québec à Montréal",
+          "yearofcompletion": "2015",
+          "dissertationtitle": "La conjecture de polarisation généralisée",
+          "mscnumber": "05",
+          "advisors": [
+            {
+              "advisorId": 79430,
+              "advisorName": "François Bergeron",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 105570,
+              "advisorName": "Franco Valentino Saliola",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 79189,
+      "name": "Vee Ming Lew",
+      "dissertations": [
+        {
+          "nodeId": 79189,
+          "nodeName": "Vee Ming Lew",
+          "phdprefix": "Ph.D.",
+          "university": "Cornell University",
+          "yearofcompletion": "1993",
+          "dissertationtitle": "The Semistability at Infinity for Multiple Extension Groups",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 30219,
+              "advisorName": "Kenneth Stephen Brown",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 152647,
+      "name": "Balthasar Kaeuffelin",
+      "dissertations": [
+        {
+          "nodeId": 152647,
+          "nodeName": "Balthasar Kaeuffelin",
+          "phdprefix": "Dr. theol.",
+          "university": "Eberhard-Karls-Universität Tübingen",
+          "yearofcompletion": "1521",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 152648,
+          "name": "Jakob Beuerlin"
+        }
+      ],
+      "numberofdescendents": 160059
+    },
+    {
+      "id": 137183,
+      "name": "Raymond Frank Vozzo",
+      "dissertations": [
+        {
+          "nodeId": 137183,
+          "nodeName": "Raymond Frank Vozzo",
+          "phdprefix": "Ph. D.",
+          "university": "University of Adelaide",
+          "yearofcompletion": "2009",
+          "dissertationtitle": "Loop Groups, Higgs Fields and Generalised String Classes",
+          "mscnumber": "53",
+          "advisors": [
+            {
+              "advisorId": 58298,
+              "advisorName": "Michael Kevin Murray",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 62771,
+              "advisorName": "Varghese Mathai",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 79749,
+      "name": "Percy Williams Bridgman",
+      "dissertations": [
+        {
+          "nodeId": 79749,
+          "nodeName": "Percy Williams Bridgman",
+          "phdprefix": "Ph.D.",
+          "university": "Harvard University",
+          "yearofcompletion": "1908",
+          "dissertationtitle": "Mercury Resistance as a Pressure Gauge",
+          "mscnumber": "80",
+          "advisors": [
+            {
+              "advisorId": 35094,
+              "advisorName": "Wallace Clement Sabine",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 22385,
+          "name": "Edwin Crawford Kemble"
+        },
+        {
+          "id": 64503,
+          "name": "John Slater"
+        }
+      ],
+      "numberofdescendents": 3239
+    },
+    {
+      "id": 134873,
+      "name": "Vittorino da Feltre",
+      "dissertations": [
+        {
+          "nodeId": 134873,
+          "nodeName": "Vittorino da Feltre",
+          "phdprefix": null,
+          "university": "Università degli Studi di Padova",
+          "yearofcompletion": "1416",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 298290,
+              "advisorName": "Gasparino da Barzizza",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 298304,
+              "advisorName": "Giovanni Conversini",
+              "advisorNumber": 2
+            },
+            {
+              "advisorId": 134931,
+              "advisorName": "Guarino da Verona",
+              "advisorNumber": 3
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 131584,
+          "name": "Theodoros Gazes"
+        },
+        {
+          "id": 149192,
+          "name": "Ognibene (Omnibonus Leonicenus) Bonisoli da Lonigo"
+        },
+        {
+          "id": 298288,
+          "name": "George of Trebizond"
+        }
+      ],
+      "numberofdescendents": 227868
+    },
+    {
+      "id": 125125,
+      "name": "Emmanuel Stupanus",
+      "dissertations": [
+        {
+          "nodeId": 125125,
+          "nodeName": "Emmanuel Stupanus",
+          "phdprefix": "Medicinae Dr.",
+          "university": "Universität Basel",
+          "yearofcompletion": "1613",
+          "dissertationtitle": "De omnis pleuritidis theoria et generali therapia themata medica",
+          "mscnumber": "92",
+          "advisors": [
+            {
+              "advisorId": 130248,
+              "advisorName": "Petrus Ryff",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 101860,
+          "name": "Franciscus de le Boë Sylvius"
+        },
+        {
+          "id": 129628,
+          "name": "Nikolaus Eglinger"
+        },
+        {
+          "id": 129708,
+          "name": "Johann Caspar Bauhin"
+        }
+      ],
+      "numberofdescendents": 219424
+    },
+    {
+      "id": 130248,
+      "name": "Petrus Ryff",
+      "dissertations": [
+        {
+          "nodeId": 130248,
+          "nodeName": "Petrus Ryff",
+          "phdprefix": "Medicinae Dr.",
+          "university": "Universität Basel",
+          "yearofcompletion": "1584",
+          "dissertationtitle": "De Affectibus cordis",
+          "mscnumber": "92",
+          "advisors": [
+            {
+              "advisorId": 182090,
+              "advisorName": "Felix Plater",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 125125,
+          "name": "Emmanuel Stupanus"
+        }
+      ],
+      "numberofdescendents": 219425
+    },
+    {
+      "id": 79188,
+      "name": "Bruce Ikenaga",
+      "dissertations": [
+        {
+          "nodeId": 79188,
+          "nodeName": "Bruce Ikenaga",
+          "phdprefix": "Ph.D.",
+          "university": "Cornell University",
+          "yearofcompletion": "1982",
+          "dissertationtitle": "Homological Dimension and Farrell Cohomology",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 30219,
+              "advisorName": "Kenneth Stephen Brown",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 67041,
+      "name": "John Trowbridge",
+      "dissertations": [
+        {
+          "nodeId": 67041,
+          "nodeName": "John Trowbridge",
+          "phdprefix": "S.D.",
+          "university": "Harvard University",
+          "yearofcompletion": "1873",
+          "dissertationtitle": "I. A New Form of Galvanometer. II. On the Electromotive Actions of Liquids Separated by Membranes. III. On the Electrical Conditin of Gas Flames, IV. Ohm’s Law Considered from a Geometrical Point of View. V. Induced Currents and Derived Circuits",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 132487,
+              "advisorName": "Joseph Lovering",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 35094,
+          "name": "Wallace Clement Sabine"
+        },
+        {
+          "id": 141987,
+          "name": "George Pierce"
+        }
+      ],
+      "numberofdescendents": 5188
+    },
+    {
+      "id": 22932,
+      "name": "Steven P. Lindblad",
+      "dissertations": [
+        {
+          "nodeId": 22932,
+          "nodeName": "Steven P. Lindblad",
+          "phdprefix": "Ph.D.",
+          "university": "University of Nebraska-Lincoln",
+          "yearofcompletion": "2003",
+          "dissertationtitle": "Inverse Monoids Presented by a Single Sparse Relator",
+          "mscnumber": "20",
+          "advisors": [
+            {
+              "advisorId": 39551,
+              "advisorName": "Susan Marie Hermiller",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 11997,
+              "advisorName": "John C. Meakin",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 54440,
+      "name": "Jacob Bernoulli",
+      "dissertations": [
+        {
+          "nodeId": 54440,
+          "nodeName": "Jacob Bernoulli",
+          "phdprefix": "Theol. Dr.",
+          "university": "Universität Basel",
+          "yearofcompletion": "1676",
+          "dissertationtitle": "Primi et Secundi Adami Collatio",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 143084,
+              "advisorName": "Peter Werenfels",
+              "advisorNumber": 1
+            }
+          ]
+        },
+        {
+          "nodeId": 54440,
+          "nodeName": "Jacob Bernoulli",
+          "phdprefix": "Dr. hab. Sci.",
+          "university": "Universität Basel",
+          "yearofcompletion": "1684",
+          "dissertationtitle": "Solutionem tergemini problematis arithmetici, geometrici et astronomici",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 143011,
+              "advisorName": "Nicolas Malebranche",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 53410,
+          "name": "Johann Bernoulli"
+        },
+        {
+          "id": 96720,
+          "name": "Jacob Hermann"
+        },
+        {
+          "id": 103742,
+          "name": "Nikolaus (I) Bernoulli"
+        }
+      ],
+      "numberofdescendents": 160052
+    },
+    {
+      "id": 105570,
+      "name": "Franco Valentino Saliola",
+      "dissertations": [
+        {
+          "nodeId": 105570,
+          "nodeName": "Franco Valentino Saliola",
+          "phdprefix": "Ph.D.",
+          "university": "Cornell University",
+          "yearofcompletion": "2006",
+          "dissertationtitle": "The Face Semigroup Algebra of a Hyperplane Arrangement",
+          "mscnumber": "16",
+          "advisors": [
+            {
+              "advisorId": 30219,
+              "advisorName": "Kenneth Stephen Brown",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 191945,
+          "name": "Héctor José Blandin Noguera"
+        },
+        {
+          "id": 257743,
+          "name": "Nadia Lafrenière"
+        }
+      ],
+      "numberofdescendents": 2
+    },
+    {
+      "id": 128987,
+      "name": "François Dubois",
+      "dissertations": [
+        {
+          "nodeId": 128987,
+          "nodeName": "François Dubois",
+          "phdprefix": "Magister artium",
+          "university": "Université de Paris",
+          "yearofcompletion": "1516",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 125422,
+          "name": "Jacobus (Jacques Dubois) Sylvius"
+        }
+      ],
+      "numberofdescendents": 227594
+    },
+    {
+      "id": 7583,
+      "name": "Raoul H. Bott",
+      "dissertations": [
+        {
+          "nodeId": 7583,
+          "nodeName": "Raoul H. Bott",
+          "phdprefix": "Ph.D.",
+          "university": "Carnegie Mellon University",
+          "yearofcompletion": "1949",
+          "dissertationtitle": "Electrical Network Theory",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 13113,
+              "advisorName": "Richard James Duffin",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 1301,
+          "name": "Joseph Zilber"
+        },
+        {
+          "id": 1348,
+          "name": "Lawrence Conlon"
+        },
+        {
+          "id": 5086,
+          "name": "Stephen Smale"
+        },
+        {
+          "id": 5763,
+          "name": "Peter Landweber"
+        },
+        {
+          "id": 11546,
+          "name": "Robert MacPherson"
+        },
+        {
+          "id": 12421,
+          "name": "Robert Brooks"
+        },
+        {
+          "id": 13324,
+          "name": "Richard Holzsager"
+        },
+        {
+          "id": 13325,
+          "name": "Daniel Gray Quillen"
+        },
+        {
+          "id": 18764,
+          "name": "Susan Tolman"
+        },
+        {
+          "id": 18765,
+          "name": "Constantine Costes"
+        },
+        {
+          "id": 18920,
+          "name": "Andras Szenes"
+        },
+        {
+          "id": 23182,
+          "name": "Jonathan Block"
+        },
+        {
+          "id": 26916,
+          "name": "Robin Forman"
+        },
+        {
+          "id": 28298,
+          "name": "Edward Curtis"
+        },
+        {
+          "id": 38020,
+          "name": "Kevin Corlette"
+        },
+        {
+          "id": 47143,
+          "name": "James Bernhard"
+        },
+        {
+          "id": 54164,
+          "name": "Harold Jr. Edwards"
+        },
+        {
+          "id": 62287,
+          "name": "Edward Miller"
+        },
+        {
+          "id": 63055,
+          "name": "Constantin Teleman"
+        },
+        {
+          "id": 70956,
+          "name": "Paul Bressler"
+        },
+        {
+          "id": 71213,
+          "name": "Michael Grossberg"
+        },
+        {
+          "id": 79364,
+          "name": "Nancy Hingston"
+        },
+        {
+          "id": 79806,
+          "name": "Rama Kocherlakota"
+        },
+        {
+          "id": 86697,
+          "name": "Eric Weinstein"
+        },
+        {
+          "id": 92604,
+          "name": "Mark Mostow"
+        },
+        {
+          "id": 95095,
+          "name": "H. Turner Laquer"
+        },
+        {
+          "id": 129968,
+          "name": "Nicholas Gunther"
+        },
+        {
+          "id": 131035,
+          "name": "Connor Lazarov"
+        },
+        {
+          "id": 149529,
+          "name": "Robert Morelli"
+        },
+        {
+          "id": 205525,
+          "name": "Morris William Brooks"
+        },
+        {
+          "id": 205526,
+          "name": "Richard Lawrence Brown"
+        },
+        {
+          "id": 205527,
+          "name": "John Dayton Garberson"
+        },
+        {
+          "id": 205528,
+          "name": "James Perchik"
+        },
+        {
+          "id": 205529,
+          "name": "Richard Simon Weiss"
+        },
+        {
+          "id": 205530,
+          "name": "Robin Ticciati"
+        }
+      ],
+      "numberofdescendents": 1488
+    },
+    {
+      "id": 182090,
+      "name": "Felix Plater",
+      "dissertations": [
+        {
+          "nodeId": 182090,
+          "nodeName": "Felix Plater",
+          "phdprefix": "Medicinae Doctor",
+          "university": "Université de Montpellier",
+          "yearofcompletion": "1557",
+          "dissertationtitle": null,
+          "mscnumber": "92",
+          "advisors": [
+            {
+              "advisorId": 158329,
+              "advisorName": "Guillaume Rondelet",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 130248,
+          "name": "Petrus Ryff"
+        }
+      ],
+      "numberofdescendents": 219426
+    },
+    {
+      "id": 74363,
+      "name": "Swapneel Arvind Mahajan",
+      "dissertations": [
+        {
+          "nodeId": 74363,
+          "nodeName": "Swapneel Arvind Mahajan",
+          "phdprefix": "Ph.D.",
+          "university": "Cornell University",
+          "yearofcompletion": "2002",
+          "dissertationtitle": "Shuffles and Shellings via Projection Maps",
+          "mscnumber": "16",
+          "advisors": [
+            {
+              "advisorId": 30219,
+              "advisorName": "Kenneth Stephen Brown",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 125938,
+      "name": "Desiderius Erasmus",
+      "dissertations": [
+        {
+          "nodeId": 125938,
+          "nodeName": "Desiderius Erasmus",
+          "phdprefix": "Theologiae Baccalaureus",
+          "university": "Collège de Montaigu",
+          "yearofcompletion": "1497 /1506",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 125888,
+              "advisorName": "Jan Standonck",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 125898,
+              "advisorName": "Alexander Hegius",
+              "advisorNumber": 2
+            }
+          ]
+        },
+        {
+          "nodeId": 125938,
+          "nodeName": "Desiderius Erasmus",
+          "phdprefix": "Divinitatis Doctor",
+          "university": "University of Turin",
+          "yearofcompletion": "1506",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 126667,
+          "name": "Jakob Milich"
+        },
+        {
+          "id": 131399,
+          "name": "Wolfgang Fabricius Capito"
+        }
+      ],
+      "numberofdescendents": 227666
+    },
+    {
+      "id": 240820,
+      "name": "Zhenxi Huang",
+      "dissertations": [
+        {
+          "nodeId": 240820,
+          "nodeName": "Zhenxi Huang",
+          "phdprefix": "Ph.D.",
+          "university": "University of Adelaide",
+          "yearofcompletion": "2018",
+          "dissertationtitle": "Metrics and Special Kahler Geometry on the Moduli Spaces of Higgs Bundles and Hitchin Systems",
+          "mscnumber": "14",
+          "advisors": [
+            {
+              "advisorId": 62771,
+              "advisorName": "Varghese Mathai",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 147960,
+              "advisorName": "David Baraglia",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 173721,
+      "name": "David McCune",
+      "dissertations": [
+        {
+          "nodeId": 173721,
+          "nodeName": "David McCune",
+          "phdprefix": "Ph.D.",
+          "university": "University of Nebraska-Lincoln",
+          "yearofcompletion": "2011",
+          "dissertationtitle": "Groups and Semigroups Generated by Automata",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 39551,
+              "advisorName": "Susan Marie Hermiller",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 11997,
+              "advisorName": "John C. Meakin",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 143045,
+      "name": "Johann Jacob Grynaeus",
+      "dissertations": [
+        {
+          "nodeId": 143045,
+          "nodeName": "Johann Jacob Grynaeus",
+          "phdprefix": "Magister Artium",
+          "university": "Universität Basel",
+          "yearofcompletion": "1559",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 182092,
+              "advisorName": "Simon Sulzer",
+              "advisorNumber": 1
+            }
+          ]
+        },
+        {
+          "nodeId": 143045,
+          "nodeName": "Johann Jacob Grynaeus",
+          "phdprefix": "Theol. Dr.",
+          "university": "Eberhard-Karls-Universität Tübingen",
+          "yearofcompletion": "1564",
+          "dissertationtitle": "De Maiestate hominis Christi: deq[ue] vera & substantiali corporis & sanguinis eius in Eucharistia",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 143044,
+              "advisorName": "Jacob Andreae",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 143082,
+          "name": "Sebastian Beck"
+        }
+      ],
+      "numberofdescendents": 160056
+    },
+    {
+      "id": 131584,
+      "name": "Theodoros Gazes",
+      "dissertations": [
+        {
+          "nodeId": 131584,
+          "nodeName": "Theodoros Gazes",
+          "phdprefix": "Magister artium",
+          "university": "Università di Mantova and Imperial University of Constantinople",
+          "yearofcompletion": "1433",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 134873,
+              "advisorName": "Vittorino da Feltre",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 128012,
+          "name": "Rudolf Agricola"
+        },
+        {
+          "id": 131576,
+          "name": "Demetrios Chalcocondyles"
+        }
+      ],
+      "numberofdescendents": 227727
+    },
+    {
+      "id": 143083,
+      "name": "Theodor Zwinger, Jr.",
+      "dissertations": [
+        {
+          "nodeId": 143083,
+          "nodeName": "Theodor Zwinger, Jr.",
+          "phdprefix": "Theol. Dr.",
+          "university": "Universität Basel",
+          "yearofcompletion": "1630",
+          "dissertationtitle": "De Illustri Sententia Apostolica Hebr. c. 13. V. 8",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 143082,
+              "advisorName": "Sebastian Beck",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 143084,
+          "name": "Peter Werenfels"
+        }
+      ],
+      "numberofdescendents": 160054
+    },
+    {
+      "id": 103187,
+      "name": "Justin A. James",
+      "dissertations": [
+        {
+          "nodeId": 103187,
+          "nodeName": "Justin A. James",
+          "phdprefix": "Ph.D.",
+          "university": "University of Nebraska-Lincoln",
+          "yearofcompletion": "2006",
+          "dissertationtitle": "Some Decision Problems in Group Theory",
+          "mscnumber": "20",
+          "advisors": [
+            {
+              "advisorId": 39551,
+              "advisorName": "Susan Marie Hermiller",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 11997,
+              "advisorName": "John C. Meakin",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 112285,
+      "name": "Jason Scott Bode",
+      "dissertations": [
+        {
+          "nodeId": 112285,
+          "nodeName": "Jason Scott Bode",
+          "phdprefix": "Ph.D.",
+          "university": "Cornell University",
+          "yearofcompletion": "2007",
+          "dissertationtitle": "Isoperimetric Constants and Self-Avoiding Walks and Polygons on Hyperbolic Coxeter Groups",
+          "mscnumber": "55",
+          "advisors": [
+            {
+              "advisorId": 30219,
+              "advisorName": "Kenneth Stephen Brown",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 67478,
+      "name": "Charles F. Braven",
+      "dissertations": [
+        {
+          "nodeId": 67478,
+          "nodeName": "Charles F. Braven",
+          "phdprefix": "Ph.D.",
+          "university": "University of Exeter",
+          "yearofcompletion": "2003",
+          "dissertationtitle": "Cyclic Homology, Manifolds, and Group Actions",
+          "mscnumber": "53",
+          "advisors": [
+            {
+              "advisorId": 25728,
+              "advisorName": "Anton Deitmar",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 67441,
+              "advisorName": "Jacek Brodzki",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 134931,
+      "name": "Guarino da Verona",
+      "dissertations": [
+        {
+          "nodeId": 134931,
+          "nodeName": "Guarino da Verona",
+          "phdprefix": null,
+          "university": "Imperial University of Constantinople",
+          "yearofcompletion": "1408",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 135185,
+              "advisorName": "Manuel Chrysoloras",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 298304,
+              "advisorName": "Giovanni Conversini",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 134873,
+          "name": "Vittorino da Feltre"
+        }
+      ],
+      "numberofdescendents": 227869
+    },
+    {
+      "id": 131561,
+      "name": "Basilios Bessarion",
+      "dissertations": [
+        {
+          "nodeId": 131561,
+          "nodeName": "Basilios Bessarion",
+          "phdprefix": null,
+          "university": "Mystras",
+          "yearofcompletion": "1436",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 131575,
+              "advisorName": "Georgios Plethon Gemistos",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 126109,
+          "name": "Johannes Regiomontanus"
+        },
+        {
+          "id": 131444,
+          "name": "Johannes Argyropoulos"
+        },
+        {
+          "id": 131541,
+          "name": "Janus Lascaris"
+        }
+      ],
+      "numberofdescendents": 227760
+    },
+    {
+      "id": 111805,
+      "name": "Hassan Mohammad",
+      "dissertations": [
+        {
+          "nodeId": 111805,
+          "nodeName": "Hassan Mohammad",
+          "phdprefix": "Ph.D.",
+          "university": "Colorado State University",
+          "yearofcompletion": "1996",
+          "dissertationtitle": "Hopf Ideals in a Universal Hopf Algebra, with Applications",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 62770,
+              "advisorName": "Jeanne Duflot",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 129628,
+      "name": "Nikolaus Eglinger",
+      "dissertations": [
+        {
+          "nodeId": 129628,
+          "nodeName": "Nikolaus Eglinger",
+          "phdprefix": "Medicinae Dr.",
+          "university": "Universität Basel",
+          "yearofcompletion": "1660, 1661",
+          "dissertationtitle": "Disputatio medica in universam physiologiam; Disputatio Medica Inauguralis De Angina",
+          "mscnumber": "92",
+          "advisors": [
+            {
+              "advisorId": 125125,
+              "advisorName": "Emmanuel Stupanus",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 129708,
+              "advisorName": "Johann Caspar Bauhin",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 53410,
+          "name": "Johann Bernoulli"
+        }
+      ],
+      "numberofdescendents": 160050
+    },
+    {
+      "id": 257743,
+      "name": "Nadia Lafrenière",
+      "dissertations": [
+        {
+          "nodeId": 257743,
+          "nodeName": "Nadia Lafrenière",
+          "phdprefix": "Ph.D.",
+          "university": "Université du Québec à Montréal",
+          "yearofcompletion": "2019",
+          "dissertationtitle": "Valeurs propres des opérateurs de mélange symétrisés",
+          "mscnumber": "05",
+          "advisors": [
+            {
+              "advisorId": 105570,
+              "advisorName": "Franco Valentino Saliola",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 39549,
+      "name": "John Edward Meier",
+      "dissertations": [
+        {
+          "nodeId": 39549,
+          "nodeName": "John Edward Meier",
+          "phdprefix": "Ph.D.",
+          "university": "Cornell University",
+          "yearofcompletion": "1992",
+          "dissertationtitle": "Endomorphisms of Negatively-Curved Polygonal Groups",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 30219,
+              "advisorName": "Kenneth Stephen Brown",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 237634,
+      "name": "Hao Guo",
+      "dissertations": [
+        {
+          "nodeId": 237634,
+          "nodeName": "Hao Guo",
+          "phdprefix": "Ph.D.",
+          "university": "University of Adelaide",
+          "yearofcompletion": "2019",
+          "dissertationtitle": "Positive Scalar Curvature and Callias-Type Index Theorems for Proper Actions",
+          "mscnumber": "58",
+          "advisors": [
+            {
+              "advisorId": 62771,
+              "advisorName": "Varghese Mathai",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 172503,
+              "advisorName": "Hang Wang",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 126659,
+      "name": "Ulrich Zasius",
+      "dissertations": [
+        {
+          "nodeId": 126659,
+          "nodeName": "Ulrich Zasius",
+          "phdprefix": "Doctor legum",
+          "university": "Albert-Ludwigs-Universität Freiburg im Breisgau",
+          "yearofcompletion": "1501",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 126667,
+          "name": "Jakob Milich"
+        },
+        {
+          "id": 131399,
+          "name": "Wolfgang Fabricius Capito"
+        }
+      ],
+      "numberofdescendents": 227666
+    },
+    {
+      "id": 257727,
+      "name": "Altair Santos de Oliveira-Tosti",
+      "dissertations": [
+        {
+          "nodeId": 257727,
+          "nodeName": "Altair Santos de Oliveira-Tosti",
+          "phdprefix": "Ph.D.",
+          "university": "Universidade Estadual de Campinas",
+          "yearofcompletion": "2019",
+          "dissertationtitle": "Decision Problems in Homeomorphism Groups",
+          "mscnumber": "20",
+          "advisors": [
+            {
+              "advisorId": 125599,
+              "advisorName": "Francesco Matucci",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 70466,
+              "advisorName": "Dessislava Hristova Kochloukova",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 249737,
+      "name": "Maranda Franke",
+      "dissertations": [
+        {
+          "nodeId": 249737,
+          "nodeName": "Maranda Franke",
+          "phdprefix": "Ph.D.",
+          "university": "University of Nebraska-Lincoln",
+          "yearofcompletion": "2017",
+          "dissertationtitle": "Languages, geodesics, and HNN extensions",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 23325,
+              "advisorName": "Mark William Brittenham",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 39551,
+              "advisorName": "Susan Marie Hermiller",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 259933,
+      "name": "Katherine Tucker",
+      "dissertations": [
+        {
+          "nodeId": 259933,
+          "nodeName": "Katherine Tucker",
+          "phdprefix": "Ph.D.",
+          "university": "University of Nebraska-Lincoln",
+          "yearofcompletion": "2019",
+          "dissertationtitle": "The $t_3,\\overline{t_4}$ conjecture for links",
+          "mscnumber": "57",
+          "advisors": [
+            {
+              "advisorId": 23325,
+              "advisorName": "Mark William Brittenham",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 39551,
+              "advisorName": "Susan Marie Hermiller",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 152648,
+      "name": "Jakob Beuerlin",
+      "dissertations": [
+        {
+          "nodeId": 152648,
+          "nodeName": "Jakob Beuerlin",
+          "phdprefix": "Dr. theol.",
+          "university": "Eberhard-Karls-Universität Tübingen",
+          "yearofcompletion": "1551",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 152647,
+              "advisorName": "Balthasar Kaeuffelin",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 143044,
+          "name": "Jacob Andreae"
+        }
+      ],
+      "numberofdescendents": 160058
+    },
+    {
+      "id": 132487,
+      "name": "Joseph Lovering",
+      "dissertations": [
+        {
+          "nodeId": 132487,
+          "nodeName": "Joseph Lovering",
+          "phdprefix": "A.B.",
+          "university": "Harvard University",
+          "yearofcompletion": "1833",
+          "dissertationtitle": "The Application of the Principle of Fluxions to the Solution of Different Problems",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 80886,
+              "advisorName": "Benjamin Peirce",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 67041,
+          "name": "John Trowbridge"
+        }
+      ],
+      "numberofdescendents": 5189
+    },
+    {
+      "id": 17864,
+      "name": "Joseph Louis Lagrange",
+      "dissertations": [
+        {
+          "nodeId": 17864,
+          "nodeName": "Joseph Louis Lagrange",
+          "phdprefix": "no degree",
+          "university": null,
+          "yearofcompletion": null,
+          "dissertationtitle": "We show a link to Euler to show a connection in our intellectual heritage. (hbc)",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 38586,
+              "advisorName": "Leonhard Euler",
+              "advisorNumber": 1
+            }
+          ]
+        },
+        {
+          "nodeId": 17864,
+          "nodeName": "Joseph Louis Lagrange",
+          "phdprefix": "B.A.",
+          "university": "Università di Torino",
+          "yearofcompletion": "1754",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 146036,
+              "advisorName": "Giovanni Battista (Giambattista) Beccaria",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 17865,
+          "name": "Siméon Denis Poisson"
+        },
+        {
+          "id": 17981,
+          "name": "Jean-Baptiste Fourier"
+        },
+        {
+          "id": 43262,
+          "name": "Giovanni Plana"
+        }
+      ],
+      "numberofdescendents": 148441
+    },
+    {
+      "id": 111803,
+      "name": "Pam Peters",
+      "dissertations": [
+        {
+          "nodeId": 111803,
+          "nodeName": "Pam Peters",
+          "phdprefix": "Ph.D.",
+          "university": "Colorado State University",
+          "yearofcompletion": "2007",
+          "dissertationtitle": "Gaussian Maps for Double Covers of Smooth Toric Surfaces",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 62770,
+              "advisorName": "Jeanne Duflot",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 53410,
+      "name": "Johann Bernoulli",
+      "dissertations": [
+        {
+          "nodeId": 53410,
+          "nodeName": "Johann Bernoulli",
+          "phdprefix": "Medicinae Dr.",
+          "university": "Universität Basel",
+          "yearofcompletion": "1690, 1694",
+          "dissertationtitle": "Dissertatio de effervescentia et fermentatione; Dissertatio Inauguralis Physico-Anatomica de Motu Musculorum",
+          "mscnumber": "92",
+          "advisors": [
+            {
+              "advisorId": 54440,
+              "advisorName": "Jacob Bernoulli",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 129628,
+              "advisorName": "Nikolaus Eglinger",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 38586,
+          "name": "Leonhard Euler"
+        },
+        {
+          "id": 108998,
+          "name": "Daniel Bernoulli"
+        },
+        {
+          "id": 110897,
+          "name": "Samuel König"
+        },
+        {
+          "id": 113403,
+          "name": "Henricus Hoorn"
+        },
+        {
+          "id": 235010,
+          "name": "Pierre Maupertuis"
+        }
+      ],
+      "numberofdescendents": 160049
+    },
+    {
+      "id": 147741,
+      "name": "Rosemary Johanna Putwain",
+      "dissertations": [
+        {
+          "nodeId": 147741,
+          "nodeName": "Rosemary Johanna Putwain",
+          "phdprefix": "Ph.D.",
+          "university": "University of Southampton",
+          "yearofcompletion": "2010",
+          "dissertationtitle": "Partial Translation Algebras For Certain Discrete Metric Spaces",
+          "mscnumber": "00",
+          "advisors": [
+            {
+              "advisorId": 67441,
+              "advisorName": "Jacek Brodzki",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 42464,
+              "advisorName": "Graham A. Niblo",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 127181,
+      "name": "Girolamo (Hieronymus Aleander) Aleandro",
+      "dissertations": [
+        {
+          "nodeId": 127181,
+          "nodeName": "Girolamo (Hieronymus Aleander) Aleandro",
+          "phdprefix": "Magister artium, Theol. Dr.",
+          "university": "Università degli Studi di Padova",
+          "yearofcompletion": "1499, 1508",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 131446,
+              "advisorName": "Moses Perez",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 131447,
+              "advisorName": "Scipione Fortiguerra",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 126571,
+          "name": "Rutger Rescius"
+        },
+        {
+          "id": 131235,
+          "name": "François Vatable"
+        }
+      ],
+      "numberofdescendents": 227678
+    },
+    {
+      "id": 111802,
+      "name": "Clarence Marak",
+      "dissertations": [
+        {
+          "nodeId": 111802,
+          "nodeName": "Clarence Marak",
+          "phdprefix": "Ph.D.",
+          "university": "Colorado State University",
+          "yearofcompletion": "1997",
+          "dissertationtitle": "A Filtration for the Ko of the Inverse Limit of a Diagram",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 62770,
+              "advisorName": "Jeanne Duflot",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 182045,
+      "name": "Simon Grynaeus",
+      "dissertations": [
+        {
+          "nodeId": 182045,
+          "nodeName": "Simon Grynaeus",
+          "phdprefix": "Magister Artium",
+          "university": "Eberhard-Karls-Universität Tübingen",
+          "yearofcompletion": "1511",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 125760,
+              "advisorName": "Johann (Johannes Kapnion) Reuchlin",
+              "advisorNumber": 1
+            }
+          ]
+        },
+        {
+          "nodeId": 182045,
+          "nodeName": "Simon Grynaeus",
+          "phdprefix": "Theol. Dr.",
+          "university": "Martin-Luther-Universität Halle-Wittenberg",
+          "yearofcompletion": "1523",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 126956,
+              "advisorName": "Philipp Melanchthon",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 182092,
+          "name": "Simon Sulzer"
+        }
+      ],
+      "numberofdescendents": 160058
+    },
+    {
+      "id": 179836,
+      "name": "Geert (Gerardus Magnus) Groote",
+      "dissertations": [
+        {
+          "nodeId": 179836,
+          "nodeName": "Geert (Gerardus Magnus) Groote",
+          "phdprefix": "Magister artium",
+          "university": "Université de Paris",
+          "yearofcompletion": "1358",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 140181,
+          "name": "Thomas von Kempen à Kempis"
+        }
+      ],
+      "numberofdescendents": 227788
+    },
+    {
+      "id": 67359,
+      "name": "Luke Schubert",
+      "dissertations": [
+        {
+          "nodeId": 67359,
+          "nodeName": "Luke Schubert",
+          "phdprefix": "Ph.D.",
+          "university": "University of Adelaide",
+          "yearofcompletion": "1997",
+          "dissertationtitle": "Spectral Properties of the Laplacian on p-Forms on the Heisenberg Group",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 62771,
+              "advisorName": "Varghese Mathai",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 67342,
+              "advisorName": "Alan Lawrence Carey",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 146365,
+      "name": "Nilos Kabasilas",
+      "dissertations": [
+        {
+          "nodeId": 146365,
+          "nodeName": "Nilos Kabasilas",
+          "phdprefix": null,
+          "university": null,
+          "yearofcompletion": "1363",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 176844,
+              "advisorName": "Gregory Palamas",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 134780,
+          "name": "Demetrios Kydones"
+        }
+      ],
+      "numberofdescendents": 227909
+    },
+    {
+      "id": 7865,
+      "name": "H. A. (Hubert Anson) Newton",
+      "dissertations": [
+        {
+          "nodeId": 7865,
+          "nodeName": "H. A. (Hubert Anson) Newton",
+          "phdprefix": "B.A.",
+          "university": "Yale University",
+          "yearofcompletion": "1850",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 26995,
+              "advisorName": "Michel Chasles",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 806,
+          "name": "E. H. (Eliakim Hastings) Moore"
+        },
+        {
+          "id": 22376,
+          "name": "Charles Little"
+        },
+        {
+          "id": 118720,
+          "name": "Arthur Wright"
+        },
+        {
+          "id": 132578,
+          "name": "Josiah Gibbs"
+        }
+      ],
+      "numberofdescendents": 30959
+    },
+    {
+      "id": 132277,
+      "name": "Rongmin Lu",
+      "dissertations": [
+        {
+          "nodeId": 132277,
+          "nodeName": "Rongmin Lu",
+          "phdprefix": "Ph.D.",
+          "university": "University of Adelaide",
+          "yearofcompletion": "2009",
+          "dissertationtitle": "Regularized Equivariant Euler Classes and Gamma Functions",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 62771,
+              "advisorName": "Varghese Mathai",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 128812,
+              "advisorName": "Nicholas P. Buchdahl",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 143084,
+      "name": "Peter Werenfels",
+      "dissertations": [
+        {
+          "nodeId": 143084,
+          "nodeName": "Peter Werenfels",
+          "phdprefix": "Theol. Dr.",
+          "university": "Universität Basel",
+          "yearofcompletion": "1649",
+          "dissertationtitle": "Diatribe In Psalmum S. S. Psalterii Primum. De Vnica Et Vera Hominis Felicitate",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 143083,
+              "advisorName": "Theodor Zwinger, Jr.",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 54440,
+          "name": "Jacob Bernoulli"
+        }
+      ],
+      "numberofdescendents": 160053
+    },
+    {
+      "id": 179837,
+      "name": "Florens (Florentius Radwyn) Radewyns",
+      "dissertations": [
+        {
+          "nodeId": 179837,
+          "nodeName": "Florens (Florentius Radwyn) Radewyns",
+          "phdprefix": "M.A.",
+          "university": "Charles University",
+          "yearofcompletion": "1378",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 140181,
+          "name": "Thomas von Kempen à Kempis"
+        }
+      ],
+      "numberofdescendents": 227788
+    },
+    {
+      "id": 80886,
+      "name": "Benjamin Peirce",
+      "dissertations": [
+        {
+          "nodeId": 80886,
+          "nodeName": "Benjamin Peirce",
+          "phdprefix": "A.B.",
+          "university": "Harvard University",
+          "yearofcompletion": "1829",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 147797,
+              "advisorName": "Nathaniel Bowditch",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 122449,
+          "name": "Simon Newcomb"
+        },
+        {
+          "id": 132487,
+          "name": "Joseph Lovering"
+        }
+      ],
+      "numberofdescendents": 7165
+    },
+    {
+      "id": 196129,
+      "name": "Scott Dyer",
+      "dissertations": [
+        {
+          "nodeId": 196129,
+          "nodeName": "Scott Dyer",
+          "phdprefix": "Ph.D.",
+          "university": "University of Nebraska-Lincoln",
+          "yearofcompletion": "2015",
+          "dissertationtitle": "The Strict Higher Grothendieck Integral",
+          "mscnumber": "18",
+          "advisors": [
+            {
+              "advisorId": 23325,
+              "advisorName": "Mark William Brittenham",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 39551,
+              "advisorName": "Susan Marie Hermiller",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 39550,
+      "name": "Melanie Ida Stein",
+      "dissertations": [
+        {
+          "nodeId": 39550,
+          "nodeName": "Melanie Ida Stein",
+          "phdprefix": "Ph.D.",
+          "university": "Cornell University",
+          "yearofcompletion": "1991",
+          "dissertationtitle": "Groups of Piecewise Linear Homeomorphisms",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 30219,
+              "advisorName": "Kenneth Stephen Brown",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 13113,
+      "name": "Richard James Duffin",
+      "dissertations": [
+        {
+          "nodeId": 13113,
+          "nodeName": "Richard James Duffin",
+          "phdprefix": "Ph.D.",
+          "university": "University of Illinois at Urbana-Champaign",
+          "yearofcompletion": "1935",
+          "dissertationtitle": "Galvanomagnetic and Thermomagnetic Phenomena",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 35764,
+              "advisorName": "Harold Meade Mott-Smith",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 5655,
+              "advisorName": "David Gordon Bourgin",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 4801,
+          "name": "Thomas Morley"
+        },
+        {
+          "id": 7583,
+          "name": "Raoul H. Bott"
+        },
+        {
+          "id": 7761,
+          "name": "Elmor Peterson"
+        },
+        {
+          "id": 10297,
+          "name": "Hans Weinberger"
+        },
+        {
+          "id": 13121,
+          "name": "Les Karlovitz"
+        },
+        {
+          "id": 13122,
+          "name": "Merrell Patrick"
+        },
+        {
+          "id": 13124,
+          "name": "Thomas Porsching"
+        },
+        {
+          "id": 13126,
+          "name": "Moshe Mangrad"
+        },
+        {
+          "id": 21281,
+          "name": "Edwin Rogers"
+        },
+        {
+          "id": 29684,
+          "name": "Elsa Boyce"
+        },
+        {
+          "id": 30409,
+          "name": "Charles Duris"
+        },
+        {
+          "id": 31004,
+          "name": "Mary Winter"
+        },
+        {
+          "id": 65307,
+          "name": "Jeff Buckwalter"
+        },
+        {
+          "id": 130965,
+          "name": "Srinivasamurthy Bhargava"
+        },
+        {
+          "id": 312105,
+          "name": "Alan Washburn"
+        }
+      ],
+      "numberofdescendents": 1634
+    },
+    {
+      "id": 111804,
+      "name": "Mashhoor Refai",
+      "dissertations": [
+        {
+          "nodeId": 111804,
+          "nodeName": "Mashhoor Refai",
+          "phdprefix": "Ph.D.",
+          "university": "Colorado State University",
+          "yearofcompletion": "1989",
+          "dissertationtitle": "Group Actions on Finite CS-Complexes",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 62770,
+              "advisorName": "Jeanne Duflot",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 131540,
+      "name": "Cristoforo Landino",
+      "dissertations": [
+        {
+          "nodeId": 131540,
+          "nodeName": "Cristoforo Landino",
+          "phdprefix": null,
+          "university": null,
+          "yearofcompletion": null,
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 298288,
+              "advisorName": "George of Trebizond",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 131535,
+          "name": "Angelo Poliziano"
+        }
+      ],
+      "numberofdescendents": 227801
+    },
+    {
+      "id": 128921,
+      "name": "Jean Tagault",
+      "dissertations": [
+        {
+          "nodeId": 128921,
+          "nodeName": "Jean Tagault",
+          "phdprefix": "dr. med.",
+          "university": "Sorbonne Université",
+          "yearofcompletion": "1524",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 125422,
+          "name": "Jacobus (Jacques Dubois) Sylvius"
+        }
+      ],
+      "numberofdescendents": 227594
+    },
+    {
+      "id": 39551,
+      "name": "Susan Marie Hermiller",
+      "dissertations": [
+        {
+          "nodeId": 39551,
+          "nodeName": "Susan Marie Hermiller",
+          "phdprefix": "Ph.D.",
+          "university": "Cornell University",
+          "yearofcompletion": "1992",
+          "dissertationtitle": "Rewriting Systems for Coxeter Groups",
+          "mscnumber": "20",
+          "advisors": [
+            {
+              "advisorId": 30219,
+              "advisorName": "Kenneth Stephen Brown",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 22932,
+          "name": "Steven P. Lindblad"
+        },
+        {
+          "id": 103187,
+          "name": "Justin A. James"
+        },
+        {
+          "id": 173721,
+          "name": "David McCune"
+        },
+        {
+          "id": 174873,
+          "name": "Ashley Weatherwax Johnson"
+        },
+        {
+          "id": 184266,
+          "name": "Melanie DeVries"
+        },
+        {
+          "id": 196129,
+          "name": "Scott Dyer"
+        },
+        {
+          "id": 196130,
+          "name": "Anisah Nu’Man"
+        },
+        {
+          "id": 249737,
+          "name": "Maranda Franke"
+        },
+        {
+          "id": 249740,
+          "name": "Nicholas Owad"
+        },
+        {
+          "id": 259933,
+          "name": "Katherine Tucker"
+        }
+      ],
+      "numberofdescendents": 10
+    },
+    {
+      "id": 125599,
+      "name": "Francesco Matucci",
+      "dissertations": [
+        {
+          "nodeId": 125599,
+          "nodeName": "Francesco Matucci",
+          "phdprefix": "Ph.D.",
+          "university": "Cornell University",
+          "yearofcompletion": "2008",
+          "dissertationtitle": "Algorithms and Classification in Groups of Piecewise-Linear Homeomorphisms",
+          "mscnumber": "20",
+          "advisors": [
+            {
+              "advisorId": 30219,
+              "advisorName": "Kenneth Stephen Brown",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 77437,
+              "advisorName": "Martin Dimitrov Kassabov",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 257727,
+          "name": "Altair Santos de Oliveira-Tosti"
+        },
+        {
+          "id": 279668,
+          "name": "Miguel Alfredo Del Río Palma"
+        },
+        {
+          "id": 306259,
+          "name": "Davide Perego"
+        }
+      ],
+      "numberofdescendents": 3
+    },
+    {
+      "id": 129708,
+      "name": "Johann Caspar Bauhin",
+      "dissertations": [
+        {
+          "nodeId": 129708,
+          "nodeName": "Johann Caspar Bauhin",
+          "phdprefix": "Medicinae Dr.",
+          "university": "Universität Basel",
+          "yearofcompletion": "1649",
+          "dissertationtitle": "Signorum medicorum doctrina, annexa sphygmice, uromantia & crisium theoria, ex praecipuis Galen. & Hippocr. monumentis semeioticis excerpta",
+          "mscnumber": "05",
+          "advisors": [
+            {
+              "advisorId": 125125,
+              "advisorName": "Emmanuel Stupanus",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 129628,
+          "name": "Nikolaus Eglinger"
+        }
+      ],
+      "numberofdescendents": 160051
+    },
+    {
+      "id": 79190,
+      "name": "David Webb",
+      "dissertations": [
+        {
+          "nodeId": 79190,
+          "nodeName": "David Webb",
+          "phdprefix": "Ph.D.",
+          "university": "Cornell University",
+          "yearofcompletion": "1983",
+          "dissertationtitle": "Grothendieck Groups of Dihedral and Quaternion Group Rings",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 30219,
+              "advisorName": "Kenneth Stephen Brown",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 79186,
+      "name": "Kenneth N. Moss",
+      "dissertations": [
+        {
+          "nodeId": 79186,
+          "nodeName": "Kenneth N. Moss",
+          "phdprefix": "Ph.D.",
+          "university": "Cornell University",
+          "yearofcompletion": "1979",
+          "dissertationtitle": "Homology of the Special Linear Group of the Ring of Integers Localized Away from a Prime",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 30219,
+              "advisorName": "Kenneth Stephen Brown",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 147518,
+      "name": "David Michael Roberts",
+      "dissertations": [
+        {
+          "nodeId": 147518,
+          "nodeName": "David Michael Roberts",
+          "phdprefix": "Ph.D.",
+          "university": "University of Adelaide",
+          "yearofcompletion": "2010",
+          "dissertationtitle": "Fundamental Bigroupoids And 2-covering Spaces",
+          "mscnumber": "18",
+          "advisors": [
+            {
+              "advisorId": 58298,
+              "advisorName": "Michael Kevin Murray",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 62771,
+              "advisorName": "Varghese Mathai",
+              "advisorNumber": 2
+            },
+            {
+              "advisorId": 8588,
+              "advisorName": "James Dillon Stasheff",
+              "advisorNumber": 3
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 279668,
+      "name": "Miguel Alfredo Del Río Palma",
+      "dissertations": [
+        {
+          "nodeId": 279668,
+          "nodeName": "Miguel Alfredo Del Río Palma",
+          "phdprefix": "Ph.D.",
+          "university": "Universidade Estadual de Campinas",
+          "yearofcompletion": "2019",
+          "dissertationtitle": "Graph Diagram Groups",
+          "mscnumber": "20",
+          "advisors": [
+            {
+              "advisorId": 125599,
+              "advisorName": "Francesco Matucci",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 70466,
+              "advisorName": "Dessislava Hristova Kochloukova",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 134781,
+      "name": "Elissaeus Judaeus",
+      "dissertations": [
+        {
+          "nodeId": 134781,
+          "nodeName": "Elissaeus Judaeus",
+          "phdprefix": null,
+          "university": null,
+          "yearofcompletion": null,
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 131575,
+          "name": "Georgios Plethon Gemistos"
+        }
+      ],
+      "numberofdescendents": 227883
+    },
+    {
+      "id": 125760,
+      "name": "Johann (Johannes Kapnion) Reuchlin",
+      "dissertations": [
+        {
+          "nodeId": 125760,
+          "nodeName": "Johann (Johannes Kapnion) Reuchlin",
+          "phdprefix": "Magister artium",
+          "university": "Universität Basel",
+          "yearofcompletion": "1477",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 131444,
+              "advisorName": "Johannes Argyropoulos",
+              "advisorNumber": 1
+            }
+          ]
+        },
+        {
+          "nodeId": 125760,
+          "nodeName": "Johann (Johannes Kapnion) Reuchlin",
+          "phdprefix": "Juris utriusque Doctor",
+          "university": "Université de Poitiers",
+          "yearofcompletion": "1481",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 125755,
+              "advisorName": "Jacob ben Jehiel Loans",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 125682,
+          "name": "Jan (Johannes Campensis) van Campen"
+        },
+        {
+          "id": 126956,
+          "name": "Philipp Melanchthon"
+        },
+        {
+          "id": 182045,
+          "name": "Simon Grynaeus"
+        }
+      ],
+      "numberofdescendents": 227592
+    },
+    {
+      "id": 131444,
+      "name": "Johannes Argyropoulos",
+      "dissertations": [
+        {
+          "nodeId": 131444,
+          "nodeName": "Johannes Argyropoulos",
+          "phdprefix": "Theol. Dr.",
+          "university": "Università degli Studi di Padova",
+          "yearofcompletion": "1444",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 131561,
+              "advisorName": "Basilios Bessarion",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 125760,
+          "name": "Johann (Johannes Kapnion) Reuchlin"
+        },
+        {
+          "id": 131398,
+          "name": "Jacques (Jacobus Faber) Lefèvre d'Étaples"
+        },
+        {
+          "id": 131539,
+          "name": "Marsilio Ficino"
+        },
+        {
+          "id": 131700,
+          "name": "Leonardo da Vinci"
+        }
+      ],
+      "numberofdescendents": 227713
+    },
+    {
+      "id": 38586,
+      "name": "Leonhard Euler",
+      "dissertations": [
+        {
+          "nodeId": 38586,
+          "nodeName": "Leonhard Euler",
+          "phdprefix": null,
+          "university": "Universität Basel",
+          "yearofcompletion": "1726",
+          "dissertationtitle": "Dissertatio physica de sono",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 53410,
+              "advisorName": "Johann Bernoulli",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 17864,
+          "name": "Joseph Louis Lagrange"
+        },
+        {
+          "id": 112812,
+          "name": "Johann Hennert"
+        },
+        {
+          "id": 122708,
+          "name": "Nicolaus Fuss"
+        },
+        {
+          "id": 122737,
+          "name": "Stepan Rumovsky"
+        },
+        {
+          "id": 122738,
+          "name": "Johann Euler"
+        },
+        {
+          "id": 144394,
+          "name": "Semen Kotelnikov"
+        }
+      ],
+      "numberofdescendents": 157948
+    },
+    {
+      "id": 157813,
+      "name": "James Wallbridge",
+      "dissertations": [
+        {
+          "nodeId": 157813,
+          "nodeName": "James Wallbridge",
+          "phdprefix": "Ph.D.",
+          "university": "University of Adelaide and Université Paul Sabatier - Toulouse III",
+          "yearofcompletion": "2011",
+          "dissertationtitle": "Higher Tannaka Duality",
+          "mscnumber": "18",
+          "advisors": [
+            {
+              "advisorId": 25433,
+              "advisorName": "Bertrand Toën",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 62771,
+              "advisorName": "Varghese Mathai",
+              "advisorNumber": 2
+            },
+            {
+              "advisorId": 58298,
+              "advisorName": "Michael Kevin Murray",
+              "advisorNumber": 3
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 146036,
+      "name": "Giovanni Battista (Giambattista) Beccaria",
+      "dissertations": [
+        {
+          "nodeId": 146036,
+          "nodeName": "Giovanni Battista (Giambattista) Beccaria",
+          "phdprefix": null,
+          "university": null,
+          "yearofcompletion": null,
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 17864,
+          "name": "Joseph Louis Lagrange"
+        }
+      ],
+      "numberofdescendents": 148442
+    },
+    {
+      "id": 62771,
+      "name": "Varghese Mathai",
+      "dissertations": [
+        {
+          "nodeId": 62771,
+          "nodeName": "Varghese Mathai",
+          "phdprefix": "Ph.D.",
+          "university": "Massachusetts Institute of Technology",
+          "yearofcompletion": "1986",
+          "dissertationtitle": "Heat Kernels, Thom Classes and the Index Theorem for Imbeddings",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 13325,
+              "advisorName": "Daniel Gray Quillen",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 67358,
+          "name": "Stuart Yates"
+        },
+        {
+          "id": 67359,
+          "name": "Luke Schubert"
+        },
+        {
+          "id": 132277,
+          "name": "Rongmin Lu"
+        },
+        {
+          "id": 137183,
+          "name": "Raymond Frank Vozzo"
+        },
+        {
+          "id": 147518,
+          "name": "David Michael Roberts"
+        },
+        {
+          "id": 156365,
+          "name": "Richard Green"
+        },
+        {
+          "id": 157813,
+          "name": "James Wallbridge"
+        },
+        {
+          "id": 237634,
+          "name": "Hao Guo"
+        },
+        {
+          "id": 240820,
+          "name": "Zhenxi Huang"
+        },
+        {
+          "id": 254821,
+          "name": "Johnny Lim"
+        }
+      ],
+      "numberofdescendents": 10
+    },
+    {
+      "id": 67358,
+      "name": "Stuart Yates",
+      "dissertations": [
+        {
+          "nodeId": 67358,
+          "nodeName": "Stuart Yates",
+          "phdprefix": "Ph.D.",
+          "university": "University of Adelaide",
+          "yearofcompletion": "2002",
+          "dissertationtitle": "Properties and Applications of the Vector Harper Operator",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 62771,
+              "advisorName": "Varghese Mathai",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 806,
+      "name": "E. H. (Eliakim Hastings) Moore",
+      "dissertations": [
+        {
+          "nodeId": 806,
+          "nodeName": "E. H. (Eliakim Hastings) Moore",
+          "phdprefix": "Ph.D.",
+          "university": "Yale University",
+          "yearofcompletion": "1885",
+          "dissertationtitle": "Extensions of Certain Theorems of Clifford and Cayley in the Geometry of n Dimensions",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 7865,
+              "advisorName": "H. A. (Hubert Anson) Newton",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 286,
+          "name": "R. L. Moore"
+        },
+        {
+          "id": 805,
+          "name": "Oswald Veblen"
+        },
+        {
+          "id": 5695,
+          "name": "Leonard Dickson"
+        },
+        {
+          "id": 5697,
+          "name": "Herbert Slaught"
+        },
+        {
+          "id": 5865,
+          "name": "Derrick Lehmer"
+        },
+        {
+          "id": 5868,
+          "name": "William Findlay"
+        },
+        {
+          "id": 5874,
+          "name": "Thomas McKinney"
+        },
+        {
+          "id": 5879,
+          "name": "George David Birkhoff"
+        },
+        {
+          "id": 5882,
+          "name": "Nels Lennes"
+        },
+        {
+          "id": 5883,
+          "name": "Frederick Owens"
+        },
+        {
+          "id": 5889,
+          "name": "Harris MacNeish"
+        },
+        {
+          "id": 5890,
+          "name": "Anna Wheeler"
+        },
+        {
+          "id": 5891,
+          "name": "Theophil Hildebrandt"
+        },
+        {
+          "id": 5893,
+          "name": "Richard Baker"
+        },
+        {
+          "id": 5895,
+          "name": "Arthur Pitcher"
+        },
+        {
+          "id": 5899,
+          "name": "Ralph Root"
+        },
+        {
+          "id": 5901,
+          "name": "Edward Chittenden"
+        },
+        {
+          "id": 5909,
+          "name": "Meyer Gaba"
+        },
+        {
+          "id": 5913,
+          "name": "Charles Dines"
+        },
+        {
+          "id": 5921,
+          "name": "Mary Wells"
+        },
+        {
+          "id": 5923,
+          "name": "Arthur Schweitzer"
+        },
+        {
+          "id": 5925,
+          "name": "William Hart"
+        },
+        {
+          "id": 6073,
+          "name": "Vishnu Gokhale"
+        },
+        {
+          "id": 6077,
+          "name": "Ernest Zeisler"
+        },
+        {
+          "id": 6082,
+          "name": "Clarence Van Horn"
+        },
+        {
+          "id": 6083,
+          "name": "Robert Wilson"
+        },
+        {
+          "id": 6090,
+          "name": "Mark Ingraham"
+        },
+        {
+          "id": 6114,
+          "name": "Herman Smith"
+        },
+        {
+          "id": 6116,
+          "name": "Raymond Barnard"
+        },
+        {
+          "id": 6145,
+          "name": "Fancisco Perez"
+        },
+        {
+          "id": 6171,
+          "name": "Yue Wong"
+        }
+      ],
+      "numberofdescendents": 30887
+    },
+    {
+      "id": 254821,
+      "name": "Johnny Lim",
+      "dissertations": [
+        {
+          "nodeId": 254821,
+          "nodeName": "Johnny Lim",
+          "phdprefix": "Ph.D.",
+          "university": "University of Adelaide",
+          "yearofcompletion": "2019",
+          "dissertationtitle": "Analytic Pontryagin Duality",
+          "mscnumber": "58",
+          "advisors": [
+            {
+              "advisorId": 62771,
+              "advisorName": "Varghese Mathai",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 172503,
+              "advisorName": "Hang Wang",
+              "advisorNumber": 2
+            },
+            {
+              "advisorId": 188740,
+              "advisorName": "Guo Chuan Thiang",
+              "advisorNumber": 3
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 119159,
+      "name": "Johannes Winter von Andernach",
+      "dissertations": [
+        {
+          "nodeId": 119159,
+          "nodeName": "Johannes Winter von Andernach",
+          "phdprefix": "Magister artium",
+          "university": "Université Catholique de Louvain",
+          "yearofcompletion": "1527",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 126571,
+              "advisorName": "Rutger Rescius",
+              "advisorNumber": 1
+            }
+          ]
+        },
+        {
+          "nodeId": 119159,
+          "nodeName": "Johannes Winter von Andernach",
+          "phdprefix": "Med. Dr.",
+          "university": "Collège de Tréguier",
+          "yearofcompletion": "1532",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 125422,
+              "advisorName": "Jacobus (Jacques Dubois) Sylvius",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 119178,
+          "name": "Andreas (Andries van Wesel) Vesalius"
+        },
+        {
+          "id": 125665,
+          "name": "Johannes (Johann Sturm) Sturmius"
+        },
+        {
+          "id": 126064,
+          "name": "Michael Servetus"
+        },
+        {
+          "id": 158329,
+          "name": "Guillaume Rondelet"
+        }
+      ],
+      "numberofdescendents": 227591
+    },
+    {
+      "id": 125888,
+      "name": "Jan Standonck",
+      "dissertations": [
+        {
+          "nodeId": 125888,
+          "nodeName": "Jan Standonck",
+          "phdprefix": "Magister artium",
+          "university": "Collège Sainte-Barbe",
+          "yearofcompletion": "1474",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        },
+        {
+          "nodeId": 125888,
+          "nodeName": "Jan Standonck",
+          "phdprefix": "Theol. Dr.",
+          "university": "Collège de Montaigu",
+          "yearofcompletion": "1490",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 125681,
+          "name": "Jacobus (Jacques Masson) Latomus"
+        },
+        {
+          "id": 125938,
+          "name": "Desiderius Erasmus"
+        },
+        {
+          "id": 125939,
+          "name": "John Mair"
+        },
+        {
+          "id": 129893,
+          "name": "Noël Béda"
+        }
+      ],
+      "numberofdescendents": 227824
+    },
+    {
+      "id": 26995,
+      "name": "Michel Chasles",
+      "dissertations": [
+        {
+          "nodeId": 26995,
+          "nodeName": "Michel Chasles",
+          "phdprefix": "Ph.D.",
+          "university": "École Polytechnique",
+          "yearofcompletion": "1814",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 17865,
+              "advisorName": "Siméon Denis Poisson",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 7865,
+          "name": "H. A. (Hubert Anson) Newton"
+        },
+        {
+          "id": 34254,
+          "name": "Gaston Darboux"
+        },
+        {
+          "id": 199754,
+          "name": "Valerian Ligin"
+        }
+      ],
+      "numberofdescendents": 61428
+    },
+    {
+      "id": 13325,
+      "name": "Daniel Gray Quillen",
+      "dissertations": [
+        {
+          "nodeId": 13325,
+          "nodeName": "Daniel Gray Quillen",
+          "phdprefix": "Ph.D.",
+          "university": "Harvard University",
+          "yearofcompletion": "1964",
+          "dissertationtitle": "Formal Properties of Over-Determined Systems of Linear Partial Differential Equations",
+          "mscnumber": "19",
+          "advisors": [
+            {
+              "advisorId": 7583,
+              "advisorName": "Raoul H. Bott",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 30219,
+          "name": "Kenneth Stephen Brown"
+        },
+        {
+          "id": 62762,
+          "name": "Mark David Baker"
+        },
+        {
+          "id": 62764,
+          "name": "Howard Lyn Hiller"
+        },
+        {
+          "id": 62770,
+          "name": "Jeanne Duflot"
+        },
+        {
+          "id": 62771,
+          "name": "Varghese Mathai"
+        },
+        {
+          "id": 67441,
+          "name": "Jacek Brodzki"
+        }
+      ],
+      "numberofdescendents": 58
+    },
+    {
+      "id": 131539,
+      "name": "Marsilio Ficino",
+      "dissertations": [
+        {
+          "nodeId": 131539,
+          "nodeName": "Marsilio Ficino",
+          "phdprefix": "Magister artium",
+          "university": "Università degli Studi di Firenze",
+          "yearofcompletion": "1462",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 131444,
+              "advisorName": "Johannes Argyropoulos",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 131535,
+          "name": "Angelo Poliziano"
+        }
+      ],
+      "numberofdescendents": 227801
+    },
+    {
+      "id": 4918,
+      "name": "Robert Daniel Carmichael",
+      "dissertations": [
+        {
+          "nodeId": 4918,
+          "nodeName": "Robert Daniel Carmichael",
+          "phdprefix": "Ph.D.",
+          "university": "Princeton University",
+          "yearofcompletion": "1911",
+          "dissertationtitle": "Linear Difference Equations and their Analytic Solutions",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 5879,
+              "advisorName": "George David Birkhoff",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 2205,
+          "name": "Cora Hennel"
+        },
+        {
+          "id": 4097,
+          "name": "William Wilson"
+        },
+        {
+          "id": 4098,
+          "name": "Merlin Smith"
+        },
+        {
+          "id": 4099,
+          "name": "Charles Greene"
+        },
+        {
+          "id": 4100,
+          "name": "Leonard Steimley"
+        },
+        {
+          "id": 4101,
+          "name": "William Udinski"
+        },
+        {
+          "id": 4102,
+          "name": "Bernhard Reinsch"
+        },
+        {
+          "id": 4103,
+          "name": "Max Carman"
+        },
+        {
+          "id": 4104,
+          "name": "Borden Hoover"
+        },
+        {
+          "id": 4105,
+          "name": "Harold Bailey"
+        },
+        {
+          "id": 4106,
+          "name": "Nelson Conkwright"
+        },
+        {
+          "id": 4107,
+          "name": "Roy Graesser"
+        },
+        {
+          "id": 4108,
+          "name": "Hemphill Hosford"
+        },
+        {
+          "id": 4109,
+          "name": "Guy Stevenson"
+        },
+        {
+          "id": 4110,
+          "name": "John Morrel"
+        },
+        {
+          "id": 4111,
+          "name": "Hugh Beveridge"
+        },
+        {
+          "id": 4112,
+          "name": "Oliver Bower"
+        },
+        {
+          "id": 4113,
+          "name": "Cletus Oakley"
+        },
+        {
+          "id": 4114,
+          "name": "Leonard Bristow"
+        },
+        {
+          "id": 4115,
+          "name": "Jesse Purdy"
+        },
+        {
+          "id": 4116,
+          "name": "George Starcher"
+        },
+        {
+          "id": 4117,
+          "name": "Paul Smith"
+        },
+        {
+          "id": 4118,
+          "name": "Daniel Sigley"
+        },
+        {
+          "id": 4119,
+          "name": "John Locke"
+        },
+        {
+          "id": 4120,
+          "name": "Marion Bird"
+        },
+        {
+          "id": 4121,
+          "name": "Gertrude Ketchum"
+        },
+        {
+          "id": 4122,
+          "name": "William Martin"
+        },
+        {
+          "id": 4123,
+          "name": "Albert Burdette"
+        },
+        {
+          "id": 4124,
+          "name": "Gaines Lang"
+        },
+        {
+          "id": 4125,
+          "name": "James Dobbie"
+        },
+        {
+          "id": 4126,
+          "name": "Marvin Moore"
+        },
+        {
+          "id": 4127,
+          "name": "James Kent"
+        },
+        {
+          "id": 13430,
+          "name": "John Cell"
+        },
+        {
+          "id": 35764,
+          "name": "Harold Meade Mott-Smith"
+        },
+        {
+          "id": 38984,
+          "name": "Raymond Borden"
+        }
+      ],
+      "numberofdescendents": 1677
+    },
+    {
+      "id": 241096,
+      "name": "Alathea Irene Jensen",
+      "dissertations": [
+        {
+          "nodeId": 241096,
+          "nodeName": "Alathea Irene Jensen",
+          "phdprefix": "Ph.D.",
+          "university": "George Mason University",
+          "yearofcompletion": "2018",
+          "dissertationtitle": "Self-polar Polytopes and Sequential Importance Sampling Algorithms",
+          "mscnumber": "52",
+          "advisors": [
+            {
+              "advisorId": 28150,
+              "advisorName": "James F. Lawrence",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 79187,
+              "advisorName": "Isabel Beichl",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 158329,
+      "name": "Guillaume Rondelet",
+      "dissertations": [
+        {
+          "nodeId": 158329,
+          "nodeName": "Guillaume Rondelet",
+          "phdprefix": null,
+          "university": "Université de Paris",
+          "yearofcompletion": "1529",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 119159,
+              "advisorName": "Johannes Winter von Andernach",
+              "advisorNumber": 1
+            }
+          ]
+        },
+        {
+          "nodeId": 158329,
+          "nodeName": "Guillaume Rondelet",
+          "phdprefix": "Medicinae Doctor",
+          "university": "Université de Montpellier",
+          "yearofcompletion": "1537",
+          "dissertationtitle": null,
+          "mscnumber": "92",
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 182090,
+          "name": "Felix Plater"
+        }
+      ],
+      "numberofdescendents": 219427
+    },
+    {
+      "id": 90255,
+      "name": "James Michael Belk",
+      "dissertations": [
+        {
+          "nodeId": 90255,
+          "nodeName": "James Michael Belk",
+          "phdprefix": "Ph.D.",
+          "university": "Cornell University",
+          "yearofcompletion": "2004",
+          "dissertationtitle": "Thompson's Group F",
+          "mscnumber": "20",
+          "advisors": [
+            {
+              "advisorId": 30219,
+              "advisorName": "Kenneth Stephen Brown",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 306259,
+          "name": "Davide Perego"
+        }
+      ],
+      "numberofdescendents": 1
+    },
+    {
+      "id": 147797,
+      "name": "Nathaniel Bowditch",
+      "dissertations": [
+        {
+          "nodeId": 147797,
+          "nodeName": "Nathaniel Bowditch",
+          "phdprefix": null,
+          "university": null,
+          "yearofcompletion": null,
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 80886,
+          "name": "Benjamin Peirce"
+        }
+      ],
+      "numberofdescendents": 7166
+    },
+    {
+      "id": 298288,
+      "name": "George of Trebizond",
+      "dissertations": [
+        {
+          "nodeId": 298288,
+          "nodeName": "George of Trebizond",
+          "phdprefix": null,
+          "university": null,
+          "yearofcompletion": null,
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 134873,
+              "advisorName": "Vittorino da Feltre",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 131540,
+          "name": "Cristoforo Landino"
+        }
+      ],
+      "numberofdescendents": 227802
+    },
+    {
+      "id": 126956,
+      "name": "Philipp Melanchthon",
+      "dissertations": [
+        {
+          "nodeId": 126956,
+          "nodeName": "Philipp Melanchthon",
+          "phdprefix": "Baccalaureus artium",
+          "university": "Ruprecht-Karls-Universität Heidelberg",
+          "yearofcompletion": "1511",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 127107,
+              "advisorName": "Johannes Stöffler",
+              "advisorNumber": 1
+            }
+          ]
+        },
+        {
+          "nodeId": 126956,
+          "nodeName": "Philipp Melanchthon",
+          "phdprefix": "Magister artium",
+          "university": "Eberhard-Karls-Universität Tübingen",
+          "yearofcompletion": "1514",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 125760,
+              "advisorName": "Johann (Johannes Kapnion) Reuchlin",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 127011,
+          "name": "Johannes Hommel"
+        },
+        {
+          "id": 127110,
+          "name": "Michael Beuther"
+        },
+        {
+          "id": 128104,
+          "name": "Johannes Caselius"
+        },
+        {
+          "id": 182045,
+          "name": "Simon Grynaeus"
+        }
+      ],
+      "numberofdescendents": 227555
+    },
+    {
+      "id": 35764,
+      "name": "Harold Meade Mott-Smith",
+      "dissertations": [
+        {
+          "nodeId": 35764,
+          "nodeName": "Harold Meade Mott-Smith",
+          "phdprefix": "Ph.D.",
+          "university": "University of Illinois at Urbana-Champaign",
+          "yearofcompletion": "1933",
+          "dissertationtitle": "Certain Integral Transformations Connected with the Summation Problem",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 4918,
+              "advisorName": "Robert Daniel Carmichael",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 13113,
+          "name": "Richard James Duffin"
+        }
+      ],
+      "numberofdescendents": 1635
+    },
+    {
+      "id": 280582,
+      "name": "Denise Dawson",
+      "dissertations": [
+        {
+          "nodeId": 280582,
+          "nodeName": "Denise Dawson",
+          "phdprefix": "Ph.D.",
+          "university": "Cornell University",
+          "yearofcompletion": "2011",
+          "dissertationtitle": "Complete reducibility in Euclidean twin buildings",
+          "mscnumber": "20",
+          "advisors": [
+            {
+              "advisorId": 30219,
+              "advisorName": "Kenneth Stephen Brown",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 79187,
+      "name": "Isabel Beichl",
+      "dissertations": [
+        {
+          "nodeId": 79187,
+          "nodeName": "Isabel Beichl",
+          "phdprefix": "Ph.D.",
+          "university": "Cornell University",
+          "yearofcompletion": "1981",
+          "dissertationtitle": "Computations in Group Cohomology for Finite Groups",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 30219,
+              "advisorName": "Kenneth Stephen Brown",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 241096,
+          "name": "Alathea Irene Jensen"
+        }
+      ],
+      "numberofdescendents": 1
+    },
+    {
+      "id": 298290,
+      "name": "Gasparino da Barzizza",
+      "dissertations": [
+        {
+          "nodeId": 298290,
+          "nodeName": "Gasparino da Barzizza",
+          "phdprefix": null,
+          "university": null,
+          "yearofcompletion": null,
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 134873,
+          "name": "Vittorino da Feltre"
+        }
+      ],
+      "numberofdescendents": 227869
+    },
+    {
+      "id": 176844,
+      "name": "Gregory Palamas",
+      "dissertations": [
+        {
+          "nodeId": 176844,
+          "nodeName": "Gregory Palamas",
+          "phdprefix": null,
+          "university": "Imperial University of Constantinople",
+          "yearofcompletion": "1316",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 184631,
+              "advisorName": "Theodore Metochites",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 146365,
+          "name": "Nilos Kabasilas"
+        }
+      ],
+      "numberofdescendents": 227910
+    },
+    {
+      "id": 62764,
+      "name": "Howard Lyn Hiller",
+      "dissertations": [
+        {
+          "nodeId": 62764,
+          "nodeName": "Howard Lyn Hiller",
+          "phdprefix": "Ph.D.",
+          "university": "Massachusetts Institute of Technology",
+          "yearofcompletion": "1978",
+          "dissertationtitle": "Fixed Points of Adams Operations",
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 13325,
+              "advisorName": "Daniel Gray Quillen",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 291607,
+      "name": "Andrés David Santamaría-Galvis",
+      "dissertations": [
+        {
+          "nodeId": 291607,
+          "nodeName": "Andrés David Santamaría-Galvis",
+          "phdprefix": "Ph.D.",
+          "university": "University of Primorska",
+          "yearofcompletion": "2022",
+          "dissertationtitle": "On partitionability and shellability of relative simplicial complexes",
+          "mscnumber": "05",
+          "advisors": [
+            {
+              "advisorId": 108601,
+              "advisorName": "Russ Woodroofe",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 306259,
+      "name": "Davide Perego",
+      "dissertations": [
+        {
+          "nodeId": 306259,
+          "nodeName": "Davide Perego",
+          "phdprefix": "Ph.D.",
+          "university": "Università degli Studi di Milano-Bicocca",
+          "yearofcompletion": "2023",
+          "dissertationtitle": "Rationality of Boundaries",
+          "mscnumber": "20",
+          "advisors": [
+            {
+              "advisorId": 90255,
+              "advisorName": "James Michael Belk",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 125599,
+              "advisorName": "Francesco Matucci",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    },
+    {
+      "id": 108295,
+      "name": "Pierre-Simon Laplace",
+      "dissertations": [
+        {
+          "nodeId": 108295,
+          "nodeName": "Pierre-Simon Laplace",
+          "phdprefix": "Maitrise es arts",
+          "university": "Université de Caen Normandie",
+          "yearofcompletion": "1769",
+          "dissertationtitle": "Recherches sur le calcul integral aux differences infiniment petites et aux differences finies",
+          "mscnumber": "35",
+          "advisors": [
+            {
+              "advisorId": 108266,
+              "advisorName": "Jean Le Rond d'Alembert",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 17865,
+          "name": "Siméon Denis Poisson"
+        },
+        {
+          "id": 294953,
+          "name": "Jean-Baptiste Biot"
+        }
+      ],
+      "numberofdescendents": 148743
+    },
+    {
+      "id": 131446,
+      "name": "Moses Perez",
+      "dissertations": [
+        {
+          "nodeId": 131446,
+          "nodeName": "Moses Perez",
+          "phdprefix": null,
+          "university": null,
+          "yearofcompletion": null,
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": []
+        }
+      ],
+      "students": [
+        {
+          "id": 127181,
+          "name": "Girolamo (Hieronymus Aleander) Aleandro"
+        }
+      ],
+      "numberofdescendents": 227798
+    },
+    {
+      "id": 143044,
+      "name": "Jacob Andreae",
+      "dissertations": [
+        {
+          "nodeId": 143044,
+          "nodeName": "Jacob Andreae",
+          "phdprefix": "Theol. Dr.",
+          "university": "Eberhard-Karls-Universität Tübingen",
+          "yearofcompletion": "1553",
+          "dissertationtitle": null,
+          "mscnumber": null,
+          "advisors": [
+            {
+              "advisorId": 152648,
+              "advisorName": "Jakob Beuerlin",
+              "advisorNumber": 1
+            }
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 143045,
+          "name": "Johann Jacob Grynaeus"
+        }
+      ],
+      "numberofdescendents": 160057
+    },
+    {
+      "id": 156365,
+      "name": "Richard Green",
+      "dissertations": [
+        {
+          "nodeId": 156365,
+          "nodeName": "Richard Green",
+          "phdprefix": "Ph.D.",
+          "university": "University of Adelaide",
+          "yearofcompletion": "2011",
+          "dissertationtitle": "A Fourier-Mukai transform for invariant differential cohomology",
+          "mscnumber": "53",
+          "advisors": [
+            {
+              "advisorId": 62771,
+              "advisorName": "Varghese Mathai",
+              "advisorNumber": 1
+            },
+            {
+              "advisorId": 58298,
+              "advisorName": "Michael Kevin Murray",
+              "advisorNumber": 2
+            }
+          ]
+        }
+      ],
+      "students": [],
+      "numberofdescendents": 0
+    }
+  ],
+  "edges": [
+    {
+      "fromNodeId": 7865,
+      "toNodeId": 806
+    },
+    {
+      "fromNodeId": 129628,
+      "toNodeId": 53410
+    },
+    {
+      "fromNodeId": 39551,
+      "toNodeId": 249740
+    },
+    {
+      "fromNodeId": 62770,
+      "toNodeId": 111804
+    },
+    {
+      "fromNodeId": 143082,
+      "toNodeId": 143083
+    },
+    {
+      "fromNodeId": 17865,
+      "toNodeId": 26995
+    },
+    {
+      "fromNodeId": 13325,
+      "toNodeId": 30219
+    },
+    {
+      "fromNodeId": 127107,
+      "toNodeId": 126956
+    },
+    {
+      "fromNodeId": 80886,
+      "toNodeId": 132487
+    },
+    {
+      "fromNodeId": 62762,
+      "toNodeId": 55973
+    },
+    {
+      "fromNodeId": 143084,
+      "toNodeId": 54440
+    },
+    {
+      "fromNodeId": 17864,
+      "toNodeId": 17865
+    },
+    {
+      "fromNodeId": 135185,
+      "toNodeId": 134931
+    },
+    {
+      "fromNodeId": 179837,
+      "toNodeId": 140181
+    },
+    {
+      "fromNodeId": 134873,
+      "toNodeId": 298288
+    },
+    {
+      "fromNodeId": 30219,
+      "toNodeId": 39549
+    },
+    {
+      "fromNodeId": 62771,
+      "toNodeId": 147518
+    },
+    {
+      "fromNodeId": 30219,
+      "toNodeId": 108601
+    },
+    {
+      "fromNodeId": 126659,
+      "toNodeId": 131399
+    },
+    {
+      "fromNodeId": 67441,
+      "toNodeId": 147741
+    },
+    {
+      "fromNodeId": 30219,
+      "toNodeId": 125599
+    },
+    {
+      "fromNodeId": 143011,
+      "toNodeId": 112689
+    },
+    {
+      "fromNodeId": 67441,
+      "toNodeId": 100355
+    },
+    {
+      "fromNodeId": 30219,
+      "toNodeId": 79188
+    },
+    {
+      "fromNodeId": 39551,
+      "toNodeId": 184266
+    },
+    {
+      "fromNodeId": 125898,
+      "toNodeId": 125938
+    },
+    {
+      "fromNodeId": 22385,
+      "toNodeId": 5655
+    },
+    {
+      "fromNodeId": 5879,
+      "toNodeId": 5655
+    },
+    {
+      "fromNodeId": 67041,
+      "toNodeId": 35094
+    },
+    {
+      "fromNodeId": 298304,
+      "toNodeId": 134873
+    },
+    {
+      "fromNodeId": 131575,
+      "toNodeId": 131561
+    },
+    {
+      "fromNodeId": 146365,
+      "toNodeId": 134780
+    },
+    {
+      "fromNodeId": 30219,
+      "toNodeId": 79189
+    },
+    {
+      "fromNodeId": 140181,
+      "toNodeId": 125898
+    },
+    {
+      "fromNodeId": 143083,
+      "toNodeId": 143084
+    },
+    {
+      "fromNodeId": 39551,
+      "toNodeId": 196129
+    },
+    {
+      "fromNodeId": 182045,
+      "toNodeId": 182092
+    },
+    {
+      "fromNodeId": 5879,
+      "toNodeId": 4918
+    },
+    {
+      "fromNodeId": 105570,
+      "toNodeId": 257743
+    },
+    {
+      "fromNodeId": 131444,
+      "toNodeId": 125760
+    },
+    {
+      "fromNodeId": 39551,
+      "toNodeId": 259933
+    },
+    {
+      "fromNodeId": 143044,
+      "toNodeId": 143045
+    },
+    {
+      "fromNodeId": 30219,
+      "toNodeId": 79186
+    },
+    {
+      "fromNodeId": 39551,
+      "toNodeId": 173721
+    },
+    {
+      "fromNodeId": 125125,
+      "toNodeId": 129628
+    },
+    {
+      "fromNodeId": 128921,
+      "toNodeId": 125422
+    },
+    {
+      "fromNodeId": 806,
+      "toNodeId": 5879
+    },
+    {
+      "fromNodeId": 13325,
+      "toNodeId": 67441
+    },
+    {
+      "fromNodeId": 158329,
+      "toNodeId": 182090
+    },
+    {
+      "fromNodeId": 125755,
+      "toNodeId": 125760
+    },
+    {
+      "fromNodeId": 125599,
+      "toNodeId": 306259
+    },
+    {
+      "fromNodeId": 67441,
+      "toNodeId": 194593
+    },
+    {
+      "fromNodeId": 13325,
+      "toNodeId": 62771
+    },
+    {
+      "fromNodeId": 152647,
+      "toNodeId": 152648
+    },
+    {
+      "fromNodeId": 131535,
+      "toNodeId": 131447
+    },
+    {
+      "fromNodeId": 39551,
+      "toNodeId": 103187
+    },
+    {
+      "fromNodeId": 62771,
+      "toNodeId": 254821
+    },
+    {
+      "fromNodeId": 127181,
+      "toNodeId": 126571
+    },
+    {
+      "fromNodeId": 125422,
+      "toNodeId": 119159
+    },
+    {
+      "fromNodeId": 62771,
+      "toNodeId": 132277
+    },
+    {
+      "fromNodeId": 131447,
+      "toNodeId": 127181
+    },
+    {
+      "fromNodeId": 125125,
+      "toNodeId": 129708
+    },
+    {
+      "fromNodeId": 13325,
+      "toNodeId": 62762
+    },
+    {
+      "fromNodeId": 35094,
+      "toNodeId": 79749
+    },
+    {
+      "fromNodeId": 152648,
+      "toNodeId": 143044
+    },
+    {
+      "fromNodeId": 176844,
+      "toNodeId": 146365
+    },
+    {
+      "fromNodeId": 30219,
+      "toNodeId": 79187
+    },
+    {
+      "fromNodeId": 30219,
+      "toNodeId": 39550
+    },
+    {
+      "fromNodeId": 132487,
+      "toNodeId": 67041
+    },
+    {
+      "fromNodeId": 131539,
+      "toNodeId": 131535
+    },
+    {
+      "fromNodeId": 294942,
+      "toNodeId": 108266
+    },
+    {
+      "fromNodeId": 62771,
+      "toNodeId": 67358
+    },
+    {
+      "fromNodeId": 298290,
+      "toNodeId": 134873
+    },
+    {
+      "fromNodeId": 147797,
+      "toNodeId": 80886
+    },
+    {
+      "fromNodeId": 7583,
+      "toNodeId": 13325
+    },
+    {
+      "fromNodeId": 39551,
+      "toNodeId": 174873
+    },
+    {
+      "fromNodeId": 125599,
+      "toNodeId": 257727
+    },
+    {
+      "fromNodeId": 62770,
+      "toNodeId": 111665
+    },
+    {
+      "fromNodeId": 125888,
+      "toNodeId": 125938
+    },
+    {
+      "fromNodeId": 39551,
+      "toNodeId": 22932
+    },
+    {
+      "fromNodeId": 30219,
+      "toNodeId": 105570
+    },
+    {
+      "fromNodeId": 54440,
+      "toNodeId": 53410
+    },
+    {
+      "fromNodeId": 131561,
+      "toNodeId": 131444
+    },
+    {
+      "fromNodeId": 90255,
+      "toNodeId": 306259
+    },
+    {
+      "fromNodeId": 4918,
+      "toNodeId": 35764
+    },
+    {
+      "fromNodeId": 30219,
+      "toNodeId": 90255
+    },
+    {
+      "fromNodeId": 62770,
+      "toNodeId": 111803
+    },
+    {
+      "fromNodeId": 38586,
+      "toNodeId": 17864
+    },
+    {
+      "fromNodeId": 130248,
+      "toNodeId": 125125
+    },
+    {
+      "fromNodeId": 112689,
+      "toNodeId": 294942
+    },
+    {
+      "fromNodeId": 134873,
+      "toNodeId": 131584
+    },
+    {
+      "fromNodeId": 30219,
+      "toNodeId": 74363
+    },
+    {
+      "fromNodeId": 131540,
+      "toNodeId": 131535
+    },
+    {
+      "fromNodeId": 134780,
+      "toNodeId": 135185
+    },
+    {
+      "fromNodeId": 62771,
+      "toNodeId": 237634
+    },
+    {
+      "fromNodeId": 125760,
+      "toNodeId": 182045
+    },
+    {
+      "fromNodeId": 108601,
+      "toNodeId": 291607
+    },
+    {
+      "fromNodeId": 79187,
+      "toNodeId": 241096
+    },
+    {
+      "fromNodeId": 53410,
+      "toNodeId": 38586
+    },
+    {
+      "fromNodeId": 62771,
+      "toNodeId": 240820
+    },
+    {
+      "fromNodeId": 134781,
+      "toNodeId": 131575
+    },
+    {
+      "fromNodeId": 62771,
+      "toNodeId": 157813
+    },
+    {
+      "fromNodeId": 134780,
+      "toNodeId": 131575
+    },
+    {
+      "fromNodeId": 146036,
+      "toNodeId": 17864
+    },
+    {
+      "fromNodeId": 39551,
+      "toNodeId": 249737
+    },
+    {
+      "fromNodeId": 30219,
+      "toNodeId": 39551
+    },
+    {
+      "fromNodeId": 62771,
+      "toNodeId": 156365
+    },
+    {
+      "fromNodeId": 125938,
+      "toNodeId": 131399
+    },
+    {
+      "fromNodeId": 62770,
+      "toNodeId": 111802
+    },
+    {
+      "fromNodeId": 131399,
+      "toNodeId": 182092
+    },
+    {
+      "fromNodeId": 67441,
+      "toNodeId": 67478
+    },
+    {
+      "fromNodeId": 108295,
+      "toNodeId": 17865
+    },
+    {
+      "fromNodeId": 30219,
+      "toNodeId": 112285
+    },
+    {
+      "fromNodeId": 131446,
+      "toNodeId": 127181
+    },
+    {
+      "fromNodeId": 131584,
+      "toNodeId": 128012
+    },
+    {
+      "fromNodeId": 79749,
+      "toNodeId": 22385
+    },
+    {
+      "fromNodeId": 128987,
+      "toNodeId": 125422
+    },
+    {
+      "fromNodeId": 182092,
+      "toNodeId": 143045
+    },
+    {
+      "fromNodeId": 26995,
+      "toNodeId": 7865
+    },
+    {
+      "fromNodeId": 62771,
+      "toNodeId": 137183
+    },
+    {
+      "fromNodeId": 13325,
+      "toNodeId": 62764
+    },
+    {
+      "fromNodeId": 125599,
+      "toNodeId": 279668
+    },
+    {
+      "fromNodeId": 179836,
+      "toNodeId": 140181
+    },
+    {
+      "fromNodeId": 62770,
+      "toNodeId": 111805
+    },
+    {
+      "fromNodeId": 134931,
+      "toNodeId": 134873
+    },
+    {
+      "fromNodeId": 30219,
+      "toNodeId": 79190
+    },
+    {
+      "fromNodeId": 143011,
+      "toNodeId": 54440
+    },
+    {
+      "fromNodeId": 13113,
+      "toNodeId": 7583
+    },
+    {
+      "fromNodeId": 131444,
+      "toNodeId": 131539
+    },
+    {
+      "fromNodeId": 126571,
+      "toNodeId": 119159
+    },
+    {
+      "fromNodeId": 119159,
+      "toNodeId": 158329
+    },
+    {
+      "fromNodeId": 298288,
+      "toNodeId": 131540
+    },
+    {
+      "fromNodeId": 35764,
+      "toNodeId": 13113
+    },
+    {
+      "fromNodeId": 5655,
+      "toNodeId": 13113
+    },
+    {
+      "fromNodeId": 39551,
+      "toNodeId": 196130
+    },
+    {
+      "fromNodeId": 298304,
+      "toNodeId": 134931
+    },
+    {
+      "fromNodeId": 13325,
+      "toNodeId": 62770
+    },
+    {
+      "fromNodeId": 125760,
+      "toNodeId": 126956
+    },
+    {
+      "fromNodeId": 62771,
+      "toNodeId": 67359
+    },
+    {
+      "fromNodeId": 105570,
+      "toNodeId": 191945
+    },
+    {
+      "fromNodeId": 126956,
+      "toNodeId": 182045
+    },
+    {
+      "fromNodeId": 143045,
+      "toNodeId": 143082
+    },
+    {
+      "fromNodeId": 108266,
+      "toNodeId": 108295
+    },
+    {
+      "fromNodeId": 128012,
+      "toNodeId": 125898
+    },
+    {
+      "fromNodeId": 129708,
+      "toNodeId": 129628
+    },
+    {
+      "fromNodeId": 182090,
+      "toNodeId": 130248
+    },
+    {
+      "fromNodeId": 30219,
+      "toNodeId": 280582
+    }
+  ]
+}

@@ -50,13 +50,4 @@ type NotablePerson = {
     note: string
 }
 
-export enum Preset {
-    johnbenjaminmccarthy = "johnbenjaminmccarthy",
-    johnbenjaminmccarthybig = "johnbenjaminmccarthybig",
-    ruadhaidervan = "ruadhaidervan",
-    kellifrancisstaite = "kellifrancisstaite",
-    simondonaldson = "simondonaldson",
-    michaelatiyah = "michaelatiyah",
-}
-
 export type { Graph, GenealogyEdge, GenealogyNode, GenealogyNodeDissertation, GenealogyNodeStudent, GenealogyAdvisor, NotablePerson };

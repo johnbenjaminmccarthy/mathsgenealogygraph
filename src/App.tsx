@@ -9,13 +9,15 @@ import ruadhaidervan from './assets/graph_data/ruadhaidervan.json';
 import kellifrancisstaite from './assets/graph_data/kellifrancisstaite.json';
 import simondonaldson from './assets/graph_data/simondonaldson.json';
 import michaelatiyah from './assets/graph_data/michaelatiyah.json';
+import danielquillen from './assets/graph_data/danielquillen.json';
 
 import notablePeople from './assets/notable_people/notable_people.json';
 
 import {InfoBox} from "./InfoBox.tsx";
 import {GraphSelector} from "./GraphSelector.tsx";
-import {GenealogyNode, Graph, NotablePerson, Preset} from './GraphTypes.tsx';
+import {GenealogyNode, Graph, NotablePerson} from './GraphTypes.tsx';
 import {HowDoesItWorkBox} from "./HowDoesItWorkBox.tsx";
+import {Preset} from "./Preset.tsx";
 
 
 function App() {
@@ -291,6 +293,7 @@ function App() {
             case Preset.kellifrancisstaite: setInfoBoxNode(null); setGraphData(kellifrancisstaite); break;
             case Preset.simondonaldson: setInfoBoxNode(null); setGraphData(simondonaldson); break;
             case Preset.michaelatiyah: setInfoBoxNode(null); setGraphData(michaelatiyah); break;
+            case Preset.danielquillen: setInfoBoxNode(null); setGraphData(danielquillen); break;
         }
     }
 
