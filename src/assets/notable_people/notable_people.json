@@ -513,6 +513,7 @@
       "abel": true,
       "note": ""
     },
+
     {
       "id": 74313,
       "note": "Inventor of Calculus"
@@ -521,21 +522,298 @@
       "id": 60985,
       "note": "Inventor of Calculus"
     },
+
+    {
+      "id": 6385,
+      "note": "Father of modern algebraic geometry."
+    },
+    {
+      "id": 7373,
+      "note": "Made foundational contributions to geometry in physics, representation theory, number theory, and the foundations of mathematics."
+    },
+    {
+      "id": 53213,
+      "note": "Made foundational contributions to computer science, quantum mechanics, functional analysis, game theory, nuclear warfare strategy, foundations of mathematics, and many more subjects."
+    },
+    {
+      "id": 19539,
+      "note": "Revolutionised the foundations of mathematics."
+    },
+    {
+      "id": 18524,
+      "note": "Made foundational contributions to quantum physics. Invented spinors."
+    },
+    {
+      "id": 51469,
+      "note": "Made foundational contributions to quantum physics."
+    },
+    {
+      "id": 53005,
+      "note": "Made foundational contributions to quantum physics."
+    },
+    {
+      "id": 53269,
+      "note": "Inventor of special and general relativity."
+    },
+    {
+      "id": 91222,
+      "note": "Made foundational contributions to quantum field theory."
+    },
+    {
+      "id": 35098,
+      "note": "Invented the Higgs boson."
+    },
+    {
+      "id": 8014,
+      "note": "Father of computer science."
+    },
+    {
+      "id": 59068,
+      "note": "Inventor of tensor calculus."
+    },
+    {
+      "id": 34227,
+      "note": "Inventor of algebraic topology and made foundational contributions to analysis."
+    },
+    {
+      "id": 7298,
+      "note": "Made foundational contributions to abstract algebra, Euclidean geometry, the foundations of mathematics, and proposed Hilbert's 21 problems."
+    },
+    {
+      "id": 6967,
+      "note": "Pioneer of women in mathematics. First person to define the notion of a commutative ring. Made foundational contributions to the study of symmetry in mechanics."
+    },
+    {
+      "id": 7401,
+      "note": "His Erlangen program revolutionised geometry and placed Non-Euclidean and Euclidean geometry on the same footing."
+    },
+    {
+      "id": 18232,
+      "note": "Inventor of Riemannian geometry. Made foundational contributions to analytic number theory and analysis."
+    },
+    {
+      "id": 18231,
+      "note": "Made vast and foundational contributions to number theory, analysis, differential geometry, and physics."
+    },
+    {
+      "id": 55177,
+      "note": "Made foundational contributions to real and complex analysis."
+    },
+    {
+      "id": 7486,
+      "note": "Made foundational contributions to analysis, especially the notion of infinite series."
+    },
+    {
+      "id": 18926,
+      "note": "Made foundational contributions to algebraic geometry."
+    },
+    {
+      "id": 17865,
+      "note": "Made foundational contributions to analysis, differential equations, and physics."
+    },
+    {
+      "id": 55178,
+      "note": "First complete proof of the impossibility of solving the general quintic equation."
+    },
+    {
+      "id": 17946,
+      "note": "Made foundational contributions to analytic number theory, analysis, and differential equations."
+    },
+    {
+      "id": 55187,
+      "note": "Inventor of Hamiltonian mechanics and quarternions."
+    },
+    {
+      "id": 49185,
+      "note": "Inventor of linear algebra."
+    },
+    {
+      "id": 55176,
+      "note": "Discovered group theory."
+    },
+    {
+      "id": 7824,
+      "note": "First mathematician to define the concept of an abstract group."
+    },
+    {
+      "id": 32960,
+      "note": "Published the first proof that e is transcendental."
+    },
+    {
+      "id": 105806,
+      "note": "Wrote down the laws of classical electromagnetism."
+    },
+    {
+      "id": 18233,
+      "note": "Defined real numbers through the Dedekind cut, and invented the concept of an ideal in ring theory."
+    },
+    {
+      "id": 18235,
+      "note": "Made foundational contributions to the theory of continuous symmetries of differential equations."
+    },
+    {
+      "id": 29561,
+      "note": "Discovered the notion of infinite sets."
+    },
+    {
+      "id": 17981,
+      "note": "Discovered and solved the heat equation."
+    },
+    {
+      "id": 43284,
+      "note": "Made foundational contributions to the formalization of arithmetic."
+    },
+    {
+      "id": 12543,
+      "note": "Made foundational contributions to probability theory."
+    },
+    {
+      "id": 81192,
+      "note": "Father of modern differential geometry."
+    },
+    {
+      "id": 49555,
+      "note": "Founder of the Bourbaki group. Made foundational contributions to algebraic geometry."
+    },
+    {
+      "id": 86693,
+      "note": "Invented measure theory and defined the notion of the Lebesgue integral."
+    },
+    {
+      "id": 805,
+      "note": "First defined the notion of a differentiable manifold."
+    },
+    {
+      "id": 19467,
+      "note": "Founded mathematical intuitionism."
+    },
+    {
+      "id": 46991,
+      "note": "Made foundational contributions to topology and metric spaces."
+    },
+    {
+      "id": 91561,
+      "note": "Made vast contributions to number theory."
+    },
+    {
+      "id": 12681,
+      "note": "Founded the theory of functional analysis."
+    },
+    {
+      "id": 66811,
+      "note": "Made vast contributions to logic, the foundations of mathematics, and philosophy."
+    },
+    {
+      "id": 6424,
+      "note": "Made foundational contributions to differential geometry."
+    },
+    {
+      "id": 19470,
+      "note": "Famously prolific and founded the field of discrete mathematics."
+    },
+    {
+      "id": 36928,
+      "note": "Made foundational contributions to cosmology and the theory of black holes."
+    },
+    {
+      "id": 78459,
+      "note": "Made foundational contributions to cosmology and the theory of black holes."
+    },
+    {
+      "id": 18849,
+      "note": "Made significant contributions to finite group theory, and popularised recreational mathematics."
+    },
+    {
+      "id": 22575,
+      "note": "Made vast contributions to mathematical logic."
+    },
+    {
+      "id": 108998,
+      "note": "Made foundational contributions to the theory of fluid mechanics, and distilled Bernoulli's principle."
+    },
+    {
+      "id": 38586,
+      "note": "Made vast and foundational contributions to a wide range of mathematics and physics, especially geometry, calculus, number theory, and mechanics."
+    },
+    {
+      "id": 235011,
+      "note": "Invented the notion of tangent spaces at age 14."
+    },
+    {
+      "id": 108266,
+      "note": "Initiated the study of the wave equation."
+    },
+    {
+      "id": 17864,
+      "note": "Made foundational contributions to analysis, number theory, and physics. Inventor of Lagrangian mechanics and the calculus of variations."
+    },
+    {
+      "id": 108295,
+      "note": "Formalised the theory of probability and made foundational contributiosn to analysis."
+    },
+    {
+      "id": 55175,
+      "note": "Made major contributions to number theory and unique factorization domains. Was a pioneer of women in mathematics."
+    },
+    {
+      "id": 96330,
+      "note": "Introduced rigor to analysis, and gave a fully rigorous ε–δ definition of a mathematical limit."
+    },
+    {
+      "id": 146776,
+      "note": "Discovered non-Euclidean geometry."
+    },
+    {
+      "id": 127098,
+      "note": "Discovered that planets travel around the sun in elliptical orbits and defined the three fundamental laws of planetary motion."
+    },
+    {
+      "id": 129913,
+      "note": "Founder of projective geometry."
+    },
+    {
+      "id": 106921,
+      "note": "Made significant contributions to philosophy."
+    },
+    {
+      "id": 198376,
+      "note": "Made significant contributions to economics."
+    },
+    {
+      "id": 210789,
+      "note": "Made significant contributions to economics."
+    },
+    {
+      "id": 204733,
+      "note": "Made foundational contributions to calculus, analytic geometry, and number theory."
+    },
+    {
+      "id": 126406,
+      "note": "Made contributions to projective geometry and probability theory."
+    },
+    {
+      "id": 125561,
+      "note": "Made foundational contributions to optics and mechanics."
+    },
+    {
+      "id": 54440,
+      "note": "First mathematician to use the term \"integral.\""
+    },
+    {
+      "id": 53410,
+      "note": "Discoverer of l'Hôpital's rule. Made many foundational contributions to infinitesimal calculus subsequently published in l'Hôpital's first textbook on calculus. "
+    },
+    {
+      "id": 126177,
+      "note": "Discovered that the Earth revolves around the sun."
+    },
     {
       "id": 134975,
       "note": "Father of modern scientific method"
     },
     {
       "id": 125358,
-      "note": "Inventor of Cartesian coordinate system"
-    },
-    {
-      "id": 38586,
-      "note": "Inventor of Everything"
-    },
-    {
-      "id": 17864,
-      "note": "Inventor of Lagrangian mechanics"
+      "note": "Inventor of the Cartesian coordinate system. Made foundational contributions to philosophy."
     }
   ]
 }
