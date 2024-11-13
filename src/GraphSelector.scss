@@ -19,6 +19,34 @@
     font-size:15px;
     z-index:1;
 
+    span.APIinput{
+      display:inline-block;
+      width:70%;
+      height:30px;
+      span#genealogyIdText {
+        width:30%;
+      }
+
+      input#genealogyId {
+        width:50%;
+      }
+      input#maxGenerationsUp, input#maxGenerationsDown{
+        width:5%;
+      }
+
+      span.disabled{
+        display:block;
+        position:absolute;
+        top:0;
+        left:5%;
+        width:70%;
+        height:100%;
+        padding-bottom:2px;
+        background-color:rgba(100,100,0,0.9);
+      }
+
+    }
+
     button {
       margin-left:5px;
 
@@ -51,9 +79,7 @@
       line-height:20px;
     }
 
-    span#genealogyIdText {
-      width:20%;
-    }
+
 
     span#spacer {
       width:3%;
@@ -65,12 +91,7 @@
 
 
 
-    input#genealogyId {
-      width:30%;
-    }
-    input#maxGenerationsUp, input#maxGenerationsDown{
-      width:5%;
-    }
+
 
   }
 }
